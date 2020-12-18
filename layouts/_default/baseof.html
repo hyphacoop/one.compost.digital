@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ block "title" . }}
+      <!-- Blocks may include default content. -->
+      {{ .Site.Title }}
+    {{ end }}</title>
+  </head>
+  <body>
+    <!-- Code that all your templates share, like a header -->
+    <header>
+      This is the header.
+    </header>
+    {{ block "main" . }}
+      <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+    {{ block "footer" . }}
+    <footer>This is the footer.</footer>
+    {{ end }}
+  </body>
+</html>
