@@ -1,1 +1,5 @@
-This is the homepage.
+---
+title: Compost Issue One
+---
+
+This is the homepage

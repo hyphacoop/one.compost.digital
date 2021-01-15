@@ -14,19 +14,21 @@
   <body>
     <!-- Code that all your templates share, like a header -->
     <header>
-      This is the header.
+      <div>COMPOST</div>
     </header>
     
+    <main>
     {{ block "main" . }}
       <!-- The part of the page that begins to differ between templates -->
     {{ end }}
+    </main>
     
     {{ block "footer" . }}
-    <footer>This is the footer.</footer>
+    <footer>Welcome to the footer.</footer>
     {{ end }}
 
     {{ block "scripts" . }}
-    
+
     {{ end }}
   </body>
 </html>

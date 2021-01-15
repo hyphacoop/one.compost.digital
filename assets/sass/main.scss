@@ -1,3 +1,30 @@
+$compost-red: #D98882;
+$header-height: 80px;
+
+html, body {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
 header {
-  background: #D98882;
+  background: $compost-red;
+  height: $header-height;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0px 12px;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+main {
+  height: calc(100% - #{$header-height});
+}
+
+footer {
+  background: grey;
+  font-size: 30px;
+  padding: 10px 12px;
 }

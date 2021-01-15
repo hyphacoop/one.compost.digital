@@ -1,0 +1,5 @@
+---
+title: A
+---
+
+Piece A
