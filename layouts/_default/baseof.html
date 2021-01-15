@@ -16,11 +16,17 @@
     <header>
       This is the header.
     </header>
+    
     {{ block "main" . }}
       <!-- The part of the page that begins to differ between templates -->
     {{ end }}
+    
     {{ block "footer" . }}
     <footer>This is the footer.</footer>
+    {{ end }}
+
+    {{ block "scripts" . }}
+    
     {{ end }}
   </body>
 </html>

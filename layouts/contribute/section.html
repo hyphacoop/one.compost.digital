@@ -12,6 +12,7 @@
     <section>
       <h1>Issue 1 Finances</h1>
       <p>As of [[TODAY'S DATE]] COMPOST Issue 1 has raised:</p>
+      <div amount-raised></div>
       <img src="finances-pie.png">
     </section>
 
@@ -20,4 +21,10 @@
     </section>
     
   </main>
+{{ end }}
+
+
+{{ define "scripts" }}
+  {{ $js := resources.Get "js/contribute.js" }}
+  <script src="{{ $js.Permalink }}"></script>
 {{ end }}
