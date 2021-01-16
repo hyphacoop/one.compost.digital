@@ -4,11 +4,11 @@
     Homepage content:
     
     <ul>
-    {{ range where .Site.RegularPages "Type" "pieces" }}
-        <li>
-            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}} | {{.Type}}</a>
-        </li>
-    {{ end }}
+        {{ range where .Site.RegularPages "Type" "pieces" }}
+            <li>
+                <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}} | {{.Type}}</a>
+            </li>
+        {{ end }}
     </ul>
 
     <!-- <ul>
@@ -18,8 +18,6 @@
         </li>
     {{ end }}
     </ul> -->
-
-    <a href="{{ relref . "support-us.html" }}">Support Us</a>
     
   </div>
 {{ end }}

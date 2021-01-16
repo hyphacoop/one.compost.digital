@@ -2,33 +2,30 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     {{ $mainStylesheet := resources.Get "sass/main.scss" | resources.ToCSS }}
     <link rel="stylesheet" href="{{ $mainStylesheet.Permalink }}">
     
-    <title>{{ block "title" . }}
-      <!-- Blocks may include default content. -->
-      {{ .Site.Title }}
-    {{ end }}</title>
+    <title>
+      {{ block "title" . }}{{ .Site.Title }}{{ end }}
+    </title>
   </head>
   <body>
-    <!-- Code that all your templates share, like a header -->
     <header>
-      <div>COMPOST</div>
+      <a style="font-size: 50px; margin-right: 40px" href="{{ relref . "/" }}">COMPOST</div>
+      <a href="{{ relref . "about.html" }}">About</a>
+      <a href="{{ relref . "support-us.html" }}">Support Us</a>
     </header>
     
     <main>
-    {{ block "main" . }}
-      <!-- The part of the page that begins to differ between templates -->
-    {{ end }}
+      {{ block "main" . }}{{ end }}
     </main>
     
     {{ block "footer" . }}
-    <footer>Welcome to the footer.</footer>
+      <footer>Welcome to the footer.</footer>
     {{ end }}
 
-    {{ block "scripts" . }}
-
-    {{ end }}
+    {{ block "scripts" . }}{{ end }}
   </body>
 </html>

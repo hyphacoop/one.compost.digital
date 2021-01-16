@@ -14,9 +14,22 @@ header {
   box-sizing: border-box;
   padding: 0px 12px;
   align-items: center;
-  font-size: 50px;
   font-weight: bold;
   font-family: sans-serif;
+
+  a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+
+    &:visited {
+      color: black;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 main {

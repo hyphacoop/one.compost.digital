@@ -1,11 +1,12 @@
 {{ define "main" }}
-  <div>
-    
-    I AM A PIECE
+  
+  {{ $author := index (where .Site.Data.people "name" .Params.author) 0 }}
+  
+  <h1>{{.Params.title}}</h1>
+  <div class="author-name">by {{ $author.name }}</div>
 
-    {{ .Content }}
+  {{ .Content }}
 
-    <a href="{{.Site.Home.Permalink}}">Go Home</a>
-    
-  </div>
+  <div class="bio">Bio: {{ $author.bio }}</div>
+
 {{ end }}
