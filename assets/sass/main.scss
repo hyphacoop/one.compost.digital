@@ -1,19 +1,20 @@
-$compost-red: #D98882;
 $header-height: 80px;
 
 html, body {
   margin: 0px;
   width: 100%;
   height: 100%;
+  font-size: 22px;
 }
 
 header {
-  background: $compost-red;
+  background: black;
   height: $header-height;
   display: flex;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
   padding: 0px 12px;
-  align-items: center;
   font-weight: bold;
   font-family: sans-serif;
 
@@ -30,10 +31,58 @@ header {
       text-decoration: underline;
     }
   }
+
+  img {
+    height: $header-height;
+  }
 }
 
 main {
-  height: calc(100% - #{$header-height});
+  min-height: calc(100% - #{$header-height});
+
+  .piece-container {
+    margin: 0px auto;
+    width: 780px;
+    padding-bottom: 40px;
+
+    h1, h2 {
+      font-family: sans-serif;
+    }
+
+    .author-name {
+      font-family: sans-serif;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .bio-separator {
+      width: 50%;
+      height: 1px;
+      background: black;
+      margin: 40px auto;
+    }
+
+    .footnotes-container {
+      position: absolute;
+      font-size: 14px;
+      top: 0px;
+      left: 780px;
+      width: 200px;
+      margin-left: 20px;
+    }
+  }
+
+  .prev-and-next-buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+    a {
+      margin: 0px 10px;
+    }
+  }
 }
 
 footer {

@@ -13,9 +13,11 @@
   </head>
   <body>
     <header>
-      <a style="font-size: 50px; margin-right: 40px" href="{{ relref . "/" }}">COMPOST</div>
-      <a href="{{ relref . "about.html" }}">About</a>
-      <a href="{{ relref . "support-us.html" }}">Support Us</a>
+      <a href="{{ relref . "/" }}">
+        <img src="{{ (resources.Get "images/COMPOST_Logo_1920.jpg").RelPermalink }}">
+      </a>
+      <!-- <a href="{{ relref . "about.html" }}">About</a>
+      <a href="{{ relref . "support-us.html" }}">Support Us</a> -->
     </header>
     
     <main>
