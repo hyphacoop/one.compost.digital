@@ -2,7 +2,6 @@ baseURL = ""
 languageCode = "en-us"
 title = "Compost"
 relativeURLs = true
-uglyurls = true
 
 [permalinks]
   one-offs = "/:filename/"
