@@ -15,7 +15,16 @@ async function render() {
     console.error(e)
   }
   console.log(balances)
-  document.querySelector('[amount-raised]').innerText = JSON.stringify(balances, null, 2)
+
+  let rawBalance = balances.balance
+  let decimalIndex = rawBalance.length - balances.decimal
+  let totalBalance = `${rawBalance.slice(0, decimalIndex)}.${rawBalance.slice(decimalIndex)}`
+  let readableBalance = new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(totalBalance)
+
+  document.querySelector('[amount-raised]').innerText = `CAD ${readableBalance}`
+
+  let readableDate = new Date(balances.timestamp)
+  document.querySelector('[todays-date]').innerText = `${readableDate.getMonth() + 1}/${readableDate.getDate()}`
 }
 
 render()
