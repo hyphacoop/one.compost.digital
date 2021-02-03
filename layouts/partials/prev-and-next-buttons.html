@@ -1,0 +1,33 @@
+<div class="prev-and-next-buttons">
+  
+  {{/*
+    writing code in go template syntax is totally lame. The code
+    below is for getting the names of the next and previous pieces
+    for the arrow links. Probably best to avoid doing this kind of thing
+    in the template, and do it all in javascript. :/
+  */}}
+
+  {{ $thisPage := .Page.File.ContentBaseName }}
+  {{ $pieceSequence := index .Site.Data "piece-sequence" }}
+  {{ $prevPageIndex := -1 }}
+  {{ $nextPageIndex := -1 }}
+  {{ range $pageIndex, $pageName := $pieceSequence }}
+    {{ if eq $pageName $thisPage }}
+     {{ $prevPageIndex = add $pageIndex -1 }}
+     {{ $nextPageIndex = add $pageIndex +1 }}
+    {{ end }}
+  {{ end }}
+
+  {{ if ge $prevPageIndex 0 }}
+  <a href="{{ relref . (index $pieceSequence $prevPageIndex) }}">
+    <img src="{{ (resources.Get "images/COMPOST_Assets_ArrowLft.png").RelPermalink }}">
+  </a>
+  {{ end }}
+  <a href="{{ relref . "/" }}">Home</a>
+  {{ if le (add $nextPageIndex 1) (len $pieceSequence) }}
+  <a href="{{ relref . (index $pieceSequence $nextPageIndex) }}">
+    <img src="{{ (resources.Get "images/COMPOST_Assets_ArrowRt.png").RelPermalink }}">
+  </a>
+  {{ end }}
+
+</div>

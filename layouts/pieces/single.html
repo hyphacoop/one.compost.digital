@@ -1,12 +1,39 @@
 {{ define "main" }}
   
-  {{ $author := index (where .Site.Data.people "name" .Params.author) 0 }}
-  
-  <h1>{{.Params.title}}</h1>
-  <div class="author-name">by {{ $author.name }}</div>
+  <div class="piece-container">
+    {{ $author := index (where .Site.Data.people "name" .Params.author) 0 }}
 
-  {{ .Content }}
+    <h1>{{.Params.title}}</h1>
 
-  <div class="bio">Bio: {{ $author.bio }}</div>
+    <div class="author-name">by {{ $author.name }}</div>
 
+    {{ .Content }}
+
+    <div class="bio-separator"></div>
+    
+    <div class="bio">{{ $author.bio | markdownify }}</div>
+
+    {{ partial "prev-and-next-buttons.html" . }}
+
+    <!-- Footnotes -->
+    <div class="footnotes-container"></div>
+
+    {{ if isset .Params "footnotesurl" }}
+      <script>
+        var footnotes = JSON.parse({{ (.Resources.GetMatch .Params.footnotesUrl).Content }})
+      </script>
+    {{ end }}
+
+    {{ if isset .Params "footnotes" }}
+      <script>
+        var footnotes = JSON.parse({{ .Params.footnotes | jsonify }})
+      </script>
+    {{ end }}
+  </div>
+
+{{ end }}
+
+{{ define "scripts" }}
+  {{ $js := resources.Get "js/footnotes.js" }}
+  <script src="{{ $js.Permalink }}"></script>
 {{ end }}

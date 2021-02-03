@@ -13,7 +13,7 @@
 
     {{ .Content }}
 
-    <a href="{{.Site.Home.Permalink}}">Go Home</a>
+    {{ partial "prev-and-next-buttons.html" . }}
     
   </div>
 {{ end }}
