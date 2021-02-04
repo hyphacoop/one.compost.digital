@@ -1,23 +1,18 @@
 {{ define "main" }}
   <div>
     
+    {{ $pieceSequence := index .Site.Data "piece-sequence" }}
+    
     Homepage content:
     
     <ul>
-        {{ range where .Site.RegularPages "Type" "pieces" }}
+        {{ range $pageIndex, $pageName := $pieceSequence }}
+            {{ $page := $.Site.GetPage $pageName }}
             <li>
-                <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}} | {{.Type}}</a>
+                <a href="{{$page.Permalink}}">{{$page.Title}}</a>
             </li>
         {{ end }}
     </ul>
-
-    <!-- <ul>
-    {{ range .Site.Pages }}
-        <li>
-            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}} | {{.Type}}</a>
-        </li>
-    {{ end }}
-    </ul> -->
     
   </div>
 {{ end }}
