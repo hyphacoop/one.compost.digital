@@ -1,4 +1,6 @@
 $header-height: 80px;
+$desktop-column-width: 780px;
+$footnote-column-width: 220px;
 
 html, body {
   margin: 0px;
@@ -41,9 +43,14 @@ main {
   min-height: calc(100% - #{$header-height});
 
   .piece-container {
+    position: relative;
+    width: $desktop-column-width;
     margin: 0px auto;
-    width: 780px;
     padding-bottom: 40px;
+
+    &.has-footnotes {
+      transform: translateX(-100px);
+    }
 
     h1, h2 {
       font-family: sans-serif;
@@ -64,13 +71,21 @@ main {
       margin: 40px auto;
     }
 
+    .footnote-link {
+      font-weight: bold;
+    }
+
     .footnotes-container {
       position: absolute;
       font-size: 14px;
       top: 0px;
-      left: 780px;
-      width: 200px;
-      margin-left: 20px;
+      left: $desktop-column-width;
+      width: $footnote-column-width;
+      margin-left: 40px;
+
+      .footnote {
+        word-break: break-word;
+      }
     }
   }
 
