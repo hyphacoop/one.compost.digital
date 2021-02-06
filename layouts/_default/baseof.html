@@ -31,7 +31,10 @@
       <footer>Welcome to the footer.</footer>
     {{ end }}
 
+    {{ partial "table-of-contents.html" . }}
+
     <script src="{{ (resources.Get "js/vendor/nanohtml.min.js").RelPermalink }}"></script>
+    <script src="{{ (resources.Get "js/main.js").RelPermalink }}"></script>
     
     {{ block "scripts" . }}{{ end }}
   </body>
