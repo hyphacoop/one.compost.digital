@@ -7,11 +7,22 @@
       <img src="{{ "./images/COMPOST_Logo_1920BLK 1.png" | relURL }}">
     </a>
   </div>
-  <div class="toc-nav-links">
-    <a href="{{ relref . "/" }}">Issue 1</a>
-    <a href="{{ relref . "about" }}">About</a>
-    <a href="{{ relref . "support-us" }}">Support Us</a>
+  <div class="toc-body">
+    <div class="toc-nav-links">
+      <a href="{{ relref . "/" }}">Issue 01</a>
+      <a href="{{ relref . "about" }}">About</a>
+      <a href="{{ relref . "support-us" }}">Support Us</a>
+    </div>
+    <div class="toc-pieces">
+      {{ $pieceSequence := index .Site.Data "piece-sequence" }}
+      {{ range $pageName := $pieceSequence }}
+          {{ $page := $.Site.GetPage $pageName }}
+          <a href="{{$page.Permalink}}" class="toc-piece-tile">
+            <div class="toc-piece-image"></div>
+            <div>{{$page.Title}}</div>
+          </a>
+      {{ end }}
+    </div>  
   </div>
-  <div class="toc-pieces"></div>
   <div class="toc-footer"></div>
 </div>

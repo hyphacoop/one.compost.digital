@@ -3,6 +3,8 @@ $desktop-logo-height: 127px;
 $desktop-column-width: 780px;
 $footnote-column-width: 220px;
 
+$title-sans-serif: 'sans';
+
 html, body {
   margin: 0px;
   width: 100%;
@@ -12,6 +14,7 @@ html, body {
 
 a {
   cursor: pointer;
+  text-decoration: none;
 }
 
 .main-header {
