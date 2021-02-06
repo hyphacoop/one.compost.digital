@@ -36,7 +36,7 @@ a:visited {
   background-image: url('../images/COMPOST_Assets_Header.png');
   // background-image: url('../images/COMPOST_Assets_Header_small.png');
   background-position: center;
-  // background-size: cover;
+  background-size: contain;
 
   .header-top {
     display: flex;
@@ -78,6 +78,21 @@ a:visited {
 
 main {
   min-height: calc(100% - #{$header-height});
+
+  .home-container {
+    .cover-image-container {
+      margin: 0px auto;
+      max-width: 100%;
+      
+      @media (min-width: 1920px) {
+        max-width: 1920px;  
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
 
   .piece-container {
     position: relative;
