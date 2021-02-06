@@ -2,6 +2,7 @@ $header-height: 325px;
 $desktop-logo-height: 127px;
 $desktop-column-width: 780px;
 $footnote-column-width: 220px;
+$link-color: black;
 
 $title-sans-serif: 'sans';
 
@@ -10,11 +11,20 @@ html, body {
   width: 100%;
   height: 100%;
   font-size: 22px;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
 }
 
 a {
   cursor: pointer;
   text-decoration: none;
+  color: $link-color;
+}
+
+a:visited {
+  color: $link-color;
 }
 
 .main-header {

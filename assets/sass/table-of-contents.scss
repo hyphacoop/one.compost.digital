@@ -4,7 +4,7 @@
   left: 0px;
   right: 0px;
   bottom: 0px;
-  overflow-y: scroll;
+  overflow-y: auto;
   background: white;
 
   .toc-header {
@@ -49,6 +49,7 @@
         margin-right: 40px;
       }
     }
+    
     .toc-pieces {
       display: flex;
       flex-wrap: wrap;
@@ -66,6 +67,37 @@
           height: 175px;
           background: #ddd;
         }
+
+        .toc-piece-title {
+          margin-top: 8px;
+          font-size: 26px;
+        }
+      }
+    }
+    
+    .toc-footer {
+      margin: 80px 20px;
+      display: flex;
+      font-family: $title-sans-serif;
+      font-size: 0.8rem;
+
+      .footer-column {
+        margin-right: 80px;
+
+        .footer-column-header {
+          // font-size: 1rem;
+          font-weight: bold;
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .toc-mushrooms {
+      width: 100%;
+      margin-bottom: 20px;
+
+      img {
+        width: 100%;        
       }
     }
   }

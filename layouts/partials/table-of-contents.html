@@ -19,10 +19,34 @@
           {{ $page := $.Site.GetPage $pageName }}
           <a href="{{$page.Permalink}}" class="toc-piece-tile">
             <div class="toc-piece-image"></div>
-            <div>{{$page.Title}}</div>
+            <div class="toc-piece-title">{{$page.Title}}</div>
           </a>
       {{ end }}
-    </div>  
+    </div>
+    <div class="toc-footer">
+      <div class="footer-column">
+        <div class="footer-column-header">Contact</div>
+        <div><a>hello@compost.digital</a></div>
+        <br>
+        <div>Web: <a href="https://compost.digital">compost.digital</a></div>
+        <div>IPFS:  [LINK]</div>
+        <div>Hypercore:  [LINK]</div>
+      </div>
+      <div class="footer-column">
+        <div class="footer-column-header">Social</div>
+        <div><a href="">Twitter</a></div>
+        <div><a href="">Mastodon</a></div>
+        <div><a href="">Newsletter</a></div>
+      </div>
+      <div class="footer-column">
+        <div class="footer-column-header">Support Us</div>
+        <div><a href="">Open Collective</a></div>
+        <div><a href="">Gitcoin</a></div>
+        <div><a href="">More...</a></div>
+      </div>
+    </div>
+    <div class="toc-mushrooms">
+      <img src="{{ "./images/COMPOST_Assets_Mushrooms.png" | relURL }}">
+    </div>
   </div>
-  <div class="toc-footer"></div>
 </div>
