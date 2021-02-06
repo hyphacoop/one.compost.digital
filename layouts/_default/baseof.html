@@ -27,9 +27,14 @@
       {{ block "main" . }}{{ end }}
     </main>
     
-    {{ block "footer" . }}
-      <footer>Welcome to the footer.</footer>
-    {{ end }}
+    <div class="mushrooms-container">
+      <img src="{{ "./images/COMPOST_Assets_Mushrooms.png" | relURL }}">
+    </div>
+
+    <div class="footer-container">
+      <!-- <img class="footer-background" src="{{ "./images/COMPOST_Assets_Footer.png" | relURL }}"> -->
+      {{ partial "footer-content.html" . }}
+    </div>
 
     {{ partial "table-of-contents.html" . }}
 

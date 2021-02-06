@@ -1,4 +1,5 @@
 <div class="toc-container" table-of-contents-container>
+  
   <div class="toc-header">
     <a class="toc-close-button" onclick="hideTableOfContents()">
       <img src="{{ "./images/COMPOST_Assets_X_blk-1.png" | relURL }}">
@@ -7,12 +8,15 @@
       <img src="{{ "./images/COMPOST_Logo_1920BLK 1.png" | relURL }}">
     </a>
   </div>
+  
   <div class="toc-body">
+    
     <div class="toc-nav-links">
       <a href="{{ relref . "/" }}">Issue 01</a>
       <a href="{{ relref . "about" }}">About</a>
       <a href="{{ relref . "support-us" }}">Support Us</a>
     </div>
+    
     <div class="toc-pieces">
       {{ $pieceSequence := index .Site.Data "piece-sequence" }}
       {{ range $pageName := $pieceSequence }}
@@ -23,30 +27,13 @@
           </a>
       {{ end }}
     </div>
-    <div class="toc-footer">
-      <div class="footer-column">
-        <div class="footer-column-header">Contact</div>
-        <div><a>hello@compost.digital</a></div>
-        <br>
-        <div>Web: <a href="https://compost.digital">compost.digital</a></div>
-        <div>IPFS:  [LINK]</div>
-        <div>Hypercore:  [LINK]</div>
-      </div>
-      <div class="footer-column">
-        <div class="footer-column-header">Social</div>
-        <div><a href="">Twitter</a></div>
-        <div><a href="">Mastodon</a></div>
-        <div><a href="">Newsletter</a></div>
-      </div>
-      <div class="footer-column">
-        <div class="footer-column-header">Support Us</div>
-        <div><a href="">Open Collective</a></div>
-        <div><a href="">Gitcoin</a></div>
-        <div><a href="">More...</a></div>
-      </div>
-    </div>
+
+    {{ partial "footer-content.html" . }}
+
     <div class="toc-mushrooms">
       <img src="{{ "./images/COMPOST_Assets_Mushrooms.png" | relURL }}">
     </div>
+
   </div>
+
 </div>
