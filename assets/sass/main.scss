@@ -34,9 +34,8 @@ a:visited {
   font-weight: bold;
   font-family: sans-serif;
   background-image: url('../images/COMPOST_Assets_Header.png');
-  // background-image: url('../images/COMPOST_Assets_Header_small.png');
-  background-position: center;
-  background-size: contain;
+  background-position: center bottom;
+  background-size: auto 100%;
 
   .header-top {
     display: flex;
@@ -175,10 +174,10 @@ main {
 }
 
 .footer-container {
-  margin: 0px auto;
   width: 100%;
   
   @media (min-width: 1920px) {
+    margin: 0px auto;
     max-width: 1920px;  
   }
   
