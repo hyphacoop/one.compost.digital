@@ -20,13 +20,13 @@
 
   {{ if ge $prevPageIndex 0 }}
   <a href="{{ relref . (index $pieceSequence $prevPageIndex) }}">
-    <img src="{{ (resources.Get "images/COMPOST_Assets_ArrowLft.png").RelPermalink }}">
+    <img src="{{ "images/COMPOST_Assets_ArrowLft.png" | relURL }}">
   </a>
   {{ end }}
   <a href="{{ relref . "/" }}">Home</a>
   {{ if le (add $nextPageIndex 1) (len $pieceSequence) }}
   <a href="{{ relref . (index $pieceSequence $nextPageIndex) }}">
-    <img src="{{ (resources.Get "images/COMPOST_Assets_ArrowRt.png").RelPermalink }}">
+    <img src="{{ "images/COMPOST_Assets_ArrowRt.png" | relURL }}">
   </a>
   {{ end }}
 

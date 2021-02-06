@@ -1,4 +1,5 @@
-$header-height: 80px;
+$header-height: 325px;
+$desktop-logo-height: 127px;
 $desktop-column-width: 780px;
 $footnote-column-width: 220px;
 
@@ -9,17 +10,44 @@ html, body {
   font-size: 22px;
 }
 
-header {
-  background: black;
+a {
+  cursor: pointer;
+}
+
+.main-header {
   height: $header-height;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   box-sizing: border-box;
   padding: 0px 12px;
   font-weight: bold;
   font-family: sans-serif;
+  background-image: url('../images/COMPOST_Assets_Header.png');
+  // background-image: url('../images/COMPOST_Assets_Header_small.png');
+  background-position: center;
+  // background-size: cover;
 
+  .header-top {
+    display: flex;
+    align-items: center;
+    height: $desktop-logo-height;
+
+    .compost-logo {
+      position: absolute;
+      left: 50%;
+      top: 20px;
+      transform: translateX(-50%);
+      height: $desktop-logo-height;
+
+      img {
+        height: 100%;
+      }
+    }
+
+    .hamburger-worm {
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+  }
+  
   a {
     margin-right: 20px;
     text-decoration: none;
@@ -32,10 +60,6 @@ header {
     &:hover {
       text-decoration: underline;
     }
-  }
-
-  img {
-    height: $header-height;
   }
 }
 

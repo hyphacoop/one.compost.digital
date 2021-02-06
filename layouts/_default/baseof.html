@@ -12,12 +12,15 @@
     </title>
   </head>
   <body>
-    <header>
-      <a href="{{ relref . "/" }}">
-        <img src="{{ (resources.Get "images/COMPOST_Logo_1920.jpg").RelPermalink }}">
-      </a>
-      <!-- <a href="{{ relref . "about.html" }}">About</a>
-      <a href="{{ relref . "support-us.html" }}">Support Us</a> -->
+    <header class="main-header">
+      <div class="header-top">
+        <a class="hamburger-worm" onclick="showTableOfContents()">
+          <img src="{{ "./images/COMPOST_Assets_SNKhmbrgr_WHT 1.png" | relURL }}">
+        </a>
+        <a class="compost-logo" href="{{ relref . "/" }}">
+          <img src="{{ "./images/COMPOST_Logo_1920WHT 1.png" | relURL }}">
+        </a>
+      </div>
     </header>
     
     <main>
