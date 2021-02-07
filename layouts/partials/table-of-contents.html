@@ -28,7 +28,9 @@
       {{ end }}
     </div>
 
-    {{ partial "footer-content.html" . }}
+    <div class="toc-footer-container">
+      {{ partial "footer-content.html" . }}
+    </div>
 
     <div class="toc-mushrooms">
       <img src="{{ "./images/COMPOST_Assets_Mushrooms.png" | relURL }}">

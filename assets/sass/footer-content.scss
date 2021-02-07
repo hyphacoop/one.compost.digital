@@ -13,6 +13,11 @@
 
   .footer-column {
     margin-right: 80px;
+    margin-bottom: 40px;
+
+    @include desktop {
+      margin-bottom: 0px;
+    }
 
     .footer-column-header {
       // font-size: 1rem;

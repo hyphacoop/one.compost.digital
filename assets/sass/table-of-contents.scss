@@ -10,16 +10,25 @@
 
   .toc-header {
     display: flex;
-    align-items: center;
-    height: $desktop-logo-height;
     background: white;
+    height: $mobile-header-height;
+    margin-bottom: -60px;
+    
+    @include desktop {
+      height: $desktop-header-height;
+    }
 
     .compost-logo {
       position: absolute;
       left: 50%;
-      top: 20px;
+      top: 10px;
       transform: translateX(-50%);
-      height: $desktop-logo-height;
+      height: $mobile-logo-height;
+
+      @include desktop {
+        height: $desktop-logo-height;
+        top: 20px;
+      }
 
       img {
         height: 100%;
@@ -27,8 +36,19 @@
     }
 
     .toc-close-button {
-      margin-top: 10px;
-      margin-left: 20px;
+      margin-top: 20px;
+      margin-left: 10px;
+      height: 40px;
+
+      @include desktop {
+        margin-top: 40px;
+        margin-left: 20px;
+        height: 73px;  
+      }
+
+      img {
+        height: 100%;
+      }
     }
   }
 
@@ -41,7 +61,10 @@
       text-transform: uppercase;
       font-weight: bold;
       font-size: 35px;
-      margin-top: 60px;
+
+      @include desktop {
+        margin-top: 60px;
+      }
       
       a {
         color: black;
@@ -72,8 +95,16 @@
         .toc-piece-title {
           width: 350px;
           margin-top: 8px;
-          font-size: 26px;
+          font-size: 1.2rem;
         }
+      }
+    }
+
+    .toc-footer-container {
+      display: flex;
+
+      @include desktop {
+        padding: 80px 0px;
       }
     }
 
