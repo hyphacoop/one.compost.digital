@@ -1,3 +1,5 @@
+@import './fonts.scss';
+
 $desktop-header-height: 325px;
 $mobile-header-height: 160px;
 $desktop-logo-height: 127px;
@@ -6,7 +8,7 @@ $desktop-column-width: 780px;
 $footnote-column-width: 220px;
 $link-color: black;
 
-$title-sans-serif: 'sans';
+$title-sans-serif: 'Open Sans', sans-serif;
 
 $desktop-width: 700px;
 
@@ -21,6 +23,7 @@ html, body {
   width: 100%;
   height: 100%;
   font-size: 16px;
+  font-family: 'Source Serif Pro', serif;
 
   &.no-scroll {
     overflow: hidden;
