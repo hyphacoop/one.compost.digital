@@ -140,9 +140,16 @@ main {
 
   .piece-container {
     position: relative;
-    width: $desktop-column-width;
-    margin: 0px auto;
+    width: 100%;
+    padding: 0px 20px;
     padding-bottom: 40px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+
+    @include desktop {
+      width: $desktop-column-width;
+      margin: 0px auto;
+    }
 
     &.has-footnotes {
       transform: translateX(-100px);
