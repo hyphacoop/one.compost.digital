@@ -1,8 +1,15 @@
 .footer-content {
-  padding: 80px 20px;
+  width: 100%;
+  padding: 0px 20px;
+  box-sizing: border-box;
   display: flex;
+  flex-wrap: wrap;
   font-family: $title-sans-serif;
   font-size: 0.8rem;
+
+  @include desktop {
+    width: auto;
+  }
 
   .footer-column {
     margin-right: 80px;
