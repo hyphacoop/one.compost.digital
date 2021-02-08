@@ -1,7 +1,0 @@
-baseURL = ""
-languageCode = "en-us"
-title = "Compost"
-relativeURLs = true
-
-[permalinks]
-  one-offs = "/:filename/"

@@ -1,0 +1,8 @@
+baseURL: ""
+languageCode: "en-us"
+title: "Compost"
+relativeURLs: true
+params:
+  webmonPaymentPointer: "$ilp.uphold.com/JriKiJXi72az"
+permalinks:
+  one-offs: "/:filename/"
