@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <link rel="icon" href="{{ "./favicon-32.png" | relURL }}" sizes="32x32">
+
     {{ $mainStylesheet := resources.Get "sass/main.scss" | resources.ToCSS }}
     <link rel="stylesheet" href="{{ $mainStylesheet.Permalink }}">
     
@@ -19,6 +20,9 @@
         </a>
         <a class="compost-logo" href="{{ relref . "/" }}">
           <img src="{{ "./images/COMPOST_Logo_1920WHT 1.png" | relURL }}">
+        </a>
+        <a class="mushroom" href="{{ relref . "support-us" }}">
+          <img src="{{ "./images/Compost_Mushroom2.gif" | relURL }}">
         </a>
       </div>
     </header>

@@ -6,11 +6,11 @@ $desktop-logo-height: 127px;
 $mobile-logo-height: 60px;
 $desktop-column-width: 780px;
 $footnote-column-width: 220px;
-$link-color: black;
+$link-color: #336633;
 
 $title-sans-serif: 'Open Sans', sans-serif;
 
-$desktop-width: 700px;
+$desktop-width: $desktop-column-width;
 
 @mixin desktop {
   @media (min-width: #{$desktop-width}) {
@@ -50,7 +50,7 @@ a:visited {
   padding: 0px 12px;
   font-weight: bold;
   font-family: sans-serif;
-  background-image: url('../images/COMPOST_Assets_Header.png');
+  background-image: url('../images/COMPOST_Assets_Header2.png');
   background-position: center bottom;
   background-size: auto 100%;
   margin-bottom: -40px;
@@ -96,19 +96,22 @@ a:visited {
         height: 100%;
       }
     }
-  }
-  
-  a {
-    margin-right: 20px;
-    text-decoration: none;
-    color: black;
 
-    &:visited {
-      color: black;
-    }
+    .mushroom {
+      position: absolute;
+      right: 10px;
+      top: 20px;
+      height: 40px;
 
-    &:hover {
-      text-decoration: underline;
+      @include desktop {
+        top: 40px;
+        right: 30px;
+        height: 73px;  
+      }
+
+      img {
+        height: 100%;
+      }
     }
   }
 }
@@ -158,12 +161,17 @@ main {
       transform: translateX(-100px);
     }
 
-    h1, h2 {
-      font-family: sans-serif;
+    h1 {
+      font-family: $title-sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.3em;
     }
 
     .author-name {
-      font-family: sans-serif;
+      font-family: $title-sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
     }
 
     img {
@@ -243,7 +251,7 @@ main {
   padding-top: 40px;
 
   @include desktop {
-    padding-top: 100px;
+    padding-top: 190px;
     height: 500px;
   }
 }

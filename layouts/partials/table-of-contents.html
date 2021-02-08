@@ -7,14 +7,26 @@
     <a class="compost-logo" href="{{ relref . "/" }}">
       <img src="{{ "./images/COMPOST_Logo_1920BLK 1.png" | relURL }}">
     </a>
+    <a class="mushroom" href="{{ relref . "support-us" }}">
+      <img src="{{ "./images/Compost_Mushroom2.gif" | relURL }}">
+    </a>
   </div>
   
   <div class="toc-body">
     
     <div class="toc-nav-links">
-      <a href="{{ relref . "/" }}">Issue 01</a>
-      <a href="{{ relref . "about" }}">About</a>
-      <a href="{{ relref . "support-us" }}">Support Us</a>
+      <div class="worm-link">
+        <img class="worm-image">
+        <a href="{{ relref . "/" }}">Issue 01</a>
+      </div>
+      <div class="worm-link">
+        <img class="worm-image">
+        <a href="{{ relref . "about" }}">About</a>
+      </div>
+      <div class="worm-link">
+        <img class="worm-image">
+        <a href="{{ relref . "support-us" }}">Support Us</a>
+      </div>
     </div>
     
     <div class="toc-pieces">
