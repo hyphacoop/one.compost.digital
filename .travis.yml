@@ -18,7 +18,6 @@ deploy:
   on:
     branch:
       - master
-      - deploy-staging
 
 notifications:
   email: false
