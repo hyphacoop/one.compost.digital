@@ -3,7 +3,8 @@ rvm:
   - 2.7.0
 
 install:
-  - sudo apt-get install hugo
+  - wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.80.0/hugo_extended_0.80.0_Linux-64bit.deb
+  - sudo dpkg -i hugo.deb
 
 script:
   - hugo
