@@ -158,7 +158,7 @@ main {
     }
 
     &.has-footnotes {
-      transform: translateX(-100px);
+      transform: translateX(-($footnote-column-width / 2));
     }
 
     h1 {
