@@ -1,0 +1,23 @@
+language: python
+rvm:
+  - 2.7.0
+
+install:
+  - sudo apt-get install hugo
+
+script:
+  - hugo
+
+deploy:
+  # Cleanup removes keys and build artefacts.
+  # See: https://docs.travis-ci.com/user/deployment/#Uploading-Files-and-skip_cleanup
+  skip_cleanup: true
+  provider: script
+  script: tar -czvf www.tar.gz -C public . && bash -x .distributed-press/deploy.sh $api_key ./.distributed-press/config.json www.tar.gz
+  on:
+    branch:
+      - master
+      - deploy-staging
+
+notifications:
+  email: false
