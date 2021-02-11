@@ -256,6 +256,27 @@ main {
   }
 }
 
+.mobile-footnotes-container {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: white;
+  box-sizing: border-box;
+  border-top: 1px solid;
+  max-height: 0px;
+  transition: max-height 0.5s ease-in-out;
+  overflow-y: auto;
+
+  .mobile-footnote {
+    padding: 20px;
+  }
+
+  &.open {
+    max-height: 300px;
+  }
+}
+
 @import './table-of-contents.scss';
 @import './footer-content.scss';
 
