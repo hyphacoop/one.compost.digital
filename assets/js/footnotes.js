@@ -54,6 +54,10 @@ function renderFootnotes() {
   } else {
     // Register click events on footnote links
     footnoteTags.forEach(footnoteLink => {
+      // Style the footnote number like a link
+      footnoteLink.classList.add('link-style')
+      
+      // On click, render the footnote at the bottom of the page
       footnoteLink.addEventListener('click', (event) => {
         event.stopPropagation()
         let footnoteId = footnoteLink.getAttribute('footnote-id')
