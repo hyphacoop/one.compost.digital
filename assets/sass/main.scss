@@ -160,7 +160,7 @@ main {
     }
   }
 
-  .piece-container {
+  .piece-container, .main-column {
 
     &.has-footnotes {
       transform: translateX(-($footnote-column-width / 2));
