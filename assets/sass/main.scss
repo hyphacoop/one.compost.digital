@@ -215,16 +215,6 @@ main {
       }
     }
   }
-
-  .prev-and-next-buttons {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-
-    a {
-      margin: 0px 10px;
-    }
-  }
 }
 
 .mushrooms-container {
@@ -370,6 +360,7 @@ main {
   }
 }
 
+@import './prev-and-next-buttons.scss';
 @import './table-of-contents.scss';
 @import './footer-content.scss';
 
