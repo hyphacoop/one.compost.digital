@@ -1,0 +1,20 @@
+-
+  description: Print run of 100 copies of Issue 1 in zine form
+  amountCAD: 500
+  label: CA$500
+-
+  description: Micro-conference with Issue 1 contributors
+  amountCAD: 2000
+  label: CA$2,000
+-
+  description: Experiment with COMPOST.tv episode 1
+  amountCAD: 5000
+  label: CA$5,000
+-
+  description: Buy a small moon
+  amountCAD: 80000
+  label: CA$80,000
+-
+  description: Buy a large moon
+  amountCAD: 800000
+  label: CA$800,000

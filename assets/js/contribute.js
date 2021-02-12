@@ -21,10 +21,17 @@ async function render() {
   let totalBalance = `${rawBalance.slice(0, decimalIndex)}.${rawBalance.slice(decimalIndex)}`
   let readableBalance = new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(totalBalance)
 
+  document.querySelectorAll('.goal-innards').forEach((goalInnard, goalIndex) => {
+    let goalData = goals[goalIndex]
+    let maxWidth = goalInnard.parentElement.offsetWidth
+    let newWidth = maxWidth * Math.min(1, totalBalance / goalData.amountCAD)
+    goalInnard.style.width = `${newWidth}px`
+  })
+
   document.querySelector('[amount-raised]').innerText = `CAD ${readableBalance}`
 
   let readableDate = new Date(balances.timestamp)
-  document.querySelector('[todays-date]').innerText = `${readableDate.getMonth() + 1}/${readableDate.getDate()}`
+  document.querySelector('[todays-date]').innerText = `${new Intl.DateTimeFormat('en-US', { dateStyle: 'full' }).format(readableDate)}`
 }
 
 render()

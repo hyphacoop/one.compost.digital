@@ -1,32 +1,59 @@
 {{ define "main" }}
-  <div>
+  <div class="piece-container support-us-page">
     
-    <h1>COMPOST is an artist-run cooperative</h1>
-    <p>If you like what we're doing, support us with a tip!</p>
+    <div class="header-with-icon">
+      <img src="{{ "./images/mushroom-black.png" | relURL }}">
+      <h1>{{ .Page.Title }}</h1>  
+    </div>
     
-    <section>
-      <h1>2021 Fundraising Goals</h1>
-      <div id="fundraising-goals"></div>
+    <section class="donation-callout support-us-section">
+      <!-- <div class="donation-callout-content">Like what we're doing? Support us with a tip!</div> -->
+      <h2>Like what we're doing? Support us with a tip!</h2>
+      <div class="donation-buttons">
+        <a class="donation-button" href="https://opencollective.com/compost">Donate money</a>
+        <a class="donation-button" href="https://gitcoin.co/grants/1385/compost">Donate crypto</a>
+        <a class="donation-button" href="https://opencollective.com/compost/contribute/backer-22573/checkout">Become a monthly backer</a>
+      </div>  
     </section>
     
-    <section>
+    <section class="support-us-section">
+      <h2>Our 2021 Fundraising Goals</h2>
+      <p>As of <span todays-date></span>, COMPOST Issue 1 has raised: <span style="font-weight: bold" amount-raised></span>.</p>
+      <div class="fundraising-goals">
+        {{ $goals := index .Site.Data "fundraising-goals" }}
+        {{ range $goal := $goals }}
+        <div class="goal-container">
+          <div class="goal-label">{{ $goal.label }}</div>
+          <div class="goal-bar">
+            <div class="goal-innards"></div>
+            <div class="goal-description">{{ $goal.description }}</div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    
+    <!-- <section>
       <h1>Issue 1 Finances</h1>
       <p>As of <span todays-date></span> COMPOST Issue 1 has raised:</p>
       <h2 amount-raised></h2>
       <img src="finances-pie.png">
-    </section>
+    </section> -->
 
-    <section>
+    <!-- <section>
       <p>Help us keep our starship in orbit!</p>
     </section>
 
-    <a href="{{.Site.Home.Permalink}}">Go Home</a>
+    <a href="{{.Site.Home.Permalink}}">Go Home</a> -->
     
   </div>
 {{ end }}
 
 
 {{ define "scripts" }}
+  <script>
+    var goals = JSON.parse({{ (index .Site.Data "fundraising-goals") | jsonify }})
+  </script>
   {{ $js := resources.Get "js/contribute.js" }}
   <script src="{{ $js.Permalink }}"></script>
 {{ end }}

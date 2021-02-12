@@ -6,7 +6,8 @@ $desktop-logo-height: 127px;
 $mobile-logo-height: 60px;
 $desktop-column-width: 780px;
 $footnote-column-width: 220px;
-$link-color: #336633;
+$compost-green: #336633;
+$link-color: $compost-green;
 
 $title-sans-serif: 'Open Sans', sans-serif;
 
@@ -34,15 +35,16 @@ html, body {
   }
 }
 
-a {
+a, a:visited {
   cursor: pointer;
   text-decoration: none;
   color: $link-color;
+
+  &:hover {
+    color: black;
+  }
 }
 
-a:visited {
-  color: $link-color;
-}
 
 .main-header {
   height: $mobile-header-height;
@@ -168,6 +170,14 @@ main {
       margin-bottom: 0.3em;
     }
 
+    h2 {
+      font-family: $title-sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 400;
+      font-size: 1.3em;
+    }
+
     .author-name {
       font-family: $title-sans-serif;
       text-transform: uppercase;
@@ -274,6 +284,86 @@ main {
 
   &.open {
     max-height: 300px;
+  }
+}
+
+/* support us page styles */
+
+.support-us-page {
+  font-family: $title-sans-serif; 
+}
+
+.header-with-icon {
+  display: flex;
+  align-items: center;
+}
+
+.support-us-section {
+  margin: 80px 0px;
+}
+
+.donation-callout {
+  .donation-callout-content {
+    font-family: $title-sans-serif;
+    font-size: 1.2em;
+  }
+  
+  .donation-buttons {
+    display: flex;
+    margin-top: 20px;
+
+    .donation-button {
+      background: $compost-green;
+      font-family: $title-sans-serif;
+      border-radius: 6px;
+      color: white;
+      text-transform: uppercase;
+      cursor: pointer;
+      flex-grow: 0;
+      padding: 10px 20px;
+      text-align: center;
+      margin-right: 10px;
+      font-size: 0.8em;
+
+      &:hover {
+        background: scale-color($compost-green, $lightness: -30%, $saturation: 10%);
+      }
+    }
+  }
+}
+
+.fundraising-goals {
+  font-family: $title-sans-serif;
+  
+  .goal-container {
+    margin-bottom: 20px;
+
+    .goal-label {
+      font-weight: bold;
+      padding-bottom: 4px;
+    }
+    
+    .goal-bar {
+      position: relative;
+      box-shadow: 0px 0px 0px 3px black inset;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      height: 74px;
+      box-sizing: border-box;
+      
+      .goal-innards {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        width: 0px;
+        background: $compost-green;
+        opacity: 0.3;
+        z-index: -1;
+        transition: width 0.5s ease-out;
+      }
+    }
   }
 }
 
