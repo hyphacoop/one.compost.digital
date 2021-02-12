@@ -1,6 +1,6 @@
 {{ define "main" }}
   
-  <div class="piece-container">
+  <div class="piece-container main-column">
     {{ $author := index (where .Site.Data.people "name" .Params.author) 0 }}
 
     <h1>{{.Params.title}}</h1>
