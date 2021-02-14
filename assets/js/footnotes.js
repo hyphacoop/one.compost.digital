@@ -42,7 +42,7 @@ function renderFootnotes() {
       let footnotePos = Math.max(footnoteLink.offsetTop, lastFootnoteEndPos + minFootnoteSpacing)
       let footnoteEl = html`
         <div class="footnote" style="position: absolute; top: ${footnotePos}px">
-          <span style="font-weight: bold">[${getFootnoteIndex(footnoteId)}]</span> ${footnoteData.text}
+          <span class="footnote-number">${getFootnoteIndex(footnoteId)}.</span> ${footnoteData.text}
         </div>
       `
       footnoteContainerEl.appendChild(footnoteEl)
@@ -79,7 +79,7 @@ function renderMobileFootnote() {
     let footnoteData = getFootnoteData(currentFootnoteId)
     let footnoteEl = html`
       <div class="mobile-footnote">
-        <span style="font-weight: bold">[${getFootnoteIndex(currentFootnoteId)}]</span> ${footnoteData.text}
+        <span style="font-weight: bold;">[${getFootnoteIndex(currentFootnoteId)}]</span> ${footnoteData.text}
       </div>
     `
     mobileFootnotesContainer.innerHTML = ''

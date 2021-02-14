@@ -9,7 +9,11 @@
 
     {{ .Content }}
 
-    <div class="bio-separator"></div>
+    <div class="gif-ending">
+      <img src="{{ "./images/angelica-gifs/mantis_computer.gif" | relURL }}">
+    </div>
+
+    <!-- <div class="bio-separator"></div> -->
     
     <div class="bio">{{ $author.bio | markdownify }}</div>
 

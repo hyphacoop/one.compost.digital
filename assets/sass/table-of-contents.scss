@@ -53,9 +53,9 @@
 
     .mushroom {
       position: absolute;
-      right: 10px;
-      top: 20px;
-      height: 40px;
+      right: 16px;
+      top: 15px;
+      height: 50px;
 
       @include desktop {
         top: 40px;
@@ -81,6 +81,7 @@
 
       @include desktop {
         margin-top: 60px;
+        margin-left: 14px;
       }
       
       a {
@@ -108,8 +109,13 @@
     .toc-pieces {
       display: flex;
       flex-wrap: wrap;
-      // justify-content: space-around;
+      justify-content: center;
       margin-top: 40px;
+      padding: 0px 20px;
+
+      @include desktop {
+        padding: 0px;
+      }
 
       .toc-piece-tile {
         margin-bottom: 40px;
@@ -118,8 +124,12 @@
         color: black;
 
         .toc-piece-image {
-          width: 350px;
-          height: 175px;
+          width: 100%;
+
+          @media (min-width: 370px) {
+            width: 350px;
+            height: 175px;
+          }
           background: #ddd;
         }
 

@@ -101,14 +101,14 @@ a, a:visited, .link-style {
 
     .mushroom {
       position: absolute;
-      right: 10px;
-      top: 20px;
-      height: 40px;
+      right: 16px;
+      top: 5px;
+      height: 60px;
 
       @include desktop {
-        top: 40px;
+        top: 20px;
         right: 30px;
-        height: 73px;  
+        height: 103px;
       }
 
       img {
@@ -138,7 +138,12 @@ main {
     }
     
     .cover-image-container {
+      margin: 0px auto;
       width: 100%;
+
+      @include desktop {
+        width: 50%;
+      }
       
       img {
         width: 100%;
@@ -191,6 +196,15 @@ main {
       max-width: 100%;
     }
 
+    .gif-ending {
+      text-align: center;
+      margin: 40px 0px;
+
+      @include desktop {
+        margin: 120px 0px;
+      }
+    }
+
     .bio-separator {
       width: 50%;
       height: 1px;
@@ -205,13 +219,20 @@ main {
     .footnotes-container {
       position: absolute;
       font-size: 16px;
+      // font-weight: 300;
       top: 0px;
       left: $desktop-column-width;
       width: $footnote-column-width;
       margin-left: 40px;
+      color: #888;
 
       .footnote {
         word-break: break-word;
+
+        .footnote-number {
+          font-weight: bold;
+          color: #777;
+        }
       }
     }
   }
@@ -249,7 +270,6 @@ main {
   
   display: flex;
   justify-content: space-around;
-  height: 300px;
   box-sizing: border-box;
   padding-top: 40px;
 
@@ -289,10 +309,24 @@ main {
 .header-with-icon {
   display: flex;
   align-items: center;
+
+  img {
+    height: 80px;
+    margin-left: -10px;
+    margin-right: 10px;
+
+    @include desktop {
+      height: auto;
+    }
+  }
 }
 
 .support-us-section {
-  margin: 80px 0px;
+  margin: 40px 0px;
+  
+  @include desktop {
+    margin: 80px 0px;
+  }
 }
 
 .donation-callout {
@@ -302,24 +336,34 @@ main {
   }
   
   .donation-buttons {
-    display: flex;
     margin-top: 20px;
 
-    .donation-button {
-      background: $compost-green;
-      font-family: $title-sans-serif;
-      border-radius: 6px;
-      color: white;
-      text-transform: uppercase;
-      cursor: pointer;
-      flex-grow: 0;
-      padding: 10px 20px;
-      text-align: center;
-      margin-right: 10px;
-      font-size: 0.8em;
+    .button-row {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
 
-      &:hover {
-        background: scale-color($compost-green, $lightness: -30%, $saturation: 10%);
+      .donation-button {
+        background: $compost-green;
+        font-family: $title-sans-serif;
+        border-radius: 6px;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        flex-grow: 0;
+        padding: 14px 20px;
+        text-align: center;
+        margin-right: 10px;
+        font-size: 0.8em;
+        width: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+
+        &:hover {
+          background: scale-color($compost-green, $lightness: -30%, $saturation: 10%);
+        }
       }
     }
   }
