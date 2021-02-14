@@ -341,7 +341,7 @@ main {
     .button-row {
       display: flex;
       justify-content: center;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
 
       .donation-button {
         background: $compost-green;
@@ -355,11 +355,21 @@ main {
         text-align: center;
         margin-right: 10px;
         font-size: 0.8em;
-        width: 160px;
         display: flex;
         align-items: center;
         justify-content: center;
         font-weight: bold;
+        box-sizing: border-box;
+        height: 63px;
+        width: 50%;
+
+        // @include desktop {
+        //   width: 160px;
+        // }
+
+        &.full-width {
+          width: 100%;
+        }
 
         &:hover {
           background: scale-color($compost-green, $lightness: -30%, $saturation: 10%);
