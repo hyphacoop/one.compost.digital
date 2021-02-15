@@ -157,13 +157,14 @@ main {
 
     .home-toc-pieces {
       margin: 0px auto;
-      margin-top: 40px;
+      margin-top: 20px;
       padding: 0px 20px;
       width: 100%;
       box-sizing: border-box;
 
       @include desktop {
         width: $desktop-column-width;
+        margin-top: 40px;
         padding: 0px;
       }
 
