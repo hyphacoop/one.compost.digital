@@ -58,3 +58,12 @@ let base64WhiteMushroomForeverGif = 'R0lGODlhlwDKANUlABoYGI2MjMbGxlNSUigmJnBvb/L
 if (document.monetization) {
   document.monetization.addEventListener('monetizationstart', startMushroomAnimation)
 }
+
+//
+// Give squiggles random rotations
+//
+
+let squiggles = document.querySelectorAll('.squiggles')
+squiggles.forEach(squiggle => {
+  squiggle.style.transform = `rotate(${Math.random() * 360}deg)`
+})

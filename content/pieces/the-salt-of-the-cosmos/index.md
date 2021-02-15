@@ -1,6 +1,7 @@
 ---
 title: The Salt of the Cosmos
 author: Tal
+description: In which the cosmos is left in a wet brine for 12-16 hours, then basted and fried in a peanut brittle batter.
 footnotesUrl: "footnotes.json"
 ---
 

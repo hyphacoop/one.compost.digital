@@ -2,21 +2,24 @@
   <div class="home-container">
     
     <div class="cover-image-container">
-        <img src="{{ "images/Compost_issue01_draftv1.png" | relURL }}">    
+      <img src="{{ "images/Compost_issue01_draftv1.png" | relURL }}">    
     </div>
     
-    <!-- {{ $pieceSequence := index .Site.Data "piece-sequence" }}
-    
-    Homepage content:
-    
-    <ul>
-        {{ range $pageIndex, $pageName := $pieceSequence }}
-            {{ $page := $.Site.GetPage $pageName }}
-            <li>
-                <a href="{{$page.Permalink}}">{{$page.Title}}</a>
-            </li>
-        {{ end }}
-    </ul> -->
+    <div class="home-toc-pieces">
+      {{ $pieceSequence := index .Site.Data "piece-sequence" }}
+      {{ range $pageName := $pieceSequence }}
+        {{ $page := $.Site.GetPage $pageName }}
+        <div class="toc-piece-tile-row">
+          <a class="toc-piece-tile" href="{{$page.Permalink}}">
+            <div class="toc-piece-title">{{$page.Title}}</div>
+            <div class="toc-piece-author">{{$page.Params.author}}</div>
+            <div class="toc-piece-image"></div>
+            <div class="toc-piece-description">{{$page.Params.description}}</div>
+          </a>
+          <img class="squiggles" src="{{ "images/COMPOST_Assets_Squiggles1.png" | relURL }}">
+        </div>
+      {{ end }}
+    </div>
     
   </div>
 {{ end }}

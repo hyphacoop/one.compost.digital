@@ -1,6 +1,7 @@
 ---
 title: Seeding the Wild
 author: Magma Collective
+description: In which seeds are strewn into small spaces, while blindfolded, and holding three apricots between two butt cheeks.
 ---
 
 ![](dandelion-seeds.png)

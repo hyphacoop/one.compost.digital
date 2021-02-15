@@ -8,15 +8,19 @@ $desktop-column-width: 780px;
 $footnote-column-width: 220px;
 $compost-green: #336633;
 $link-color: $compost-green;
-
 $title-sans-serif: 'Open Sans', sans-serif;
-
 $desktop-width: $desktop-column-width;
 
 @mixin desktop {
   @media (min-width: #{$desktop-width}) {
     @content;
   }
+}
+
+@mixin title-style {
+  font-family: $title-sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 html, body {
@@ -132,6 +136,7 @@ main {
   .home-container {
     margin: 0px auto;
     width: 100%;
+    overflow: hidden;
     
     @media (min-width: 1920px) {
       max-width: 1920px;  
@@ -142,11 +147,103 @@ main {
       width: 100%;
 
       @include desktop {
-        width: 50%;
+        width: $desktop-column-width;
       }
       
       img {
         width: 100%;
+      }
+    }
+
+    .home-toc-pieces {
+      margin: 0px auto;
+      margin-top: 40px;
+      padding: 0px 20px;
+      width: 100%;
+      box-sizing: border-box;
+
+      @include desktop {
+        width: $desktop-column-width;
+        padding: 0px;
+      }
+
+      .toc-piece-tile-row {
+        position: relative;
+        display: flex;
+
+        .squiggles {
+          position: absolute;
+          opacity: 0.1;
+          right: -100px;
+          width: 400px;
+          z-index: -1;
+        }
+
+        &:nth-child(2n) {
+          justify-content: flex-end;
+
+          .squiggles {
+            left: -100px;
+          }
+        }
+
+        .toc-piece-tile {
+          margin-bottom: 20px;
+          color: black;
+
+          @include desktop {
+            margin-bottom: 40px;
+          }
+
+          .toc-piece-title {
+            width: 350px;
+            margin-top: 8px;
+            margin-bottom: 6px;
+            @include title-style;
+            font-weight: bold;
+            font-size: 1.4em;
+
+            @include desktop {
+              font-size: 1.2em;
+              margin-bottom: 14px;
+            }
+          }
+
+          .toc-piece-author {
+            @include title-style;
+            letter-spacing: 0.2em;
+            margin-bottom: 12px;
+
+            @include desktop {
+              font-size: 0.8em;
+              margin-bottom: 20px;  
+            }
+          }
+
+          .toc-piece-image {
+            width: 100%;
+            margin-bottom: 12px;
+
+            @include desktop {
+              margin-bottom: 20px;
+            }
+
+            @media (min-width: 370px) {
+              width: 350px;
+              height: 175px;
+            }
+            background: #ddd;
+          }
+
+          .toc-piece-description {
+            @include desktop {
+              font-size: 0.8em;
+            }
+            @media (min-width: 370px) {
+              width: 350px;
+            }
+          }
+        }
       }
     }
   }
@@ -172,16 +269,12 @@ main {
     }
 
     h1 {
-      font-family: $title-sans-serif;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
+      @include title-style;
       margin-bottom: 0.3em;
     }
 
     h2 {
-      font-family: $title-sans-serif;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
+      @include title-style;
       font-weight: 400;
       font-size: 1.3em;
     }
