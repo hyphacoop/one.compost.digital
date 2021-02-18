@@ -2,6 +2,7 @@
   margin-top: 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
 
   a {
     margin: 0px 10px;
@@ -9,5 +10,10 @@
 
   .arrow-icon {
     height: 35px;
+  }
+
+  .home-icon {
+    height: 80px;
+    margin-top: -20px;
   }
 }

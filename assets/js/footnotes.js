@@ -15,9 +15,6 @@ let getFootnoteData = (footnoteId) => {
   }
 }
 
-// Code smell. This needs to match $desktop-column-width in main.scss
-let isDesktop = () => document.body.offsetWidth > 1090
-
 function renderFootnotes() {
   // Render the footnote link numbers in the piece body
   footnoteTags.forEach((tag, index) => {

@@ -39,6 +39,5 @@
 {{ end }}
 
 {{ define "scripts" }}
-  {{ $js := resources.Get "js/footnotes.js" }}
-  <script src="{{ $js.Permalink }}"></script>
+  <script src="{{ (resources.Get "js/footnotes.js").RelPermalink }}"></script>
 {{ end }}

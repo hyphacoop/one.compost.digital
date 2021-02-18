@@ -23,7 +23,9 @@
     <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowLft.png" | relURL }}">
   </a>
   {{ end }}
-  <a href="{{ relref . "/" }}">Home</a>
+  <a href="{{ relref . "/" }}">
+    <img class="home-icon" src="{{ "images/COMPOST_Assets_HOME_500.png" | relURL }}">
+  </a>
   {{ if le (add $nextPageIndex 1) (len $pieceSequence) }}
   <a href="{{ relref . (index $pieceSequence $nextPageIndex) }}">
     <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowRt.png" | relURL }}">

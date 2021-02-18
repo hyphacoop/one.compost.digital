@@ -73,35 +73,49 @@
     max-width: 1200px;
     margin: 0px auto;
     
-    .toc-nav-links {
-      font-family: $title-sans-serif;
-      text-transform: uppercase;
-      font-weight: bold;
-      font-size: 35px;
+    .toc-nav-container {
+      display: flex;
 
-      @include desktop {
-        margin-top: 60px;
-        margin-left: 14px;
+      .toc-nav-links {
+        font-family: $title-sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 35px;
+
+        @include desktop {
+          margin-top: 60px;
+          margin-left: 14px;
+        }
+        
+        a {
+          display: inline-flex;
+          align-items: center;
+          margin-left: 20px;
+          margin-right: 50px;
+        }
+
+        .worm-link {
+          position: relative;
+          display: inline-flex;
+
+          .worm-image {
+            display: none;
+            position: absolute;
+            top: -40px;
+            left: -65px;
+            width: 100px;
+            height: 100px;
+          }
+        }
       }
-      
-      a {
-        display: inline-flex;
-        align-items: center;
-        margin-left: 20px;
-        margin-right: 50px;
-      }
-
-      .worm-link {
-        position: relative;
-        display: inline-flex;
-
-        .worm-image {
+      .mobile-worm {
+        @include desktop {
           display: none;
+        }
+
+        img {
           position: absolute;
-          top: -40px;
-          left: -65px;
-          width: 100px;
-          height: 100px;
+          right: 0px;
         }
       }
     }
