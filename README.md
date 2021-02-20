@@ -41,7 +41,7 @@ endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
 
 #### Footnotes
 
-Footnote content can be included in a piece's frontmatter, or in a separate JSON file (see [`content/pieces/the-salt-of-the-cosmos`](`content/pieces/the-salt-of-the-cosmos`) for an example of the latter).
+Footnote content can be included in a piece's frontmatter, or in a separate JSON file (see [`content/pieces/the-salt-of-the-cosmos`](content/pieces/the-salt-of-the-cosmos) for an example of the latter).
 
 Every footnote is identified by a unique title. (This can be a number if you want, but then if you reorder them you'll have some serious renumbering to do.)
 
@@ -51,7 +51,7 @@ In the content markdown, you add a footnote reference like so:
 {{< footnote "Title of footnote goes here" >}}
 ```
 
-This is called a [hugo "shortcode"](https://gohugo.io/content-management/shortcodes/). It gets replaced by the content in [`layouts/shortcodes/footnote.html`](`layouts/shortcodes/footnote.html`).
+This is called a [hugo "shortcode"](https://gohugo.io/content-management/shortcodes/). It gets replaced by the content in [`layouts/shortcodes/footnote.html`](layouts/shortcodes/footnote.html).
 
 ### All other pages
 
@@ -62,12 +62,12 @@ This is called a [hugo "shortcode"](https://gohugo.io/content-management/shortco
 
 #### Table of contents
 
-The sequence of pieces in the table of contents is determined by [`data/piece-sequence.yaml`](`data/piece-sequence.yaml`)
+The sequence of pieces in the table of contents is determined by [`data/piece-sequence.yaml`](data/piece-sequence.yaml)
 
 #### Fundraising goals
 
-See [`data/fundraising-goals.yaml`](`data/fundraising-goals.yaml`).
+See [`data/fundraising-goals.yaml`](data/fundraising-goals.yaml).
 
 #### Author bios
 
-See [`data/people.yaml`](`data/people.yaml`). The `name` fields in here must match the `author` fields in the piece frontmatter.
+See [`data/people.yaml`](data/people.yaml). The `name` fields in here must match the `author` fields in the piece frontmatter.
