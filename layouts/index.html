@@ -1,8 +1,13 @@
 {{ define "main" }}
   <div class="home-container">
     
-    <div class="cover-image-container">
-      <img src="{{ "images/Compost_issue01_draftv1.png" | relURL }}">    
+    <div class="above-the-fold">
+      <div class="cover-image-container">
+        <img src="{{ "images/Compost_issue01_draftv3.jpg" | relURL }}">    
+      </div>
+      <div class="compost-description">
+        {{ .Content }}
+      </div>
     </div>
     
     <div class="home-toc-pieces">
