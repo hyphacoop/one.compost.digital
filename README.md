@@ -33,7 +33,7 @@ The frontmatter of a piece should have all of these fields:
 title: Seeding the Wild
 author: Magma Collective # this needs to match an author name in data/people.yaml
 description: In which seeds are strewn into small spaces, while blindfolded, and holding three apricots between two butt cheeks.
-tableOfContentsImageUrl: ./images/angelica-gifs/mantis_computer.gif
+tableOfContentsImageUrl: ./images/angelica-gifs/mantis_computer.gif # must be 700x350
 titleImageUrl: ./images/angelica-gifs/mantis_computer.gif # this is optional
 endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
 ---
