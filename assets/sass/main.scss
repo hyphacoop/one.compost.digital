@@ -172,9 +172,9 @@ main {
 
         .squiggles {
           position: absolute;
-          opacity: 0.1;
-          right: -100px;
-          width: 400px;
+          opacity: 0.05;
+          right: -300px;
+          width: 600px;
           z-index: -1;
         }
 
@@ -182,7 +182,7 @@ main {
           justify-content: flex-end;
 
           .squiggles {
-            left: -100px;
+            left: -300px;
           }
         }
 
