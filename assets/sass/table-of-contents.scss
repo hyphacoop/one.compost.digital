@@ -56,13 +56,15 @@
       display: flex;
 
       .toc-nav-links {
+        display: flex;
+        flex-direction: column;
         font-family: $title-sans-serif;
         text-transform: uppercase;
         font-weight: bold;
         font-size: 35px;
 
         @include desktop {
-          margin-top: 60px;
+          flex-direction: row;
           margin-left: 14px;
         }
         
