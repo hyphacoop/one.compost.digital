@@ -13,10 +13,6 @@
     background: white;
     height: $mobile-header-height;
     margin-bottom: -60px;
-    
-    @include desktop {
-      height: 200px;
-    }
 
     .compost-logo {
       position: absolute;
@@ -24,11 +20,6 @@
       top: 10px;
       transform: translateX(-50%);
       height: $mobile-logo-height;
-
-      @include desktop {
-        height: $desktop-logo-height;
-        top: 20px;
-      }
 
       img {
         height: 100%;
@@ -40,12 +31,6 @@
       margin-left: 10px;
       height: 40px;
 
-      @include desktop {
-        margin-top: 40px;
-        margin-left: 20px;
-        height: 73px;  
-      }
-
       img {
         height: 100%;
       }
@@ -56,12 +41,6 @@
       right: 22px;
       top: 3px;
       height: 60px;
-
-      @include desktop {
-        top: 20px;
-        right: 30px;
-        height: 103px;
-      }
 
       img {
         height: 100%;
