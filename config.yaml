@@ -1,6 +1,6 @@
 baseURL: ""
 languageCode: "en-us"
-title: "Compost"
+title: "COMPOST"
 relativeURLs: true
 params:
   webmonPaymentPointer: "$ilp.uphold.com/JriKiJXi72az"
