@@ -489,7 +489,11 @@ main {
 
     .goal-label {
       font-weight: bold;
-      padding-bottom: 4px;
+    }
+
+    .goal-description {
+      font-size: 16px;
+      padding: 8px;
     }
     
     .goal-bar {
