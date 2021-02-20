@@ -3,15 +3,27 @@
   <div class="piece-container main-column">
     {{ $author := index (where .Site.Data.people "name" .Params.author) 0 }}
 
+    {{ if isset .Params "titleimageurl" }}
+      <div class="piece-title-image">
+        <img src="{{ .Params.titleImageUrl | relURL }}">
+      </div>
+    {{ end }}
+
     <h1>{{.Params.title}}</h1>
 
     <div class="author-name">{{ $author.name }}</div>
 
     {{ .Content }}
 
-    <div class="gif-ending">
-      <img src="{{ "./images/angelica-gifs/mantis_computer.gif" | relURL }}">
-    </div>
+    {{ if isset .Params "endingimageurl" }}
+      <div class="gif-ending">
+        <img src="{{ .Params.endingImageUrl | relURL }}">
+      </div>
+    {{ else }}
+      <div class="gif-ending">
+        <img src="{{ "./images/angelica-gifs/mantis_computer.gif" | relURL }}">
+      </div>
+    {{ end }}
 
     <!-- <div class="bio-separator"></div> -->
     

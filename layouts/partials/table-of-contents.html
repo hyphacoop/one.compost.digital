@@ -39,7 +39,13 @@
       {{ range $pageName := $pieceSequence }}
           {{ $page := $.Site.GetPage $pageName }}
           <a href="{{$page.Permalink}}" class="toc-piece-tile">
-            <div class="toc-piece-image"></div>
+            <div class="toc-piece-image">
+              {{ if isset $page.Params "tableofcontentsimageurl" }}
+                <img src="{{ $page.Params.tableOfContentsImageUrl | relURL }}">
+              {{ else }}
+                <img src="{{ "./images/defaults/default-toc-image.png" | relURL }}">
+              {{ end }}
+            </div>
             <div class="toc-piece-title">{{$page.Title}}</div>
           </a>
       {{ end }}

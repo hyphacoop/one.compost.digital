@@ -123,8 +123,6 @@ a, a:visited, .link-style {
 }
 
 main {
-  // min-height: calc(100% - #{$mobile-header-height});
-  
   @include desktop {
     min-height: calc(100% - #{$desktop-header-height});
   }
@@ -233,7 +231,11 @@ main {
               width: 350px;
               height: 175px;
             }
-            background: #ddd;
+            
+            img {
+              width: 100%;
+              max-height: 100%;
+            }
           }
 
           .toc-piece-description {
@@ -267,6 +269,12 @@ main {
 
     &.has-footnotes {
       transform: translateX(-($footnote-column-width / 2));
+    }
+
+    .piece-title-image {
+      img {
+        height: 100px;
+      }
     }
 
     h1 {
