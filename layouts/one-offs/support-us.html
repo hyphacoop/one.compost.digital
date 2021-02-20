@@ -10,26 +10,27 @@
     </section>
     
     <section class="donation-callout support-us-section">
-      <h2>Contribute</h2>
+      <h2 id="contribute">Contribute</h2>
       <img src="{{ "./images/angelica-gifs/mushroom_net.gif" | relURL }}">
       <p>Like what we're doing? Support us with a tip!</p>
       <!-- <div class="donation-callout-content">Like what we're doing? Support us with a tip!</div> -->
       <div class="donation-buttons">
         <div class="button-row">
-          <a class="donation-button" href="https://opencollective.com/compost/contribute/backer-22573/checkout">Become a subscriber</a>
+          <a class="donation-button" href="https://opencollective.com/compost/contribute/backer-22573/checkout" target="_blank">Become a subscriber</a>
           <a class="donation-button" href="#web-monetization">Web Monetization</a>
         </div>
         <div class="button-row">
-          <a class="donation-button" href="https://opencollective.com/compost">Contribute money</a>
-          <a class="donation-button" href="https://gitcoin.co/grants/1385/compost">Contribute crypto</a>
+          <a class="donation-button" href="https://opencollective.com/compost" target="_blank">Contribute money</a>
+          <a class="donation-button" href="https://gitcoin.co/grants/1385/compost" target="_blank">Contribute crypto</a>
         </div>
       </div>  
     </section>
     
     <section class="support-us-section">
-      <h2>Digital Bake Sale</h2>
+      <h2 id="digital-bake-sale">Digital Bake Sale</h2>
       <img src="{{ "./images/angelica-gifs/map.gif" | relURL }}">
-      <p>Our magazine has <span style="font-weight: bold" amount-raised></span> in our bank account as of <span todays-date></span>. We hope to raise $30,000 by August 1st of 2021 ahead of our Issue Two launch. Contribute above to our digital bake sale :)</p>
+      <p>Our magazine has <span style="font-weight: bold" amount-raised></span> in our bank account as of <span todays-date></span>. We hope to raise $30,000 by August 1st of 2021 ahead of our Issue Two launch.</p>
+      <p><a class="donation-button" href="#contribute">Contribute above</a> to help us hit these fundraising targets for our digital bake sale :)</p>
       <div class="fundraising-goals">
         {{ $goals := index .Site.Data "fundraising-goals" }}
         {{ range $goal := $goals }}
