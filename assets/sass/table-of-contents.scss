@@ -53,14 +53,14 @@
 
     .mushroom {
       position: absolute;
-      right: 16px;
-      top: 15px;
-      height: 50px;
+      right: 22px;
+      top: 3px;
+      height: 60px;
 
       @include desktop {
-        top: 40px;
+        top: 20px;
         right: 30px;
-        height: 73px;  
+        height: 103px;
       }
 
       img {
