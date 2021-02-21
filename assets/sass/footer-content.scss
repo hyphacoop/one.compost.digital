@@ -14,9 +14,20 @@
 
   .footer-column {
     flex-basis: 10%;
-    padding: 20px;
+    margin-bottom: 30px;
     flex-shrink: 1;
     flex-grow: 1;
+
+    @include desktop {
+      margin-bottom: 40px;
+      padding: 0px 20px;
+    }
+
+    p {
+      &:first-child {
+        margin-top: 0px;
+      }
+    }
 
     &.bigger-column {
       flex-basis: 100%;
@@ -27,14 +38,14 @@
       }
     }
 
-    @include desktop {
-      margin-bottom: 40px;
-    }
-
     .footer-column-header {
       // font-size: 1rem;
       font-weight: bold;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
+
+      @include desktop {
+        margin-bottom: 20px;
+      }
     }
   }
 }

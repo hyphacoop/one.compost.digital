@@ -352,8 +352,12 @@ main {
   height: 140px;
   background-image: url('../images/COMPOST_Assets_Mushrooms.png');
   background-position: center;
-  background-size: contain;
+  background-size: 200%;
   background-repeat: repeat-x;
+
+  @media (min-width: 600px) {
+    background-size: contain;
+  }
 }
 
 .footer-container {
