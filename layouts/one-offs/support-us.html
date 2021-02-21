@@ -1,21 +1,10 @@
 {{ define "main" }}
 <div class="main-column support-us-page">
-
-  <div class="header-with-icon">
-    <h1>{{ .Page.Title }}</h1>
-  </div>
-
-  <section class="support-us-section">
-    <p>We are building towards a digital commons: publishing our work freely and stewarding tools for anyone to use.
-      It takes hard work that we all benefit from. If you like what we’re doing, consider supporting us.</p>
-  </section>
+  <h1 id="support-us">{{ .Page.Title }}</h1>
+  <p>We are building towards a digital commons: publishing our work freely and stewarding tools for anyone to use. It takes hard work that we all benefit from. If you like what we’re doing, consider supporting us with a tip!</p>
 
   <section class="donation-callout support-us-section">
     <img src="{{ "./images/angelica-gifs/mushroom_net.gif" | relURL }}">
-    <h2 id="contribute">Contribute</h2>
-
-    <p>Like what we're doing?</p>
-    <!-- <div class="donation-callout-content">Like what we're doing? Support us with a tip!</div> -->
     <div class="donation-buttons">
       <div class="button-row">
         <a class="donation-button" href="https://opencollective.com/compost/contribute/backer-22573/checkout"
@@ -35,7 +24,7 @@
     <p>We need your support to ensure the future sustainability of our magazine and <a href="https://distributed.press"
         target="_blank">Distributed Press</a>.</p>
     <p><span amount-raised></span> We hope to raise $30,000 by August 1st of 2021 and before launching Issue Two.</p>
-    <p><a class="donation-button" href="#contribute">Contribute</a> to help us hit our fundraising goals.</p>
+    <p><a class="donation-button" href="#support-us">Contribute</a> to help us hit our fundraising goals.</p>
     <div class="fundraising-goals">
       {{ $goals := index .Site.Data "fundraising-goals" }}
       {{ range $goal := $goals }}
