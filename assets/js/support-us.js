@@ -28,10 +28,11 @@ async function render() {
     goalInnard.style.width = `${newWidth}px`
   })
 
-  document.querySelector('[amount-raised]').innerText = `CAD ${readableBalance}`
-
-  let readableDate = new Date(balances.timestamp)
-  document.querySelector('[todays-date]').innerText = `${new Intl.DateTimeFormat('en-US', { dateStyle: 'full' }).format(readableDate)}`
+  let readableDate = new Intl.DateTimeFormat('en-US', { dateStyle: 'full' }).format(new Date(balances.timestamp))
+  
+  document.querySelector('[amount-raised]').appendChild(html`
+    <span>Our magazine has <span style="font-weight: bold">CAD ${readableBalance}</span> in our bank account as of ${readableDate}</span>
+  `)
 }
 
 render()
