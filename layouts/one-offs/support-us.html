@@ -1,79 +1,111 @@
 {{ define "main" }}
-  <div class="main-column support-us-page">
-    
-    <div class="header-with-icon">
-      <h1>{{ .Page.Title }}</h1>
+<div class="main-column support-us-page">
+
+  <div class="header-with-icon">
+    <h1>{{ .Page.Title }}</h1>
+  </div>
+
+  <section class="support-us-section">
+    <p>We are building towards a digital commons: publishing our work freely and stewarding tools for anyone to use.
+      It takes hard work that we all benefit from. If you like what we’re doing, consider supporting us.</p>
+  </section>
+
+  <section class="donation-callout support-us-section">
+    <img src="{{ "./images/angelica-gifs/mushroom_net.gif" | relURL }}">
+    <h2 id="contribute">Contribute</h2>
+
+    <p>Like what we're doing?</p>
+    <!-- <div class="donation-callout-content">Like what we're doing? Support us with a tip!</div> -->
+    <div class="donation-buttons">
+      <div class="button-row">
+        <a class="donation-button" href="https://opencollective.com/compost/contribute/backer-22573/checkout"
+          target="_blank">Become a subscriber</a>
+        <a class="donation-button" href="#web-monetization">Get Web Monetization</a>
+      </div>
+      <div class="button-row">
+        <a class="donation-button" href="https://opencollective.com/compost" target="_blank">Contribute money</a>
+        <a class="donation-button" href="https://gitcoin.co/grants/1385/compost" target="_blank">Contribute crypto</a>
+      </div>
     </div>
+  </section>
 
-    <section class="support-us-section">
-      <p>Paragraph about supporting us. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. In nibh mauris cursus mattis molestie. Volutpat sed cras ornare arcu. Elementum pulvinar etiam non quam lacus. Egestas purus viverra accumsan in. Massa id neque aliquam vestibulum morbi blandit. Vitae congue eu consequat ac felis. Nibh ipsum consequat nisl vel. Velit ut tortor pretium viverra suspendisse potenti nullam. Fermentum iaculis eu non diam phasellus vestibulum lorem sed. Mi sit amet mauris commodo quis. Molestie nunc non blandit massa.</p>
-    </section>
-
-    <section class="donation-callout support-us-section">
-      <img src="{{ "./images/angelica-gifs/mushroom_net.gif" | relURL }}">
-      <h2 id="contribute">Contribute</h2>
-      
-      <p>Like what we're doing? Support us with a tip!</p>
-      <!-- <div class="donation-callout-content">Like what we're doing? Support us with a tip!</div> -->
-      <div class="donation-buttons">
-        <div class="button-row">
-          <a class="donation-button" href="https://opencollective.com/compost/contribute/backer-22573/checkout" target="_blank">Become a subscriber</a>
-          <a class="donation-button" href="#web-monetization">Web Monetization</a>
+  <section class="support-us-section">
+    <img src="{{ "./images/angelica-gifs/map.gif" | relURL }}">
+    <h2 id="digital-bake-sale">Digital Bake Sale</h2>
+    <p>We need your support to ensure the future sustainability of our magazine and <a href="https://distributed.press"
+        target="_blank">Distributed Press</a>.</p>
+    <p>Our magazine has <span style="font-weight: bold" amount-raised></span> in our bank account as of <span
+        todays-date></span>. We hope to raise $30,000 by August 1st of 2021 and before launching Issue Two.</p>
+    <p><a class="donation-button" href="#contribute">Contribute</a> to help us hit our fundraising goals.</p>
+    <div class="fundraising-goals">
+      {{ $goals := index .Site.Data "fundraising-goals" }}
+      {{ range $goal := $goals }}
+      <div class="goal-container">
+        <div class="goal-bar">
+          <div class="goal-innards"></div>
+          <div class="goal-label">{{ $goal.label }}</div>
         </div>
-        <div class="button-row">
-          <a class="donation-button" href="https://opencollective.com/compost" target="_blank">Contribute money</a>
-          <a class="donation-button" href="https://gitcoin.co/grants/1385/compost" target="_blank">Contribute crypto</a>
-        </div>
+        <div class="goal-description"><strong>${{ $goal.amountCAD }}</strong> {{ $goal.description }}</div>
       </div>
-    </section>
+      {{ end }}
+    </div>
+    <p>Beyond these goals, additional funds will give all contributors, artists, and designers a $200 bonus and any
+      remaining funds will be used in the development of future COMPOST issues.</p>
+  </section>
 
-    <section class="support-us-section">
-      <img src="{{ "./images/angelica-gifs/map.gif" | relURL }}">
-      <h2 id="digital-bake-sale">Digital Bake Sale</h2>
-      <p>Our magazine has <span style="font-weight: bold" amount-raised></span> in our bank account as of <span todays-date></span>. We hope to raise $30,000 by August 1st of 2021 ahead of our Issue Two launch.</p>
-      <p><a class="donation-button" href="#contribute">Contribute above</a> to help us hit these fundraising targets for our digital bake sale :)</p>
-      <div class="fundraising-goals">
-        {{ $goals := index .Site.Data "fundraising-goals" }}
-        {{ range $goal := $goals }}
-        <div class="goal-container">
-          <div class="goal-bar">
-            <div class="goal-innards"></div>
-            <div class="goal-label">{{ $goal.label }}</div>
-          </div>
-          <div class="goal-description"><strong>${{ $goal.amountCAD }}</strong> {{ $goal.description }}</div>
-        </div>
-        {{ end }}
-      </div>
-      <p>Beyond these targets, additional funds will give all contributors, artists, and designers a $200 bonus and any remaining funds will be used in the development of future COMPOST issues.</p>
-    </section>
+  <section class="support-us-section">
+    <img src="{{ "./images/angelica-gifs/worm_computer.gif" | relURL }}">
+    <h2 id="web-monetization">Web Monetization</h2>
+    <p>Readers shouldn’t have to wade through intrusive ads or paywalls to read this magazine. We don’t want your data
+      nor do we want to restrict access to COMPOST. <a href="https://webmonetization.org/" target="_blank">Web
+        Monetization</a> is another way for
+      supporters like you to send us micropayments (fractions of a cent) as you view this website.</p>
+    <h3 id="how-does-it-work">How does it work?</h3>
+    <p>Web Monetization is an emerging standard for web browsers. At the moment, you need to download a
+      browser extension to make it work. We’ve found that getting a <a href="https://coil.com/signup"
+        target="_blank">Coil membership</a> is the easiest way to get started
+      with Web
+      Monetization. With a $5 monthly membership, you can also support hundreds of other Web Monetization websites like
+      <a href="https://cinnamon.video" target="_blank">Cinnamon</a>, <a href="https://gamedevjs.com/"
+        target="_blank">Gamedev.js</a>, and <a href="https://www.ladyspikemedia.com/" target="_blank">Ladyspike
+        Media</a>.</p>
+    <h3 id="setup-coil">Setup Coil</h3>
+    <ol>
+      <li>Visit <a href="https://coil.com/signup" target="_blank">https://coil.com/signup</a> and signup</li>
+      <li>Go to Settings and enter the "Membership" menu item.</li>
+      <li>Add your credit card and subscribe. It's $5 a month.</li>
+      <li>Download the extension for any browser of your choice.</li>
+    </ol>
+    <p>If everything works, you’ll see the web monetization mushroom (top right corner of the screen) animating with a
+      dollar sign, like this:</p>
+    <img src="{{ "./images/black-mushroom-webmon-active.gif" | relURL }}">
+  </section>
 
-    <section class="support-us-section">
-      <img src="{{ "./images/angelica-gifs/worm_computer.gif" | relURL }}">
-      <h2 id="web-monetization">Web Monetization</h2>
-      <p>Paragraph about Web Monetization. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. In nibh mauris cursus mattis molestie. Volutpat sed cras ornare arcu. Elementum pulvinar etiam non quam lacus. Egestas purus viverra accumsan in. Massa id neque aliquam vestibulum morbi blandit. Vitae congue eu consequat ac felis. Nibh ipsum consequat nisl vel. Velit ut tortor pretium viverra suspendisse potenti nullam. Fermentum iaculis eu non diam phasellus vestibulum lorem sed. Mi sit amet mauris commodo quis. Molestie nunc non blandit massa.</p>
-    </section>
-
-    <!-- <section>
+  <!-- <section>
       <h1>Issue 1 Finances</h1>
       <p>As of <span todays-date></span> COMPOST Issue 1 has raised:</p>
       <h2 amount-raised></h2>
       <img src="finances-pie.png">
     </section> -->
 
-    <!-- <section>
+  <!-- <section>
       <p>Help us keep our starship in orbit!</p>
     </section>
 
     <a href="{{.Site.Home.Permalink}}">Go Home</a> -->
-    
-  </div>
+
+</div>
 {{ end }}
 
 
 {{ define "scripts" }}
-  <script>
-    var goals = JSON.parse({{ (index .Site.Data "fundraising-goals") | jsonify }})
-  </script>
-  {{ $js := resources.Get "js/contribute.js" }}
-  <script src="{{ $js.Permalink }}"></script>
+<script>
+  var goals = JSON.parse({
+    {
+      (index.Site.Data "fundraising-goals") | jsonify
+    }
+  })
+</script>
+{{ $js := resources.Get "js/contribute.js" }}
+<script src="{{ $js.Permalink }}"></script>
 {{ end }}

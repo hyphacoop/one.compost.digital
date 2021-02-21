@@ -12,11 +12,12 @@
   }
 
   .footer-column {
-    margin-right: 80px;
+    flex: 1 0 40%;
+    // margin-right: 80px;
     margin-bottom: 40px;
 
     @include desktop {
-      margin-bottom: 0px;
+      // margin-bottom: 0px;
     }
 
     .footer-column-header {
