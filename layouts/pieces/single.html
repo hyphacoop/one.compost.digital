@@ -35,7 +35,7 @@
     <div class="footnotes-container"></div>
     <!-- See baseof.html for mobile-footnotes-container -->
 
-    {{ if isset .Params "footnotesurl" }}
+    {{ if isset .Params "footnotesUrl" }}
       <script>
         var footnotes = JSON.parse({{ (.Resources.GetMatch .Params.footnotesUrl).Content }})
       </script>
