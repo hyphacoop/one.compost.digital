@@ -4,6 +4,10 @@ title: Compost Issue One
 
 <!-- See layouts/index.html -->
 
-# Compost Magazine
+# FERTILE GROUNDS
 
-Not to be confused with composting. Compost is made by decomposing organic materials into simpler organic and inorganic compounds in a process called composting. This process recycles various organic materials otherwise regarded as waste products. A good compost is rich in plant nutrients and beneficial organisms.
+`ISSUE ONE`
+
+Even as existing digital infrastructure fails to embolden truth or bring people together, we are hopeful. In _Fertile Grounds_ we explore how our decaying web can help new networks flourish.
+
+This debut issue of COMPOST magazine features writing and art about technologies, protocols, and communities that enable authentic and trustful connections.
