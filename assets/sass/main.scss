@@ -2,15 +2,15 @@
 
 $mobile-header-height: 160px;
 $mobile-logo-height: 60px;
+$desktop-homepage-width: 1200px;
 $desktop-column-width: 780px;
 $footnote-column-width: 220px;
 $compost-green: #336633;
 $link-color: $compost-green;
 $title-sans-serif: 'Open Sans', sans-serif;
-$desktop-width: $desktop-column-width;
 
 @mixin desktop {
-  @media (min-width: #{$desktop-width}) {
+  @media (min-width: #{$desktop-homepage-width}) {
     @content;
   }
 }
@@ -65,6 +65,12 @@ a, a:visited, .link-style {
 
   .header-top {
     display: flex;
+
+    @include desktop {
+      margin: 0px auto;
+      position: relative;
+      width: $desktop-homepage-width;
+    }
 
     .compost-logo {
       position: absolute;
@@ -127,7 +133,8 @@ main {
 
       @include desktop {
         margin: 0px auto;
-        width: 1000px;
+        // width: 1000px;
+        width: $desktop-homepage-width;
         height: calc(100vh - #{$mobile-header-height});
         flex-direction: row;
       }
@@ -146,6 +153,7 @@ main {
           @include desktop {
             height: 100%;
             width: auto;
+            border: 1px solid $compost-green;
           }
         }
       }
@@ -167,92 +175,82 @@ main {
       padding: 0px 20px;
       width: 100%;
       box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
 
       @include desktop {
-        width: $desktop-column-width;
+        width: $desktop-homepage-width;
         margin-top: 40px;
         padding: 0px;
       }
 
-      .toc-piece-tile-row {
-        position: relative;
-        display: flex;
+      .squiggles {
+        position: absolute;
+        opacity: 0.05;
+        right: -300px;
+        width: 600px;
+        z-index: -1;
+      }
 
-        .squiggles {
-          position: absolute;
-          opacity: 0.05;
-          right: -300px;
-          width: 600px;
-          z-index: -1;
+      .toc-piece-tile {
+        margin-bottom: 20px;
+        color: black;
+
+        @include desktop {
+          margin-bottom: 40px;
         }
 
-        &:nth-child(2n) {
-          justify-content: flex-end;
-
-          .squiggles {
-            left: -300px;
-          }
-        }
-
-        .toc-piece-tile {
-          margin-bottom: 20px;
-          color: black;
+        .toc-piece-title {
+          width: 350px;
+          margin-top: 8px;
+          margin-bottom: 6px;
+          @include title-style;
+          font-weight: bold;
+          font-size: 1.4em;
 
           @include desktop {
-            margin-bottom: 40px;
+            font-size: 1.2em;
+            margin-bottom: 14px;
+          }
+        }
+
+        .toc-piece-author {
+          @include title-style;
+          letter-spacing: 0.2em;
+          margin-bottom: 12px;
+
+          @include desktop {
+            font-size: 0.8em;
+            margin-bottom: 20px;  
+          }
+        }
+
+        .toc-piece-image {
+          width: 100%;
+          margin-bottom: 12px;
+
+          @include desktop {
+            margin-bottom: 20px;
           }
 
-          .toc-piece-title {
+          @media (min-width: 370px) {
             width: 350px;
-            margin-top: 8px;
-            margin-bottom: 6px;
-            @include title-style;
-            font-weight: bold;
-            font-size: 1.4em;
-
-            @include desktop {
-              font-size: 1.2em;
-              margin-bottom: 14px;
-            }
+            height: 175px;
           }
-
-          .toc-piece-author {
-            @include title-style;
-            letter-spacing: 0.2em;
-            margin-bottom: 12px;
-
-            @include desktop {
-              font-size: 0.8em;
-              margin-bottom: 20px;  
-            }
-          }
-
-          .toc-piece-image {
+          
+          img {
             width: 100%;
-            margin-bottom: 12px;
-
-            @include desktop {
-              margin-bottom: 20px;
-            }
-
-            @media (min-width: 370px) {
-              width: 350px;
-              height: 175px;
-            }
-            
-            img {
-              width: 100%;
-              max-height: 100%;
-            }
+            max-height: 100%;
           }
+        }
 
-          .toc-piece-description {
-            @include desktop {
-              font-size: 0.8em;
-            }
-            @media (min-width: 370px) {
-              width: 350px;
-            }
+        .toc-piece-description {
+          @include desktop {
+            font-size: 0.8em;
+          }
+          @media (min-width: 370px) {
+            width: 350px;
           }
         }
       }
@@ -351,17 +349,11 @@ main {
 .mushrooms-container {
   margin: 0px auto;
   width: 100%;
-
-  // Bring the mushrooms closer to the footer
-  margin-bottom: -40px;
-  
-  @media (min-width: 1920px) {
-    max-width: 1920px;  
-  }
-
-  img {
-    width: 100%;
-  }
+  height: 140px;
+  background-image: url('../images/COMPOST_Assets_Mushrooms.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat-x;
 }
 
 .footer-container {
@@ -384,7 +376,7 @@ main {
   padding-top: 40px;
 
   @include desktop {
-    padding-top: 190px;
+    padding-top: 150px;
     height: 500px;
   }
 }

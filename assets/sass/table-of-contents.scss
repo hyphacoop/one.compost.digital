@@ -14,6 +14,12 @@
     height: $mobile-header-height;
     margin-bottom: -60px;
 
+    @include desktop {
+      position: relative;
+      width: $desktop-homepage-width;
+      margin: 0px auto;
+    }
+
     .compost-logo {
       position: absolute;
       left: 50%;
@@ -49,7 +55,7 @@
   }
 
   .toc-body {
-    max-width: 1200px;
+    max-width: $desktop-homepage-width;
     margin: 0px auto;
     
     .toc-nav-container {

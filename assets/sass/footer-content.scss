@@ -5,19 +5,30 @@
   display: flex;
   flex-wrap: wrap;
   font-family: $title-sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.8em;
 
   @include desktop {
-    width: auto;
+    width: $desktop-homepage-width;
+    flex-wrap: nowrap;
   }
 
   .footer-column {
-    flex: 1 0 40%;
-    // margin-right: 80px;
-    margin-bottom: 40px;
+    flex-basis: 10%;
+    padding: 20px;
+    flex-shrink: 1;
+    flex-grow: 1;
+
+    &.bigger-column {
+      flex-basis: 100%;
+      flex-grow: 2;
+
+      @include desktop {
+        flex-basis: 25%;
+      }
+    }
 
     @include desktop {
-      // margin-bottom: 0px;
+      margin-bottom: 40px;
     }
 
     .footer-column-header {
