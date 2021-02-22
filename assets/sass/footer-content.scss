@@ -5,8 +5,7 @@
   display: flex;
   flex-wrap: wrap;
   font-family: $title-sans-serif;
-  font-size: 0.7em;
-  line-height: 1.4em;
+  font-size: 0.8em;
 
   @include desktop {
     width: $desktop-homepage-width;

@@ -1,7 +1,7 @@
 @import './fonts.scss';
 
-$mobile-header-height: 260px;
-$mobile-logo-height: 100px;
+$mobile-header-height: 160px;
+$mobile-logo-height: 60px;
 $desktop-homepage-width: 1200px;
 $desktop-column-width: 780px;
 $footnote-column-width: 220px;
@@ -25,8 +25,7 @@ html, body {
   margin: 0px;
   width: 100%;
   height: 100%;
-  font-size: 18px;
-  line-height: 1.5em;
+  font-size: 16px;
   font-family: 'Source Serif Pro', serif;
 
   &.no-scroll {
@@ -34,7 +33,7 @@ html, body {
   }
 
   @include desktop {
-    font-size: 21px;
+    font-size: 22px;
   }
 }
 
@@ -86,9 +85,9 @@ a, a:visited, .link-style {
     }
 
     .hamburger-worm {
-      margin-top: 28px;
+      margin-top: 20px;
       margin-left: 10px;
-      height: 50px;
+      height: 40px;
 
       img {
         height: 100%;
@@ -99,7 +98,7 @@ a, a:visited, .link-style {
       position: absolute;
       right: 22px;
       top: 3px;
-      height: 90px;
+      height: 60px;
 
       img {
         height: 100%;
@@ -270,10 +269,6 @@ main {
       width: $desktop-column-width;
       margin: 0px auto;
     }
-
-    a, a:visited, .link-style {
-      text-decoration: underline;
-    }
   }
 
   .piece-container, .main-column {
@@ -290,14 +285,13 @@ main {
 
     h1 {
       @include title-style;
-      margin-bottom: 1.0em;
+      margin-bottom: 0.3em;
     }
 
     h2 {
       @include title-style;
       font-weight: 400;
-      font-size: 1.2em;
-      margin-top: 2.0em;
+      font-size: 1.3em;
     }
 
     .author-name {
@@ -460,7 +454,6 @@ main {
         font-family: $title-sans-serif;
         border-radius: 6px;
         color: white;
-        text-decoration: none;
         text-transform: uppercase;
         cursor: pointer;
         flex-grow: 0;
