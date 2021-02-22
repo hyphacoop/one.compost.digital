@@ -27,7 +27,7 @@
 
     <!-- <div class="bio-separator"></div> -->
     
-    <div class="bio">{{ $author.bio | markdownify }}</div>
+    <div class="bio"><p>{{ $author.bio | markdownify }}</p></div>
 
     {{ partial "prev-and-next-buttons.html" . }}
 

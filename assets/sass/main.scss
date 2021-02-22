@@ -1,7 +1,9 @@
 @import './fonts.scss';
 
 $mobile-header-height: 160px;
+$desktop-header-height: 170px;
 $mobile-logo-height: 60px;
+$desktop-logo-height: 70px;
 $desktop-homepage-width: 1200px;
 $desktop-column-width: 780px;
 $footnote-column-width: 220px;
@@ -25,21 +27,28 @@ html, body {
   margin: 0px;
   width: 100%;
   height: 100%;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Source Serif Pro', serif;
+
+  p, li {
+    line-height: 1.4em;
+  }
 
   &.no-scroll {
     overflow: hidden;
   }
 
   @include desktop {
-    font-size: 22px;
+    font-size: 21px;
+    
+    p, li {
+      line-height: 1.5em;
+    }
   }
 }
 
 a, a:visited, .link-style {
   cursor: pointer;
-  text-decoration: none;
   color: $link-color;
 
   &:hover {
@@ -61,6 +70,7 @@ a, a:visited, .link-style {
 
   @include desktop {
     margin-bottom: 0px;
+    height: $desktop-header-height;
   }
 
   .header-top {
@@ -79,6 +89,10 @@ a, a:visited, .link-style {
       transform: translateX(-50%);
       height: $mobile-logo-height;
 
+      @include desktop {
+        height: $desktop-logo-height;
+      }
+
       img {
         height: 100%;
       }
@@ -88,6 +102,10 @@ a, a:visited, .link-style {
       margin-top: 20px;
       margin-left: 10px;
       height: 40px;
+
+      @include desktop {
+        margin-top: 25px;
+      }
 
       img {
         height: 100%;
@@ -99,6 +117,10 @@ a, a:visited, .link-style {
       right: 22px;
       top: 3px;
       height: 60px;
+
+      @include desktop {
+        top: 8px;
+      }
 
       img {
         height: 100%;
@@ -196,6 +218,7 @@ main {
       .toc-piece-tile {
         margin-bottom: 20px;
         color: black;
+        text-decoration: none;
 
         @include desktop {
           margin-bottom: 40px;
@@ -292,6 +315,7 @@ main {
       @include title-style;
       font-weight: 400;
       font-size: 1.3em;
+      margin-top: 2.0em;
     }
 
     .author-name {
@@ -468,6 +492,7 @@ main {
         box-sizing: border-box;
         height: 63px;
         width: 50%;
+        text-decoration: none;
 
         // @include desktop {
         //   width: 160px;

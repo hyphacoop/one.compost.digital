@@ -1,8 +1,12 @@
 .prev-and-next-buttons {
-  margin-top: 40px;
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @include desktop {
+    margin-top: 40px;
+  }
 
   a {
     margin: 0px 10px;
