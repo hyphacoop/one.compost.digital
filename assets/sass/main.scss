@@ -12,6 +12,12 @@ $link-color: $compost-green;
 $title-sans-serif: 'Open Sans', sans-serif;
 
 @mixin desktop {
+  @media (min-width: #{$desktop-column-width}) {
+    @content;
+  }
+}
+
+@mixin homepage-desktop {
   @media (min-width: #{$desktop-homepage-width}) {
     @content;
   }
@@ -68,7 +74,7 @@ a, a:visited, .link-style {
   background-size: auto 100%;
   margin-bottom: -40px;
 
-  @include desktop {
+  @include homepage-desktop {
     margin-bottom: 0px;
     height: $desktop-header-height;
   }
@@ -76,7 +82,7 @@ a, a:visited, .link-style {
   .header-top {
     display: flex;
 
-    @include desktop {
+    @include homepage-desktop {
       margin: 0px auto;
       position: relative;
       width: $desktop-homepage-width;
@@ -89,7 +95,7 @@ a, a:visited, .link-style {
       transform: translateX(-50%);
       height: $mobile-logo-height;
 
-      @include desktop {
+      @include homepage-desktop {
         height: $desktop-logo-height;
       }
 
@@ -103,7 +109,7 @@ a, a:visited, .link-style {
       margin-left: 10px;
       height: 40px;
 
-      @include desktop {
+      @include homepage-desktop {
         margin-top: 25px;
       }
 
@@ -118,7 +124,7 @@ a, a:visited, .link-style {
       top: 3px;
       height: 60px;
 
-      @include desktop {
+      @include homepage-desktop {
         top: 8px;
       }
 
@@ -153,7 +159,7 @@ main {
       flex-direction: column;
       align-items: center;
 
-      @include desktop {
+      @include homepage-desktop {
         margin: 0px auto;
         // width: 1000px;
         width: $desktop-homepage-width;
@@ -164,7 +170,7 @@ main {
       .cover-image-container {
         width: 100%;
 
-        @include desktop {
+        @include homepage-desktop {
           height: 80%;
           width: auto;
         }
@@ -172,7 +178,7 @@ main {
         img {
           width: 100%;
           
-          @include desktop {
+          @include homepage-desktop {
             height: 100%;
             width: auto;
             border: 1px solid $compost-green;
@@ -184,7 +190,7 @@ main {
         font-family: $title-sans-serif;
         padding: 0px 20px;
 
-        @include desktop {
+        @include homepage-desktop {
           margin-left: 80px;
           padding: 0px;
         }
@@ -201,7 +207,7 @@ main {
       flex-wrap: wrap;
       justify-content: space-around;
 
-      @include desktop {
+      @include homepage-desktop {
         width: $desktop-homepage-width;
         margin-top: 40px;
         padding: 0px;
@@ -220,7 +226,7 @@ main {
         color: black;
         text-decoration: none;
 
-        @include desktop {
+        @include homepage-desktop {
           margin-bottom: 40px;
         }
 
@@ -232,7 +238,7 @@ main {
           font-weight: bold;
           font-size: 1.4em;
 
-          @include desktop {
+          @include homepage-desktop {
             font-size: 1.2em;
             margin-bottom: 14px;
           }
@@ -243,7 +249,7 @@ main {
           letter-spacing: 0.2em;
           margin-bottom: 12px;
 
-          @include desktop {
+          @include homepage-desktop {
             font-size: 0.8em;
             margin-bottom: 20px;  
           }
@@ -253,7 +259,7 @@ main {
           width: 100%;
           margin-bottom: 12px;
 
-          @include desktop {
+          @include homepage-desktop {
             margin-bottom: 20px;
           }
 
@@ -269,7 +275,7 @@ main {
         }
 
         .toc-piece-description {
-          @include desktop {
+          @include homepage-desktop {
             font-size: 0.8em;
           }
           @media (min-width: 370px) {

@@ -14,7 +14,7 @@
     border-bottom: 1px solid;
     margin-bottom: 20px;
 
-    @include desktop {
+    @include homepage-desktop {
       margin-bottom: 40px;
       height: 90px;
     }
@@ -22,7 +22,7 @@
     .header-top {
       display: flex;  
       
-      @include desktop {
+      @include homepage-desktop {
         position: relative;
         width: $desktop-homepage-width;
         margin: 0px auto;
@@ -35,7 +35,7 @@
         transform: translateX(-50%);
         height: $mobile-logo-height;
 
-        @include desktop {
+        @include homepage-desktop {
           height: $desktop-logo-height;
         }
 
@@ -49,7 +49,7 @@
         margin-left: 10px;
         height: 40px;
 
-        @include desktop {
+        @include homepage-desktop {
           margin-top: 25px;
         }
 
@@ -64,7 +64,7 @@
         top: 3px;
         height: 60px;
 
-        @include desktop {
+        @include homepage-desktop {
           top: 8px;
         }
 
