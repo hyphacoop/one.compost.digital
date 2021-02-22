@@ -1,0 +1,198 @@
+$desktop-shafali-width: 1000px;
+$sketch-text-border-width: 2px;
+
+.shafali-container {
+  width: 100%;
+
+  @include desktop {
+    width: $desktop-shafali-width;
+    margin: 0px auto;
+  }
+  
+  iframe {
+    border: none;
+  }
+
+  .sketches-column {
+    padding: 0px 20px;
+    width: 100%;
+    box-sizing: border-box;
+
+    @include desktop {
+      padding: 0px;
+      width: $desktop-shafali-width;
+    }
+
+    .shafali-row {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      
+      @include desktop {
+        flex-direction: row;
+        height: 500px;
+        width: auto;
+      }
+
+      .sketch {
+        position: relative;
+        flex-shrink: 0;
+        width: 100%;
+
+        @include desktop {
+          width: 500px;
+          height: 500px;
+        }
+        iframe {
+          width: 100%;
+        }
+      }
+
+      .sketch-text {
+        white-space: pre;
+        font-family: $title-sans-serif;
+        font-size: 0.8em;
+        margin: 20px 0px;
+        
+        @include desktop {
+          position: absolute;
+          font-size: 0.6em;    
+        }
+      }
+
+      .shafali-big-text {
+        flex-grow: 1;
+        font-family: $title-sans-serif;
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: 32px;
+      }
+
+      .biases-sketch {
+        .sketch-text {
+          border-top: $sketch-text-border-width solid;
+          padding-top: 1.0em;
+
+          @include desktop {
+            bottom: 0px;
+            right: 20px;
+            transform: translate(100%, -100%);
+          }
+        }
+      }
+
+      .biases-text {
+        order: -1;
+
+        @include desktop {
+          order: initial;
+          padding-top: 60px;
+          padding-left: 40px;
+        }
+      }
+
+      .material-sketch {
+        @include desktop {
+          transform: translateY(250px);
+        }
+
+        .sketch-text {
+          border-left: $sketch-text-border-width solid;
+          padding-left: 1.0em;
+
+          @include desktop {
+            top: 0px;
+            padding-bottom: 2.0em;
+            transform: translate(0, -100%);
+          }
+        }
+      }
+
+      .creator-sketch {
+        iframe {
+          border: 1px solid;
+        }
+
+        .sketch-text {
+          border-left: $sketch-text-border-width solid;
+          padding-left: 1.0em;
+
+          @include desktop {
+            padding-top: 2.0em;
+            padding-bottom: 2.0em;
+            left: 50%;
+            transform: translate(0, -20px);
+          }
+        }
+      }
+
+      &.material-creator {
+        @include desktop {
+          margin-bottom: 500px;
+        }
+      }
+
+      .literacy-sketch {
+        iframe {
+          border: 1px solid;
+        }
+
+        .sketch-text {
+          border-left: $sketch-text-border-width solid;
+          padding-left: 1.0em;
+          @include desktop {
+            right: -20px;
+            bottom: 0px;
+            transform: translate(100%, -100%);
+            padding-top: 1.0em;
+            padding-bottom: 1.0em;
+          }
+        }
+      }
+
+      .respect-sketch {
+        .sketch-text {
+          border-bottom: $sketch-text-border-width solid;
+          padding-bottom: 1.0em;
+          
+          @include desktop {
+            top: 0px;
+            left: 0px;
+            transform: translate(-100%, 100%);
+            padding-left: 2.0em;
+          }
+        }
+
+        @include desktop {
+          transform: translate(80px, -200px);
+        }
+      }
+
+      &.literacy-respect {
+        @include desktop {
+          margin-bottom: 150px;
+        }
+      }
+
+      .intergenerational-sketch {
+        .sketch-text {
+          text-align: right;
+          border-right: $sketch-text-border-width solid;
+          padding-right: 1.0em;
+          
+          @include desktop {
+            right: 0px;
+          }
+        }
+        
+        @include desktop {
+          transform: translateY(-150px);
+        }
+      }
+
+      .intergenerational-text {
+
+      }
+    }
+  }
+}

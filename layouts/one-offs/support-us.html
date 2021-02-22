@@ -80,11 +80,7 @@
 
 {{ define "scripts" }}
 <script>
-  var goals = JSON.parse({
-    {
-      (index.Site.Data "fundraising-goals") | jsonify
-    }
-  })
+  var goals = JSON.parse({{ (index .Site.Data "fundraising-goals") | jsonify }})
 </script>
 {{ $js := resources.Get "js/support-us.js" }}
 <script src="{{ $js.Permalink }}"></script>
