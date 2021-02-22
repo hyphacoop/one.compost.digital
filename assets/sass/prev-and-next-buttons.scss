@@ -10,10 +10,18 @@
 
   .arrow-icon {
     height: 35px;
+
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 
   .home-icon {
     height: 80px;
     margin-top: -20px;
+
+    &:hover {
+      transform: rotate(5deg) scale(1.2);
+    }
   }
 }
