@@ -2,7 +2,7 @@
 title: Seeding the Wild
 author: Magma Collective
 description: In which seeds are strewn into small spaces, while blindfolded, and holding three apricots between two butt cheeks.
-tableOfContentsImageUrl: ./images/angelica-gifs/magma-collective-700x350.png
+tableOfContentsImageUrl: ./images/title-images/magma-collective-700x350.png
 titleImageUrl: ./images/title-images/magma-collective-700x350.png
 endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
 ---
