@@ -27,7 +27,7 @@ function renderFootnotes() {
 
   if (isDesktop()) {
     // Move the page body a little bit to the left to center the footnotes sidebar
-    document.querySelector('.piece-container').classList.add('has-footnotes')
+    // document.querySelector('.piece-container').classList.add('has-footnotes')
     
     // Render the footnotes in the sidebar
     let footnoteContainerEl = document.querySelector('.footnotes-container')
@@ -81,7 +81,7 @@ function renderMobileFootnote() {
     `
     mobileFootnotesContainer.innerHTML = ''
     mobileFootnotesContainer.appendChild(footnoteEl)
-    mobileFootnotesContainer.style['max-height'] = footnoteEl.offsetHeight + 'px'
+    mobileFootnotesContainer.style['max-height'] = Math.min(400, footnoteEl.offsetHeight + 2) + 'px'
     // mobileFootnotesContainer.classList.add('open')
   } else {
     mobileFootnotesContainer.style['max-height'] = '0px'
