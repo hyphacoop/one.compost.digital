@@ -21,23 +21,26 @@ We treat each issue of COMPOST as a lab. During the development of an issue, COM
 
 We want creators to have more control over the means of digital publishing. We do this by building tools and testing approaches that support alternative publications.
 
-Our sister project {{< rawhtml >}}<a href="https://distributed.press" target="_blank">Distributed Press</a>{{< /rawhtml >}} is an open-source publishing tool that allows COMPOST magazine to publish to web and {{< rawhtml >}}<a href="https://getdweb.net" target="_blank">DWeb</a>{{< /rawhtml >}} ecosystems including {{< rawhtml >}}<a href="https://hypercore-protocol.org" target="_blank">Hypercore</a>{{< /rawhtml >}} and the {{< rawhtml >}}<a href="https://ipfs.io" target="_blank">Interplanetary File System</a>{{< /rawhtml >}}, with plans to support plaintext-based distributed social networks like {{< rawhtml >}}<a href="https://scuttlebutt.nz" target="_blank">Secure Scuttlebutt</a>{{< /rawhtml >}} in the near future. You can learn more about how we approach COMPOST and Distributed Press on our {{< rawhtml >}}<a href="https://github.com/hyphacoop/distributed-press-organizing/wiki/About-COMPOST-and-Distributed-Press/" target="_blank">Wiki</a>{{< /rawhtml >}}.
+Our magazine is published using the {{< rawhtml >}}<a href="https://distributed.press" target="_blank">Distributed Press</a>{{< /rawhtml >}}, a sister project of COMPOST.
+It is an open-source publishing tool for publishing to web and {{< rawhtml >}}<a href="https://getdweb.net" target="_blank">DWeb</a>{{< /rawhtml >}} ecosystems including the {{< rawhtml >}}<a href="https://ipfs.io" target="_blank">Interplanetary File System</a>{{< /rawhtml >}} and {{< rawhtml >}}<a href="https://hypercore-protocol.org" target="_blank">Hypercore</a>{{< /rawhtml >}}. We are also working on support for distributed social networks like {{< rawhtml >}}<a href="https://scuttlebutt.nz" target="_blank">Scuttlebutt</a>{{< /rawhtml >}} and {{< rawhtml >}}<a href="https://aether.app" target="_blank">Aether</a>{{< /rawhtml >}} that rely on plaintext-based messages. You can learn more about how we approach COMPOST and Distributed Press on our {{< rawhtml >}}<a href="https://github.com/hyphacoop/distributed-press-organizing/wiki/About-COMPOST-and-Distributed-Press/" target="_blank">Wiki</a>{{< /rawhtml >}}.
+
+In order to find us on the DWeb, you will need a compatible browser. For example, you can view COMPOST by typing `ipns://one.compost.digital` into the address bar of the {{< rawhtml >}}<a href="https://brave.com" target="_blank">Brave Browser</a>{{< /rawhtml >}} (desktop) or {{< rawhtml >}}<a href="https://www.opera.com/mobile" target="_blank">Opera Browser</a>{{< /rawhtml >}} (mobile). You can also use the {{< rawhtml >}}<a href="https://github.com/AgregoreWeb/agregore-browser" target="_blank">Agregore Browser</a>{{< /rawhtml >}} to view COMPOST at both `ipns://one.compost.digital` and `hyper://one.compost.digital`. Give it a try!
 
 ## Masthead
 
 ### Issue One Contributors
 
-AC Gillette, Angelica Blevins, Annie Howard, Jennifer Seaman Cook, Maggie Oates, magma collective, Micah Alex, Shafali Jain, Tal Milovina, Zach Mandeville
+AC Gillette, Angelica Blevins, Annie Howard, Maggie Oates, magma collective, Micah Alex, Shafali Jain, Tal Milovina, Zach Mandeville
 
 ### Editorial
 
-**Lead Editor:** Mai Ishikawa Sutton  
+**Lead Editor:** Mai Ishikawa Sutton
 **Editors:** Udit Vira, Benedict Lau
 
-### Publishing Tools
+### Technical
 
-Benedict Lau, Benny Lichtner, Yurko Jaremko, Elon Li, Udit Vira
+Benedict Lau, Benny Lichtner, Elon Li, Udit Vira, Yurko Jaremko
 
 ### Creative
 
-Hanami Sutton, Jasmine Ou, Benny Lichtner
+Hanami Sutton (Made By Super), Jasmine Ou
