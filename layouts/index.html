@@ -1,32 +1,39 @@
 {{ define "main" }}
   <div class="home-container">
     
-    <div class="above-the-fold">
-      <div class="cover-image-container">
-        <img src="{{ "images/Compost_issue01_draftv4.jpg" | relURL }}">
-      </div>
-      <div class="compost-description">
-        {{ .Content }}
+    <div class="above-the-fold-container">
+      <div class="above-the-fold-content">
+        <div class="cover-image-container">
+          <img src="{{ "images/Compost_issue01_draftv4.jpg" | relURL }}">
+        </div>
+        <div class="compost-description">
+          {{ .Content }}
+        </div>
+        <div class="gap-worm">
+          <img src="{{ "./images/COMPOST_Assets_SNKhmbrgr_BLK.png" | relURL }}">
+        </div>
       </div>
     </div>
     
-    <div class="home-toc-pieces">
-      {{ $pieceSequence := index .Site.Data "piece-sequence" }}
-      {{ range $pageName := $pieceSequence }}
-        {{ $page := $.Site.GetPage $pageName }}
-        <a class="toc-piece-tile" href="{{$page.Permalink}}">
-          <div class="toc-piece-image">
-            {{ if isset $page.Params "tableofcontentsimageurl" }}
-              <img src="{{ $page.Params.tableOfContentsImageUrl | relURL }}">
-            {{ else }}
-              <img src="{{ "./images/defaults/default-toc-image.png" | relURL }}">
-            {{ end }}
-          </div>
-          <div class="toc-piece-title">{{$page.Title}}</div>
-          <div class="toc-piece-author">{{$page.Params.author}}</div>
-          <div class="toc-piece-description">{{$page.Params.description}}</div>
-        </a>
-      {{ end }}
+    <div class="home-toc-pieces-container">
+      <div class="home-toc-pieces-content">
+        {{ $pieceSequence := index .Site.Data "piece-sequence" }}
+        {{ range $pageName := $pieceSequence }}
+          {{ $page := $.Site.GetPage $pageName }}
+          <a class="toc-piece-tile" href="{{$page.Permalink}}">
+            <div class="toc-piece-image">
+              {{ if isset $page.Params "tableofcontentsimageurl" }}
+                <img src="{{ $page.Params.tableOfContentsImageUrl | relURL }}">
+              {{ else }}
+                <img src="{{ "./images/defaults/default-toc-image.png" | relURL }}">
+              {{ end }}
+            </div>
+            <div class="toc-piece-title">{{$page.Title}}</div>
+            <div class="toc-piece-author">{{$page.Params.author}}</div>
+            <div class="toc-piece-description">{{$page.Params.description}}</div>
+          </a>
+        {{ end }}
+      </div>
     </div>
     
   </div>

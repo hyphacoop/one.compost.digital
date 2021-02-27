@@ -7,6 +7,7 @@
   bottom: 0px;
   overflow-y: auto;
   background: white;
+  z-index: $toc-z-index;
 
   .toc-header {
     background: white;
@@ -16,7 +17,7 @@
 
     @include homepage-desktop {
       margin-bottom: 40px;
-      height: 90px;
+      height: calc(#{$desktop-logo-height} + 20px);
     }
 
     .header-top {
@@ -50,6 +51,7 @@
         height: 40px;
 
         @include homepage-desktop {
+          height: 50px;
           margin-top: 25px;
         }
 
@@ -65,6 +67,7 @@
         height: 60px;
 
         @include homepage-desktop {
+          height: 70px;
           top: 8px;
         }
 
@@ -137,9 +140,14 @@
     .toc-pieces {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-around;
       margin-top: 40px;
       padding: 0px 20px;
+
+      &::after {
+        content: "";
+        flex-basis: 350px;
+      }
 
       @include desktop {
         padding: 0px;
@@ -147,8 +155,6 @@
 
       .toc-piece-tile {
         margin-bottom: 40px;
-        margin-left: 20px;
-        margin-right: 20px;
         color: black;
         text-decoration: none;
 

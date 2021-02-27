@@ -1,15 +1,18 @@
 @import './fonts.scss';
 
 $mobile-header-height: 160px;
-$desktop-header-height: 170px;
+$desktop-header-height: 190px;
 $mobile-logo-height: 60px;
-$desktop-logo-height: 70px;
+$desktop-logo-height: 80px;
 $desktop-homepage-width: 1200px;
 $desktop-column-width: 780px;
 $footnote-column-width: 220px;
 $compost-green: #336633;
 $link-color: $compost-green;
 $title-sans-serif: 'Open Sans', sans-serif;
+
+$header-z-index: 10;
+$toc-z-index: 20;
 
 @mixin desktop {
   @media (min-width: #{$desktop-column-width}) {
@@ -56,23 +59,24 @@ html, body {
 a, a:visited, .link-style {
   cursor: pointer;
   color: $link-color;
+  text-underline-offset: 0.1em;
 
   &:hover {
     color: black;
   }
 }
 
-
 .main-header {
+  position: absolute;
+  width: 100%;
   height: $mobile-header-height;
   box-sizing: border-box;
   padding: 0px 12px;
-  font-weight: bold;
-  font-family: sans-serif;
   background-image: url('../images/COMPOST_Assets_Header4.png');
   background-position: center bottom;
   background-size: auto 100%;
   margin-bottom: -40px;
+  z-index: $header-z-index;
 
   @include homepage-desktop {
     margin-bottom: 0px;
@@ -110,6 +114,7 @@ a, a:visited, .link-style {
       height: 40px;
 
       @include homepage-desktop {
+        height: 50px;
         margin-top: 25px;
       }
 
@@ -125,6 +130,7 @@ a, a:visited, .link-style {
       height: 60px;
 
       @include homepage-desktop {
+        height: 70px;
         top: 8px;
       }
 
@@ -140,10 +146,6 @@ main {
     min-height: calc(100% - #{$mobile-header-height});
   }
 
-  /* The home container and the images inside (cover, mushrooms, footer) have width 100%.
-     If the viewport gets bigger than our cover image size, then we set the
-     max-width to the width of the cover image, and center everything. */
-
   .home-container {
     margin: 0px auto;
     width: 100%;
@@ -153,133 +155,169 @@ main {
       max-width: 1920px;  
     }
     
-    .above-the-fold {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      @include homepage-desktop {
-        margin: 0px auto;
-        // width: 1000px;
-        width: $desktop-homepage-width;
-        height: calc(100vh - #{$mobile-header-height});
-        flex-direction: row;
-      }
+    .above-the-fold-container {
       
-      .cover-image-container {
+      @include homepage-desktop {
+        background-image:
+          linear-gradient(rgba(255,255,255,.98), rgba(255,255,255,.98)),
+          url('../images/COMPOST_Pattern_A1.jpg');
+      }
+
+      .above-the-fold-content {
+        position: relative;
+        padding-top: calc(#{$mobile-header-height} - 20px);
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         @include homepage-desktop {
-          height: 80%;
-          width: auto;
+          padding-top: $desktop-header-height;
+          margin: 0px auto;
+          // width: 1000px;
+          width: $desktop-homepage-width;
+          height: calc(100vh - #{$mobile-header-height});
+          flex-direction: row;
         }
         
-        img {
+        .cover-image-container {
           width: 100%;
-          
+
           @include homepage-desktop {
-            height: 100%;
+            height: 80%;
             width: auto;
-            border: 1px solid $compost-green;
-          }
-        }
-      }
-
-      .compost-description {
-        font-family: $title-sans-serif;
-        padding: 0px 20px;
-
-        @include homepage-desktop {
-          margin-left: 80px;
-          padding: 0px;
-        }
-      }
-    }
-
-    .home-toc-pieces {
-      margin: 0px auto;
-      margin-top: 20px;
-      padding: 0px 20px;
-      width: 100%;
-      box-sizing: border-box;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-
-      @include homepage-desktop {
-        width: $desktop-homepage-width;
-        margin-top: 40px;
-        padding: 0px;
-      }
-
-      .squiggles {
-        position: absolute;
-        opacity: 0.05;
-        right: -300px;
-        width: 600px;
-        z-index: -1;
-      }
-
-      .toc-piece-tile {
-        margin-bottom: 20px;
-        color: black;
-        text-decoration: none;
-
-        @include homepage-desktop {
-          margin-bottom: 40px;
-        }
-
-        .toc-piece-title {
-          width: 350px;
-          margin-top: 8px;
-          margin-bottom: 6px;
-          @include title-style;
-          font-weight: bold;
-          font-size: 1.4em;
-
-          @include homepage-desktop {
-            font-size: 1.2em;
-            margin-bottom: 14px;
-          }
-        }
-
-        .toc-piece-author {
-          @include title-style;
-          letter-spacing: 0.2em;
-          margin-bottom: 12px;
-
-          @include homepage-desktop {
-            font-size: 0.8em;
-            margin-bottom: 20px;  
-          }
-        }
-
-        .toc-piece-image {
-          width: 100%;
-          margin-bottom: 12px;
-
-          @include homepage-desktop {
-            margin-bottom: 20px;
-          }
-
-          @media (min-width: 370px) {
-            width: 350px;
-            height: 175px;
           }
           
           img {
             width: 100%;
-            max-height: 100%;
+            
+            @include homepage-desktop {
+              height: 100%;
+              width: auto;
+              border: 1px solid $compost-green;
+            }
           }
         }
 
-        .toc-piece-description {
+        .compost-description {
+          font-family: $title-sans-serif;
+          padding: 0px 20px;
+          background-image:
+            linear-gradient(rgba(255,255,255,.98), rgba(255,255,255,.98)),
+            url('../images/COMPOST_Pattern_A1.jpg');
+
           @include homepage-desktop {
-            font-size: 0.8em;
+            background-image: none;
+            margin-left: 80px;
+            padding: 0px;
           }
-          @media (min-width: 370px) {
+        }
+
+        .gap-worm {
+          display: none;
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+
+          @include homepage-desktop {
+            display: block;
+          }
+          
+          img {
+            width: 60px;
+            margin: 0px auto;
+          }
+        }
+      }
+    }
+
+    .home-toc-pieces-container {
+      background-image:
+        linear-gradient(rgba(255,255,255,.98), rgba(255,255,255,.98)),
+        url('../images/COMPOST_Pattern_A2.jpg');
+
+      .home-toc-pieces-content {
+        margin: 0px auto;
+        margin-top: 20px;
+        padding: 0px 20px;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        &::after {
+          content: "";
+          flex-basis: 350px;
+        }
+
+        @include homepage-desktop {
+          width: $desktop-homepage-width;
+          margin-top: 80px;
+          padding: 0px;
+        }
+        
+        .toc-piece-tile {
+          margin-bottom: 60px;
+          color: black;
+          text-decoration: none;
+
+          @include homepage-desktop {
+            margin-bottom: 40px;
+          }
+
+          .toc-piece-title {
             width: 350px;
+            margin-top: 8px;
+            margin-bottom: 6px;
+            @include title-style;
+            font-weight: bold;
+            font-size: 1.4em;
+
+            @include homepage-desktop {
+              font-size: 1.2em;
+              margin-bottom: 14px;
+            }
+          }
+
+          .toc-piece-author {
+            @include title-style;
+            letter-spacing: 0.2em;
+            margin-bottom: 12px;
+
+            @include homepage-desktop {
+              font-size: 0.8em;
+              margin-bottom: 20px;  
+            }
+          }
+
+          .toc-piece-image {
+            width: 100%;
+            margin-bottom: 12px;
+
+            @include homepage-desktop {
+              margin-bottom: 20px;
+            }
+
+            @media (min-width: 370px) {
+              width: 350px;
+              height: 175px;
+            }
+            
+            img {
+              width: 100%;
+              max-height: 100%;
+            }
+          }
+
+          .toc-piece-description {
+            @include homepage-desktop {
+              font-size: 0.8em;
+            }
+            @media (min-width: 370px) {
+              width: 350px;
+            }
           }
         }
       }
@@ -291,10 +329,12 @@ main {
     width: 100%;
     padding: 0px 20px;
     padding-bottom: 40px;
+    padding-top: calc(#{$mobile-header-height} - 20px);
     box-sizing: border-box;
     word-wrap: break-word;
 
     @include desktop {
+      padding-top: calc(#{$desktop-header-height} + 30px);
       width: $desktop-column-width;
       margin: 0px auto;
     }
@@ -310,6 +350,10 @@ main {
       img {
         width: 100%;
       }
+    }
+
+    pre {
+      overflow: auto;
     }
 
     h1 {
@@ -412,6 +456,10 @@ main {
   @include desktop {
     padding-top: 150px;
     height: 500px;
+  }
+
+  a {
+    text-decoration: none;
   }
 }
 
