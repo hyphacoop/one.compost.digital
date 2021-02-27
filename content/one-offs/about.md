@@ -9,7 +9,7 @@ COMPOST is a magazine about the digital commons. We curate art, reflections, and
 
 We approach COMPOST as a process to metabolize and renew our relationships with the web, to imagine and build interdependent, equitable, and solidarity-based systems of communication and knowledge sharing.
 
-If you like what we’re doing, please consider becoming a {{< rawhtml >}}<a href="https://opencollective.com/compost/contribute/backer-22573/checkout" target="_blank">subscriber</a>{{< /rawhtml >}}, contributing {{< rawhtml >}}<a href="https://opencollective.com/compost" target="_blank">money</a>{{< /rawhtml >}} (or {{< rawhtml >}}<a href="https://gitcoin.co/grants/1385/compost" target="_blank">cryptocurrency</a>{{< /rawhtml >}}), and support us through [Web Monetization]({{<relref "support-us#web-monetization">}}).
+If you like what we’re doing, please consider becoming a {{< rawhtml >}}<a href="https://opencollective.com/compost/contribute/backer-22573/checkout" target="_blank">subscriber</a>{{< /rawhtml >}}, contributing {{< rawhtml >}}<a href="https://opencollective.com/compost" target="_blank">money</a>{{< /rawhtml >}} (or {{< rawhtml >}}<a href="https://gitcoin.co/grants/1385/compost" target="_blank">cryptocurrency</a>{{< /rawhtml >}}), and supporting us through [Web Monetization]({{<relref "support-us#web-monetization">}}).
 
 ## Experiments with Publishing
 
