@@ -1,0 +1,884 @@
+[{
+		"type": "Annotation",
+		"body": [{
+				"type": "TextualBody",
+				"value": "The project enabled us to embark on a collective process to recognise, appreciate and co-create a platform for the lesser known/understood knowledge practices in Bidar.",
+				"purpose": "commenting",
+				"created": "2021-01-13T20:34:44.668Z",
+				"creator": {
+					"name": "Living Labs Network"
+				},
+				"modified": "2021-01-13T20:35:06.011Z"
+			},
+			{
+				"type": "TextualBody",
+				"value": "description",
+				"purpose": "tagging",
+				"created": "2021-01-13T20:34:49.202Z",
+				"creator": {
+					"name": "Living Labs Network"
+				},
+				"modified": "2021-01-13T20:34:57.318Z"
+			}
+		],
+		"target": {
+			"selector": {
+				"type": "FragmentSelector",
+				"conformsTo": "http://www.w3.org/TR/media-frags/",
+				"value": "xywh=pixel:3736.133544921875,1294.024169921875,415.117431640625,544.2684326171875"
+			}
+		},
+		"@context": "http://www.w3.org/ns/anno.jsonld",
+		"id": "#30a9b56e-b15b-43ac-a296-798cd51e631e"
+	},
+	{
+		"type": "Annotation",
+		"body": [{
+				"type": "TextualBody",
+				"value": "‘People as Nodes’ as a complimentary if not a necessary prelude to deploying/introducing the mesh. This approach distances from treating the Mesh as a tech to co-create which requires ‘Slowness in thinking’ to be mindful about the alterations such a network can make to the existing social relationships.This wouldnt have been possible without the delay.\n",
+				"purpose": "commenting",
+				"created": "2021-01-13T20:44:10.480Z",
+				"creator": {
+					"name": "Living Labs Network"
+				}
+			},
+			{
+				"type": "TextualBody",
+				"value": "Description",
+				"purpose": "tagging",
+				"created": "2021-01-13T20:44:14.336Z",
+				"creator": {
+					"name": "Living Labs Network"
+				},
+				"modified": "2021-01-13T20:44:18.550Z"
+			}
+		],
+		"target": {
+			"selector": {
+				"type": "FragmentSelector",
+				"conformsTo": "http://www.w3.org/TR/media-frags/",
+				"value": "xywh=pixel:2476.345703125,1556.6748046875,504.27490234375,423.88330078125"
+			}
+		},
+		"@context": "http://www.w3.org/ns/anno.jsonld",
+		"id": "#915fb078-f4d7-4b60-b35e-d3cf166279ac"
+	},
+	{
+		"type": "Annotation",
+		"body": [{
+				"type": "TextualBody",
+				"value": "A prototype of a recording device with local wifi, designed by Sanketh from Servelots/Janastu, was used to introduce the idea of a local network, digital archive, control over the content and sharing within the locale.",
+				"purpose": "commenting",
+				"created": "2021-01-13T20:46:37.976Z",
+				"creator": {
+					"name": "Living Labs Network"
+				}
+			},
+			{
+				"type": "TextualBody",
+				"value": "Description",
+				"purpose": "tagging",
+				"created": "2021-01-13T20:46:41.719Z",
+				"creator": {
+					"name": "Living Labs Network"
+				},
+				"modified": "2021-01-13T20:46:47.626Z"
+			}
+		],
+		"target": {
+			"selector": {
+				"type": "FragmentSelector",
+				"conformsTo": "http://www.w3.org/TR/media-frags/",
+				"value": "xywh=pixel:1467.096435546875,443.0408630371094,299.5628662109375,303.1037902832031"
+			}
+		},
+		"@context": "http://www.w3.org/ns/anno.jsonld",
+		"id": "#346ea346-436f-4759-ab77-bb40d3bf3ead"
+	},
+	{
+		"type": "Annotation",
+		"body": [{
+				"type": "TextualBody",
+				"value": "Between September and October we had introduced the process of recording on Pi Zero, connecting to the local wifi network and using the browser interface to playback the recordings in nine different locations among women and non-binary people from four different communities.",
+				"purpose": "commenting",
+				"created": "2021-01-13T20:48:51.676Z",
+				"creator": {
+					"name": "Living Labs Network"
+				}
+			},
+			{
+				"type": "TextualBody",
+				"value": "Description",
+				"purpose": "tagging",
+				"created": "2021-01-13T20:48:59.374Z",
+				"creator": {
+					"name": "Living Labs Network"
+				},
+				"modified": "2021-01-13T20:49:10.726Z"
+			}
+		],
+		"target": {
+			"selector": {
+				"type": "FragmentSelector",
+				"conformsTo": "http://www.w3.org/TR/media-frags/",
+				"value": "xywh=pixel:2903.35693359375,2812.068115234375,469.9287109375,432.33447265625"
+			}
+		},
+		"@context": "http://www.w3.org/ns/anno.jsonld",
+		"id": "#1fa84e12-ed92-4969-9c3f-133f83efa252"
+	},
+	{
+		"type": "Annotation",
+		"body": [{
+			"type": "TextualBody",
+			"value": "As part of this project we contributed, presented and participated in the Anthillhacks and the CNX event organised in the month of December 2019. The exchange of this event led to,\n  - A dialogue on feminist geography and decentralised network \n   -Our team shared our experience of initiating the Mesh network and learnings from the approaches by communitites in other parts of India and the world\nWe continue to work on this objective in collaboration with Servelots/Janastu and the wider network of communities connected during Anthillhacks.  \n",
+			"purpose": "commenting",
+			"created": "2021-01-13T20:51:07.708Z",
+			"creator": {
+				"name": "Living Labs Network"
+			},
+			"modified": "2021-01-13T20:51:34.013Z"
+		}],
+		"target": {
+			"selector": {
+				"type": "FragmentSelector",
+				"conformsTo": "http://www.w3.org/TR/media-frags/",
+				"value": "xywh=pixel:56.06914520263672,2741.427490234375,1136.8517532348633,617.14794921875"
+			}
+		},
+		"@context": "http://www.w3.org/ns/anno.jsonld",
+		"id": "#9c3e97da-c4eb-42ff-b736-ce5c75ae5725"
+	}, {
+		"type": "Annotation",
+		"body": [{
+				"type": "TextualBody",
+				"value": "This was a series of two workshops where we co-annotated the songs and narratives of the partnered communities with them using different media like clay, photos, songs and text.\nThe workshops were interesting because community persons that had different knowledge practices came together and met each other for the first time. The translation process that started there could be enabled for many more collaborations that could grow organically.",
+				"purpose": "commenting",
+				"created": "2021-01-13T20:57:27.638Z",
+				"creator": {
+					"name": "Living Labs Network"
+				},
+				"modified": "2021-01-13T21:01:08.613Z"
+			},
+			{
+				"type": "TextualBody",
+				"value": "Description",
+				"purpose": "tagging",
+				"created": "2021-01-13T20:58:58.663Z",
+				"creator": {
+					"name": "Living Labs Network"
+				},
+				"modified": "2021-01-13T20:59:04.069Z"
+			}
+		],
+		"target": {
+			"selector": {
+				"type": "FragmentSelector",
+				"conformsTo": "http://www.w3.org/TR/media-frags/",
+				"value": "xywh=pixel:2689.087890625,1660.22021484375,339.93701171875,265.1507568359375"
+			}
+		},
+		"@context": "http://www.w3.org/ns/anno.jsonld",
+		"id": "#2c3dca6a-c278-4bac-92b4-49defe5e4182"
+	},
+	{
+		"type": "Annotation",
+		"body": [{
+			"type": "TextualBody",
+			"value": "Following is the list of performative forms gathered using pi recording devices,\n\n-Parashuramana padagalu.(songs of Parashurama a mighty sage from the ramayana times)\n-Yellammana padagalu.(songs of yellamma a powerful female diety prominently worshipped in the region )\n-Nagara ghanigana kathi.(folklore in the form of a song,)\n-Bhangaar lalavathi kathi a.k.a Gannikeri(pari) kathi. (folklore in the form of song)\n-Ikram rajana kathi(story of a king Ikraam, a mythological character.)\n-Maalgarana Kathi( folklore in the form of a song, based on a wealthy tax collector).\n-Seegi Haadu(SEEGI songs sung by group of women, especially during the Dasara festival, to ward off bad spirits and welcome prosperity.)\n-Ritualistic songs performed by the group of singers from the Valmiki community.\n-Jhoole ke gaane (songs for cradle ceremony of newly born child) and other songs sung as part of some rituals at the Multani Pasha Dargah.\n-Maroor ke baba song(song sung in praise of a local sufi saint whose dargah is in Maroor village.\n-Peer-e-Murshad song( songs sung in memory of the local peer(nobleman) by the dholak singers.\n-Bhajan(Devotional) songs sung by the group of women at Bheem Nagar).\n",
+			"purpose": "commenting",
+			"created": "2021-01-13T21:10:07.023Z",
+			"creator": {
+				"name": "Living Labs Network"
+			},
+			"modified": "2021-01-13T21:10:43.207Z"
+		}],
+		"target": {
+			"selector": {
+				"type": "FragmentSelector",
+				"conformsTo": "http://www.w3.org/TR/media-frags/",
+				"value": "xywh=pixel:1850.6708984375,1314.685546875,332.93505859375,203.009033203125"
+			}
+		},
+		"@context": "http://www.w3.org/ns/anno.jsonld",
+		"id": "#e2df817f-54ec-48cf-a373-eabe2dfeaccf"
+	},
+	{
+		"type": "Annotation",
+		"body": [{
+				"type": "TextualBody",
+				"value": "The project has enabled to discover many forms in which women and non-binary gender groups hold knowledge.",
+				"purpose": "commenting",
+				"created": "2021-01-13T21:11:55.231Z",
+				"creator": {
+					"name": "Living Labs Network"
+				}
+			},
+			{
+				"type": "TextualBody",
+				"value": "Description",
+				"purpose": "tagging",
+				"created": "2021-01-13T21:11:59.002Z",
+				"creator": {
+					"name": "Living Labs Network"
+				},
+				"modified": "2021-01-13T21:12:06.360Z"
+			}
+		],
+		"target": {
+			"selector": {
+				"type": "FragmentSelector",
+				"conformsTo": "http://www.w3.org/TR/media-frags/",
+				"value": "xywh=pixel:713.819091796875,1274.0836181640625,332.9351806640625,316.6943359375"
+			}
+		},
+		"@context": "http://www.w3.org/ns/anno.jsonld",
+		"id": "#56186879-07fe-444d-b0bb-45cd4c465e10"
+	},
+	{
+		"type": "Annotation",
+		"body": [{
+				"type": "TextualBody",
+				"value": "These are women living in and around the Multani Pasha Dargah situated in the Old city (Historic Precinct) of Bidar. They offer service to the Dargah and the followers of the Sufi saint Hazrat Multani Pasha, who visit his shrine in his Dargah. Nature of service they offer is to sing at different occasions such as naming of the new born, asking a Mannat (a wish or a desire), communal cooking, offering a prayer and so on. One of the services is to maintain and clean the Dargah premises. \n",
+				"purpose": "commenting",
+				"created": "2021-01-13T21:15:46.312Z",
+				"creator": {
+					"name": "Living Labs Network"
+				},
+				"modified": "2021-01-13T21:16:33.092Z"
+			},
+			{
+				"type": "TextualBody",
+				"value": "Communities",
+				"purpose": "tagging",
+				"created": "2021-01-13T21:16:38.295Z",
+				"creator": {
+					"name": "Living Labs Network"
+				},
+				"modified": "2021-01-13T21:16:40.783Z"
+			}
+		],
+		"target": {
+			"selector": {
+				"type": "FragmentSelector",
+				"conformsTo": "http://www.w3.org/TR/media-frags/",
+				"value": "xywh=pixel:2989.810791015625,1056.3482666015625,260.528564453125,253.761474609375"
+			}
+		},
+		"@context": "http://www.w3.org/ns/anno.jsonld",
+		"id": "#6f0ac1e6-7418-4f1d-b9e9-d2bf67000d65"
+	},
+	{
+		"type": "Annotation",
+		"body": [{
+				"type": "TextualBody",
+				"value": "Bhooteru/ Bhooteya are of a community that identifies itself with the ritualistic practices associated with the Bhavani Mata Temples. Their performance happens in a group either in the temples or at homes where they are invited. During the performance they sing different songs. The group we engaged with comprise of 7 members from this community who live in Maniyar Taleem in the Old city of Bidar. They are mostly male performers and usually choose a non-binary gender. Some continue to remain as woman and the others transform into a woman at the time of the worship.",
+				"purpose": "commenting",
+				"created": "2021-01-13T21:18:24.443Z",
+				"creator": {
+					"name": "Living Labs Network"
+				},
+				"modified": "2021-01-13T21:19:13.803Z"
+			},
+			{
+				"type": "TextualBody",
+				"value": "Communities",
+				"purpose": "tagging",
+				"created": "2021-01-13T21:19:27.282Z",
+				"creator": {
+					"name": "Living Labs Network"
+				},
+				"modified": "2021-01-13T21:19:31.209Z"
+			}
+		],
+		"target": {
+			"selector": {
+				"type": "FragmentSelector",
+				"conformsTo": "http://www.w3.org/TR/media-frags/",
+				"value": "xywh=pixel:3661.513427734375,2162.7861328125,178.648193359375,276.0927734375"
+			}
+		},
+		"@context": "http://www.w3.org/ns/anno.jsonld",
+		"id": "#0052f3b9-9a6b-4333-9298-b861a5bdba4b"
+	},
+	{
+		"type": "Annotation",
+		"body": [{
+			"type": "TextualBody",
+			"value": "Bidar is also one of the places where Urdu language has its origins. We engaged with Ruksaana Nazneen who is one of the few women writers assoicated with a writer's group called ‘Yaaran-e-Abab’ (Friends of Literature). She has published more than 200 essays and books in Urdu.  Since most of her writings are in Urdu the access is limited not only outside but within Bidar, in her locality.",
+			"purpose": "commenting",
+			"created": "2021-01-13T21:23:13.203Z",
+			"creator": {
+				"name": "Living Labs Network"
+			},
+			"modified": "2021-01-13T21:24:07.101Z"
+		}],
+		"target": {
+			"selector": {
+				"type": "FragmentSelector",
+				"conformsTo": "http://www.w3.org/TR/media-frags/",
+				"value": "xywh=pixel:1046.3958740234375,1898.4544677734375,148.5390625,304.8961181640625"
+			}
+		},
+		"@context": "http://www.w3.org/ns/anno.jsonld",
+		"id": "#ae524a6b-9f27-41fc-860b-3ebd5ba0a5df"
+	},
+	{
+		"type": "Annotation",
+		"body": [{
+				"type": "TextualBody",
+				"value": "Kumabara is an occupation-based community of potters. We engaged with women from Naubad, a loaclity in Bidar. The women and men both engage with the craft of making pottery items. They sing Kumabara padagalu (songs) at the time of working and as a bhajan (devotional songs). These songs are transferred from one generation to another. More than the network these women are keen on recording the songs as they are not available on the internet.",
+				"purpose": "commenting",
+				"created": "2021-01-13T21:25:35.726Z",
+				"creator": {
+					"name": "Living Labs Network"
+				}
+			},
+			{
+				"type": "TextualBody",
+				"value": "Communities",
+				"purpose": "tagging",
+				"created": "2021-01-13T21:25:39.925Z",
+				"creator": {
+					"name": "Living Labs Network"
+				},
+				"modified": "2021-01-13T21:25:44.810Z"
+			}
+		],
+		"target": {
+			"selector": {
+				"type": "FragmentSelector",
+				"conformsTo": "http://www.w3.org/TR/media-frags/",
+				"value": "xywh=pixel:397.5143737792969,1601.3760986328125,336.1675109863281,195.4461669921875"
+			}
+		},
+		"@context": "http://www.w3.org/ns/anno.jsonld",
+		"id": "#ceb7ec62-44ef-408a-85fd-0038bfd68f33"
+	},
+	{
+		"type": "Annotation",
+		"body": [{
+				"type": "TextualBody",
+				"value": "Some of the women expressed the value in recording their practices which seldom receives the kind of recognition it should. In one of the interactions with Dholak singer who is over 60 years old with seven sisters and five grand daughters whom she exposed to the performative form of Dholak geet (songs). She found them not keen to learn and continue the practice.",
+				"purpose": "commenting",
+				"created": "2021-01-13T21:27:53.613Z",
+				"creator": {
+					"name": "Living Labs Network"
+				}
+			},
+			{
+				"type": "Annotation",
+				"body": [{
+						"type": "TextualBody",
+						"value": "The dependency on the required equipment (Libre Router) to setup the mesh has had its impact on the project activities and the timeline. We managed to deploy the nodes. The mesh is yet to be functional.",
+						"purpose": "commenting",
+						"created": "2021-01-13T21:30:27.356Z",
+						"creator": {
+							"name": "Living Labs Network"
+						},
+						"modified": "2021-01-13T21:30:50.136Z"
+					},
+					{
+						"type": "TextualBody",
+						"value": "Realities",
+						"purpose": "tagging",
+						"created": "2021-01-13T21:30:57.599Z",
+						"creator": {
+							"name": "Living Labs Network"
+						},
+						"modified": "2021-01-13T21:31:00.861Z"
+					}
+				],
+				"target": {
+					"selector": {
+						"type": "FragmentSelector",
+						"conformsTo": "http://www.w3.org/TR/media-frags/",
+						"value": "xywh=pixel:1722.131591796875,969.15966796875,226.9552001953125,259.37744140625"
+					}
+				},
+				"@context": "http://www.w3.org/ns/anno.jsonld",
+				"id": "#0d976265-063e-4fef-9c4f-13c72a07399a"
+			},
+			{
+				"type": "TextualBody",
+				"value": "Reflections and Experiences",
+				"purpose": "tagging",
+				"created": "2021-01-13T21:28:06.222Z",
+				"creator": {
+					"name": "Living Labs Network"
+				},
+				"modified": "2021-01-13T21:28:16.520Z"
+			}
+		],
+		"target": {
+			"selector": {
+				"type": "FragmentSelector",
+				"conformsTo": "http://www.w3.org/TR/media-frags/",
+				"value": "xywh=pixel:2773.7041015625,2182.614990234375,506.5966796875,375.256591796875"
+			}
+		},
+		"@context": "http://www.w3.org/ns/anno.jsonld",
+		"id": "#8913248a-654f-4ea4-b81d-1151746ca6b3"
+	}, {
+		"type": "Annotation",
+		"body": [{
+			"type": "TextualBody",
+			"value": "\"The network mesh not a solution to a thing but exchange between the communities. Each group can relate the mesh in certain ways and use the mesh as a medium.\"",
+			"purpose": "commenting",
+			"created": "2021-01-13T21:36:04.365Z",
+			"creator": {
+				"name": "Living Labs Network"
+			},
+			"modified": "2021-01-13T21:36:49.983Z"
+		}],
+		"target": {
+			"selector": {
+				"type": "FragmentSelector",
+				"conformsTo": "http://www.w3.org/TR/media-frags/",
+				"value": "xywh=pixel:4324.01171875,1277.17041015625,275.5888671875,316.1163330078125"
+			}
+		},
+		"@context": "http://www.w3.org/ns/anno.jsonld",
+		"id": "#cbe431c4-6967-46ce-8744-bdf2e3a5b991"
+	}, {
+		"type": "Annotation",
+		"body": [{
+				"type": "TextualBody",
+				"value": "Another challenge we faced was to schedule these interviews in time, based on their availability and the amount of  time which they could spare to talk to us. There were multiple reasons for this. As some of these practices are directly linked to their livelihood, asking for their time was slightly difficult in the beginning. Some cultural barriers in certain locations and trust issues in some are a few reasons. Making them understand the technological aspects of the project is also challenging as most of the women(not all)in the communities are less educated or not educated at all.",
+				"purpose": "commenting",
+				"created": "2021-01-13T21:32:36.177Z",
+				"creator": {
+					"name": "Living Labs Network"
+				},
+				"modified": "2021-01-13T21:32:48.688Z"
+			},
+			{
+				"type": "TextualBody",
+				"value": "Realities",
+				"purpose": "tagging",
+				"created": "2021-01-13T21:32:53.898Z",
+				"creator": {
+					"name": "Living Labs Network"
+				},
+				"modified": "2021-01-13T21:32:55.517Z"
+			}
+		],
+		"target": {
+			"selector": {
+				"type": "FragmentSelector",
+				"conformsTo": "http://www.w3.org/TR/media-frags/",
+				"value": "xywh=pixel:3489.140625,2063.408203125,170.21630859375,235.060791015625"
+			}
+		},
+		"@context": "http://www.w3.org/ns/anno.jsonld",
+		"id": "#e1e5df1e-f6fb-43b2-a7d7-703015b1fa34"
+	},
+	{
+  "type": "Annotation",
+  "body": [
+    {
+      "type": "TextualBody",
+      "value": "\"It might become possible to change the perceptions of  Local practices to see them as sources of livelihoods in order to avoid the monetization of the local knowledge by third party?\"",
+      "purpose": "commenting",
+      "created": "2021-01-13T21:59:36.250Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:01:07.297Z"
+    },
+    {
+      "type": "TextualBody",
+      "value": "Reflections and Experiences",
+      "purpose": "tagging",
+      "created": "2021-01-13T22:01:11.080Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:01:17.961Z"
+    }
+  ],
+  "target": {
+    "selector": {
+      "type": "FragmentSelector",
+      "conformsTo": "http://www.w3.org/TR/media-frags/",
+      "value": "xywh=pixel:1198.6488037109375,1999.21337890625,158.6009521484375,183.272216796875"
+    }
+  },
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "#9132efa4-e71c-4c59-abdf-9848747eaebf"
+},
+{
+  "type": "Annotation",
+  "body": [
+    {
+      "type": "TextualBody",
+      "value": "\"People have things to do to earn their food in a very time-conserving manner, when will they engage with the network mesh?\"",
+      "purpose": "commenting",
+      "created": "2021-01-13T22:02:39.027Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:03:19.338Z"
+    },
+    {
+      "type": "TextualBody",
+      "value": "Reflections and Experiences",
+      "purpose": "tagging",
+      "created": "2021-01-13T22:03:22.554Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:03:27.837Z"
+    }
+  ],
+  "target": {
+    "selector": {
+      "type": "FragmentSelector",
+      "conformsTo": "http://www.w3.org/TR/media-frags/",
+      "value": "xywh=pixel:462.0353088378906,1414.15185546875,222.04141235351562,179.7476806640625"
+    }
+  },
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "#858d6017-eb09-4409-b2b2-69ef6979827c"
+},
+{
+  "type": "Annotation",
+  "body": [
+    {
+      "type": "TextualBody",
+      "value": "\"mesh to mobilize people for protests and political movements\"\n(loaded with the context of socio-political tensions qnd oppressions in India)",
+      "purpose": "commenting",
+      "created": "2021-01-13T22:04:36.485Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:05:57.853Z"
+    },
+    {
+      "type": "TextualBody",
+      "value": "Futures",
+      "purpose": "tagging",
+      "created": "2021-01-13T22:04:54.886Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:04:57.877Z"
+    }
+  ],
+  "target": {
+    "selector": {
+      "type": "FragmentSelector",
+      "conformsTo": "http://www.w3.org/TR/media-frags/",
+      "value": "xywh=pixel:3097.14794921875,583.904296875,373.536865234375,373.5369873046875"
+    }
+  },
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "#ab3f825d-bb84-41fe-a2ff-2fe446710dda"
+},
+{
+  "type": "Annotation",
+  "body": [
+    {
+      "type": "TextualBody",
+      "value": "\"create a new network of women - conversation in kitchen\"",
+      "purpose": "commenting",
+      "created": "2021-01-13T22:06:39.812Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:06:44.586Z"
+    },
+    {
+      "type": "TextualBody",
+      "value": "Futures",
+      "purpose": "tagging",
+      "created": "2021-01-13T22:06:48.096Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:06:49.763Z"
+    }],
+
+  "target": {
+    "selector": {
+      "type": "FragmentSelector",
+      "conformsTo": "http://www.w3.org/TR/media-frags/",
+      "value": "xywh=pixel:3892.944091796875,2134.89501953125,397.898193359375,324.81494140625"
+    }
+  },
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "#d9453646-13c9-457e-b7ff-0f9ed24d2f21"
+},
+{
+  "type": "Annotation",
+  "body": [
+    {
+      "type": "TextualBody",
+      "value": "\"assumptions of \"solving\" things - what can we really \"solve\"\"",
+      "purpose": "commenting",
+      "created": "2021-01-13T22:09:24.767Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:09:56.742Z"
+    },
+    {
+      "type": "TextualBody",
+      "value": "Futures",
+      "purpose": "tagging",
+      "created": "2021-01-13T22:09:59.654Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:10:01.728Z"
+    }
+  ],
+  "target": {
+    "selector": {
+      "type": "FragmentSelector",
+      "conformsTo": "http://www.w3.org/TR/media-frags/",
+      "value": "xywh=pixel:1211.289794921875,1386.27294921875,187.645263671875,274.6690673828125"
+    }
+  },
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "#be52c7a3-5aaa-4b05-9158-c8f41a8b6cf6"
+},
+{
+  "type": "Annotation",
+  "body": [
+    {
+      "type": "TextualBody",
+      "value": "\"community radio to connect people and talk about issues\"",
+      "purpose": "commenting",
+      "created": "2021-01-13T22:12:13.196Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:12:18.585Z"
+    },
+    {
+      "type": "TextualBody",
+      "value": "Futures",
+      "purpose": "tagging",
+      "created": "2021-01-13T22:12:20.962Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:12:22.310Z"
+    }
+  ],
+  "target": {
+    "selector": {
+      "type": "FragmentSelector",
+      "conformsTo": "http://www.w3.org/TR/media-frags/",
+      "value": "xywh=pixel:1746.910888671875,2424.61767578125,315.792236328125,365.98046875"
+    }
+  },
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "#0a8d18cd-f526-477e-ab96-c37285077fe3"
+},
+{
+  "type": "Annotation",
+  "body": [
+    {
+      "type": "TextualBody",
+      "value": "\"the network-mesh as a socio-techno-material construct as a place for mass-auto exploring different ways of being\"",
+      "purpose": "commenting",
+      "created": "2021-01-13T22:13:26.813Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:14:02.462Z"
+    },
+    {
+      "type": "TextualBody",
+      "value": "Futures",
+      "purpose": "tagging",
+      "created": "2021-01-13T22:14:06.182Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:14:07.842Z"
+    }
+  ],
+  "target": {
+    "selector": {
+      "type": "FragmentSelector",
+      "conformsTo": "http://www.w3.org/TR/media-frags/",
+      "value": "xywh=pixel:2440.52587890625,2232.32275390625,214.28759765625,208.6484375"
+    }
+  },
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "#b7907897-e7ff-4c55-bbb9-0e2cb07936f9"
+},
+{
+  "type": "Annotation",
+  "body": [
+    {
+      "type": "TextualBody",
+      "value": "\"In this time of Whatsapp and Facebook, why will people use this?\"",
+      "purpose": "commenting",
+      "created": "2021-01-13T22:14:26.038Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:14:48.769Z"
+    },
+    {
+      "type": "TextualBody",
+      "value": "Reflections and Experiences",
+      "purpose": "tagging",
+      "created": "2021-01-13T22:14:51.024Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:14:57.409Z"
+    }
+  ],
+  "target": {
+    "selector": {
+      "type": "FragmentSelector",
+      "conformsTo": "http://www.w3.org/TR/media-frags/",
+      "value": "xywh=pixel:3455.572021484375,1769.9127197265625,157.896240234375,191.73095703125"
+    }
+  },
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "#d65d504f-5caf-4082-98ec-669cc3d62ae8"
+},
+{
+  "type": "Annotation",
+  "body": [
+    {
+      "type": "TextualBody",
+      "value": "\"If these kinds of projects are truly for the communities, they would consider how training actually works. why it is important. who is maintaining this network on the ground. An ordinary person won't even understand the language you use for all these things. Why are there no followups from the grantee about how the project is functioning on ground. This is not a 6 month or even year-long project. This takes long term support for everyone involved\"",
+      "purpose": "commenting",
+      "created": "2021-01-13T22:18:13.234Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:21:52.360Z"
+    },
+    {
+      "type": "TextualBody",
+      "value": "Reflections and Experiences",
+      "purpose": "tagging",
+      "created": "2021-01-13T22:21:56.066Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:22:02.236Z"
+    }
+  ],
+  "target": {
+    "selector": {
+      "type": "FragmentSelector",
+      "conformsTo": "http://www.w3.org/TR/media-frags/",
+      "value": "xywh=pixel:1776.828369140625,1869.8128662109375,369.771240234375,297.0294189453125"
+    }
+  },
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "#3fc92e2e-7285-4d2c-adc7-0dcc7a9cb1a3"
+},
+{
+  "type": "Annotation",
+  "body": [
+    {
+      "type": "TextualBody",
+      "value": "\"I couldn't understand the technology myself being someone who has studied upto a Masters. It became really hard to function on ground in a techno-centric way. However, when we started focusing on the narratives and songs, the tech just became a side gimmick. And that worked. Making people familiar with such conceptions of technology takes years of ground work. And no one will fund that\"",
+      "purpose": "commenting",
+      "created": "2021-01-13T22:22:43.112Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:24:55.046Z"
+    },
+    {
+      "type": "TextualBody",
+      "value": "Reflections and Experiences",
+      "purpose": "tagging",
+      "created": "2021-01-13T22:24:57.450Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:25:07.340Z"
+    }
+  ],
+  "target": {
+    "selector": {
+      "type": "FragmentSelector",
+      "conformsTo": "http://www.w3.org/TR/media-frags/",
+      "value": "xywh=pixel:2207.2177734375,2500.24267578125,163.66943359375,206.10205078125"
+    }
+  },
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "#d83a7d5b-b2b0-43e1-a118-f2ed63514a2c"
+},
+{
+  "type": "Annotation",
+  "body": [
+    {
+      "type": "TextualBody",
+      "value": "\"mesh network around the different villages and developing the Team YUVAA leadership from and within those places\"",
+      "purpose": "commenting",
+      "created": "2021-01-13T22:44:16.794Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:45:10.617Z"
+    },
+    {
+      "type": "TextualBody",
+      "value": "Futures",
+      "purpose": "tagging",
+      "created": "2021-01-13T22:45:13.971Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:45:16.362Z"
+    }
+  ],
+  "target": {
+    "selector": {
+      "type": "FragmentSelector",
+      "conformsTo": "http://www.w3.org/TR/media-frags/",
+      "value": "xywh=pixel:2207.639892578125,308.6178283691406,484.196044921875,629.4548034667969"
+    }
+  },
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "#8865696e-9605-43b2-bdc6-0be0c50355a8"
+},
+{
+  "type": "Annotation",
+  "body": [
+    {
+      "type": "TextualBody",
+      "value": "\"This project also revealed a lot of things such as it is not necessary for everyone to know everything. It makes it harder to align. When we take the tech to the ground therefore, we have to be extremely care-full because of the alienation and obligations that it brings to the relationships that we have developed over years\"",
+      "purpose": "commenting",
+      "created": "2021-01-13T22:49:05.251Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:50:50.550Z"
+    },
+    {
+      "type": "TextualBody",
+      "value": "Reflections and Experiences",
+      "purpose": "tagging",
+      "created": "2021-01-13T22:50:56.674Z",
+      "creator": {
+        "name": "Living Labs Network"
+      },
+      "modified": "2021-01-13T22:51:02.232Z"
+    }
+  ],
+  "target": {
+    "selector": {
+      "type": "FragmentSelector",
+      "conformsTo": "http://www.w3.org/TR/media-frags/",
+      "value": "xywh=pixel:888.2056884765625,792.8138427734375,526.5631103515625,357.0946044921875"
+    }
+  },
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "id": "#06d054be-ac30-4931-89ce-e49434b5fc97"
+}
+]

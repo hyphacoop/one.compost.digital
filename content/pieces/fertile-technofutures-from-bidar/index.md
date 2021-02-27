@@ -5,4 +5,7 @@ description: Bidar offers a different vision for technology, unique to the city'
 tableOfContentsImageUrl: ./images/title-images/micah-cover-700x350.png
 titleImageUrl: ./images/title-images/micah-cover-700x350.png
 endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
+layout: micah
 ---
+
+<!-- see layouts/pieces/micah.html -->

@@ -7,9 +7,10 @@
 
     <link rel="icon" href="{{ "./favicon-32.png" | relURL }}" sizes="32x32">
 
-    {{ $mainStylesheet := resources.Get "sass/main.scss" | resources.ToCSS }}
-    <link rel="stylesheet" href="{{ $mainStylesheet.Permalink }}">
+    <link rel="stylesheet" href="{{ (resources.Get "sass/main.scss" | resources.ToCSS).Permalink }}">
     
+    {{ block "head" . }}{{ end }}
+
     <title>
       {{ block "title" . }}{{ .Site.Title }}{{ end }}
     </title>
