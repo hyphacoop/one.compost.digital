@@ -47,7 +47,7 @@ _It's like a rock being dropped into the water._
 
 ---
 
-Subheaders were generating using curated output from a GTP-2 model.
+Subheaders were generating using curated output from a GPT-2 model.
 
 A thank you to the users who contributed to this dataset, including:
 
