@@ -1,15 +1,24 @@
--
-  name: Semolina
-  bio: Semolina has been spinning cows and milking yarns since she was born in the Coral mines in 1891.
--
-  name: Catalina Katongus 
-  bio: Catalina Katongus is a sturgeon from the Mediterranean sea.
--
-  name: Magma Collective
+- name: Magma Collective
   bio: >
-    **Magma Collective** is a think and do tank working towards empowering people's
-    relationships to the systems, economies and technologies that affect them.
--
-  name: Tal
+    **Magma Collective** is a "Think and Do" cooperative that is researching and developing projects with the aim to empower people in relation to the infrastructures that affect their lives and communities. Our research and development has focused on the needs of cooperatives and on group governance.
+- name: Tal Milovina
   bio: >
-    **Tal** still needs a bio.
+    **Tal Milovina** is founding editor of ATM, an online magazine publishing at the intersections of criticism, art, and community organizing. Their writing has appeared in The Nation, Bookforum, Autre, and elsewhere.
+- name: AC Gillette
+  bio: >
+    **AC** is a technologist, writer, artist and peer counselor currently residing in the Bay Area. A non exhaustive list of things they are interested in include small scale technology, radical mental health, mycology, queer ecology, textiles and dreaming up new futures.
+- name: Shafali Jain
+  bio: >
+    **Shafali** is currently building her practise in the space of community and technology. At Janastu, she is pursuing research on how to move away from textually prolific internet through annotations and hypermedia communication. As a new media artist and designer her work puts the audience in dilemma, triggering them to question the existing systems in place and look beyond the horizon.
+- name: Zach Mandeville
+  bio: >
+    **Zach** is a writer, codewitch, and friend.  He is the webmaster of coolguy.website and solarpunk.cool and helps run a global solarpunk magic computer club.
+- name: Annie Howard
+  bio: >
+    **Annie Howard** is a journalist, historian, and urbanist based in Chicago. Her writing can be found in the Guardian, the Baffler, the Nation, and elsewhere. Their website is annie-howard.com.
+- name: Maggie Oates
+  bio: >
+    **Maggie Oates** is a cluster of balloons filled with warm stale air, cat hair, iced peach tea, the energy of prison abolition, question marks, and bursts of elation. The balloons float around the USA to most anyplace that smells like experience design, sex, online safety or computing technology.
+- name: Angelica Blevins
+  bio: >
+    **Angelica** is an artist who likes drawing cute things and making ugly websites for hidden parts of the internet. You can find her stuff scattered around Secure Scuttlebutt, Beaker Browser, and other places on the decentralized web.
