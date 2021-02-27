@@ -34,7 +34,7 @@ AC Gillette, Angelica Blevins, Annie Howard, Maggie Oates, magma collective, Mic
 
 ### Editorial
 
-**Lead Editor:** Mai Ishikawa Sutton
+**Lead Editor:** Mai Ishikawa Sutton  
 **Editors:** Udit Vira, Benedict Lau
 
 ### Technical
