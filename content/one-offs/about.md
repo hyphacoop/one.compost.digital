@@ -39,7 +39,7 @@ AC Gillette, Angelica Blevins, Annie Howard, Maggie Oates, magma collective, Mic
 
 ### Technical
 
-Benedict Lau, Benny Lichtner, Elon Li, Udit Vira, Yurko Jaremko
+Benedict Lau, Benny Lichtner, Elon Li, Udit Vira, Yurko
 
 ### Creative
 
