@@ -7,6 +7,9 @@
   bottom: 0px;
   overflow-y: auto;
   background: white;
+  background-image:
+    linear-gradient(rgba(255,255,255,.98), rgba(255,255,255,.98)),
+    url('../images/COMPOST_Pattern_A2.jpg');
   z-index: $toc-z-index;
 
   .toc-header {
@@ -14,6 +17,9 @@
     height: 80px;
     border-bottom: 1px solid;
     margin-bottom: 20px;
+    background-image:
+      linear-gradient(rgba(255,255,255,.96), rgba(255,255,255,.96)),
+      url('../images/COMPOST_Pattern_A1.jpg');
 
     @include homepage-desktop {
       margin-bottom: 40px;
