@@ -20,7 +20,7 @@
 
   {{ if ge $prevPageIndex 0 }}
   <a href="{{ relref . (index $pieceSequence $prevPageIndex) }}">
-    <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowLft_Black.png" | relURL }}" alt="Back arrow" title="Previous">
+    <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowLft_Black.png" | relURL }}" alt="Back arrow" role="navigation" aria-label="Previous Piece">
   </a>
   {{ end }}
   <a href="{{ relref . "/" }}">
@@ -28,7 +28,7 @@
   </a>
   {{ if le (add $nextPageIndex 1) (len $pieceSequence) }}
   <a href="{{ relref . (index $pieceSequence $nextPageIndex) }}">
-    <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowRt_Black.png" | relURL }}" alt="next arrow" title="Next">
+    <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowRt_Black.png" | relURL }}" alt="next arrow" role="navigation" aria-label="Next Piece">
   </a>
   {{ end }}
 
