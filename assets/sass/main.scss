@@ -363,6 +363,10 @@ main {
         // border: 1px solid $compost-green;
         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
         width: 100%;
+
+        &.no-shadow {
+          box-shadow: none;
+        }
       }
     }
 

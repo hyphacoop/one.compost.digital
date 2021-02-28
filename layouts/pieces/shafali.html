@@ -6,11 +6,18 @@
     <div class="main-column">
       {{ if isset .Params "titleimageurl" }}
         <div class="piece-title-image">
-          <img src="{{ .Params.titleImageUrl | relURL }}">
+          <figure>
+            <img class="no-shadow" src="{{ .Params.titleImageUrl | relURL }}">
+            <figcaption><p>{{ .Params.titleImageCaption }}</p></figcaption>
+          </figure>
         </div>
       {{ end }}
 
       <h1>{{.Params.title}}</h1>
+
+      {{ if isset .Params "subtitle" }}
+        <h2 class="piece-subtitle">{{ .Params.subtitle }}</h2>
+      {{ end }}
 
       <div class="author-name">{{ $author.name }}</div>
       
