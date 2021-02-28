@@ -348,6 +348,8 @@ main {
 
     .piece-title-image {
       img {
+        // border: 1px solid $compost-green;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
         width: 100%;
       }
     }
@@ -363,15 +365,15 @@ main {
     }
 
     code {
-      font-size: 0.8em;
-      background: scale-color($compost-green, $lightness: 60%, $saturation: -20%);
+      font-size: 0.8rem;
+      background: scale-color($compost-green, $lightness: 62%, $saturation: -20%);
     }
 
     pre {
       padding: 16px 20px;
-      font-size: 0.8em;
+      font-size: 0.8rem;
       overflow: auto;
-      background: scale-color($compost-green, $lightness: 60%, $saturation: -20%);
+      background: scale-color($compost-green, $lightness: 62%, $saturation: -20%);
     }
 
     h1 {
