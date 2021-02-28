@@ -352,8 +352,26 @@ main {
       }
     }
 
+    // This is really just for The Salt of the Cosmos
+    // Maybe should put in a piece-specific style override
+    ol {
+      padding-inline-start: 10px;
+
+      @include desktop {
+        padding-inline-start: 0px;
+      }
+    }
+
+    code {
+      font-size: 0.8em;
+      background: scale-color($compost-green, $lightness: 60%, $saturation: -20%);
+    }
+
     pre {
+      padding: 20px;
+      font-size: 0.8em;
       overflow: auto;
+      background: scale-color($compost-green, $lightness: 60%, $saturation: -20%);
     }
 
     h1 {
