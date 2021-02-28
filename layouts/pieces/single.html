@@ -1,6 +1,6 @@
 {{ define "main" }}
   
-  <div class="piece-container main-column">
+  <div class="piece-container main-column {{ .Params.customClass }}">
     {{ $author := index (where .Site.Data.people "name" .Params.author) 0 }}
 
     {{ if isset .Params "titleimageurl" }}

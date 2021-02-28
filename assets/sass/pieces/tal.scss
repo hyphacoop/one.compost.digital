@@ -1,0 +1,9 @@
+.tals-piece {
+  ol {
+    padding-inline-start: 20px;
+
+    @media (min-width: calc(#{$desktop-column-width} + 20px)) {
+      padding-inline-start: 0px;
+    }
+  }
+}

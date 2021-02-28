@@ -370,16 +370,6 @@ main {
       }
     }
 
-    // This is really just for The Salt of the Cosmos
-    // Maybe should put in a piece-specific style override
-    ol {
-      padding-inline-start: 20px;
-
-      @include desktop {
-        padding-inline-start: 0px;
-      }
-    }
-
     code {
       font-size: 0.8rem;
       background: scale-color($compost-green, $lightness: 62%, $saturation: -20%);
@@ -649,3 +639,4 @@ main {
 @import './footer-content.scss';
 @import './pieces/shafali.scss';
 @import './pieces/micah.scss';
+@import './pieces/tal.scss';

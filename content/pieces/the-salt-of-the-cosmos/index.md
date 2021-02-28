@@ -6,6 +6,7 @@ titleImageUrl: ./images/title-images/tal-cover-700x350.jpg
 tableOfContentsImageUrl: ./images/title-images/tal-cover-700x350.jpg
 endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
 footnotesUrl: "footnotes.json"
+customClass: tals-piece
 ---
 
 >_For Judy_  
