@@ -369,7 +369,7 @@ main {
     // This is really just for The Salt of the Cosmos
     // Maybe should put in a piece-specific style override
     ol {
-      padding-inline-start: 10px;
+      padding-inline-start: 20px;
 
       @include desktop {
         padding-inline-start: 0px;
@@ -437,7 +437,7 @@ main {
 
     .footnotes-container {
       position: absolute;
-      font-size: 16px;
+      font-size: 0.7em;
       // font-weight: 300;
       top: 0px;
       left: $desktop-column-width;
