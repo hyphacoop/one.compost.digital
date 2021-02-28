@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "x": 351,
+    "y": 551,
+    "r": 75,
+    "text": "A prototype of a recording device with local Wi-Fi, designed by Sanketh, a member of Janastu. We used the device to introduce the idea of a local network and the possibility of a digital archive for different knowledge practices anchored by women in Bidar. One of the activities that we relied on during the project was to use these devices to engage curiosity and start conversations about the heritage of Bidar.",
+    "media": [
+      {
+        "type": "image",
+        "url": "micah/annotation-assets/1/1.jpg"
+      },
+      {
+        "type": "image",
+        "url": "micah/annotation-assets/1/Pi0_recorder.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "x": 1062,
+    "y": 634,
+    "r": 30,
+    "text": "\"People have things to do to earn their food. When will they engage with the network mesh when just surviving takes so much time?\"",
+    "media": [{
+      "type": "image",
+      "url": "micah/annotation-assets/2/APC_COMMUNITYS_2ND_WORKSHOP_20200109_P014.jpg"
+    }]
+  },
+  {
+    "id": 3,
+    "x": 199,
+    "y": 620,
+    "r": 76,
+    "text": "Kumabara is an occupation-based community of potters. We engaged with women of Kumabara from Naubad, a locality in Bidar. The women and men both engage with the craft of making pottery. They sing Kumabara padagalu (songs) and as a bhajan (devotional songs). These songs are passed on from one generation to another through oral practice. More than seeing an implementation of the network, these women are keen on recording the songs as they are not available on the Internet.",
+    "media": [{
+      "type": "audio",
+      "url": "micah/annotation-assets/3/APC_COMMUNITYS_2ND_WORKSHOP_20200109_V001.mp3"
+    }]
+  },
+  {
+    "id": 4,
+    "x": 460,
+    "y": 771,
+    "r": 83,
+    "text": "Bidar is one of the places where Urdu language has its origins. Ruksaana Nazneen is one of the few women writers associated with a writer's group called Yaaran-e-Abab (Friends of Literature). She has published more than 200 essays and books in Urdu. Since most of her writings are in Urdu, access is limited not only outside but within Bidar, her locality. With Ruksaana Ma’am we have started to record her stories and also start the process of translating them to English.",
+    "media": [
+      {
+        "type": "audio",
+        "url": "micah/annotation-assets/4/APC_SHAYARAS_YARAN-E-ADAB_RUQSANANAZNEEN_20191128_a01.mp3"
+      },
+      {
+        "type": "audio",
+        "url": "micah/annotation-assets/4/APC_SHAYARAS_YARAN-E-ADAB_RUKSANANAZNEEN_20190922_a02.mp3"
+      },
+      {
+        "type": "audio",
+        "url": "micah/annotation-assets/4/APC_SHAYARAS_RUKSANANAZNEEN_20191224_a02.mp3"
+      },
+      {
+        "type": "audio",
+        "url": "micah/annotation-assets/4/rukhsana_onmesh2.mp3"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "x": 876,
+    "y": 1024,
+    "r": 36,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 6,
+    "x": 215,
+    "y": 1164,
+    "r": 137,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 7,
+    "x": 1500,
+    "y": 982,
+    "r": 32,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 8,
+    "x": 591,
+    "y": 221,
+    "r": 49,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 9,
+    "x": 718,
+    "y": 427,
+    "r": 35,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 10,
+    "x": 989,
+    "y": 656,
+    "r": 33,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 11,
+    "x": 750,
+    "y": 774,
+    "r": 67,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 12,
+    "x": 1721,
+    "y": 485,
+    "r": 63,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 13,
+    "x": 1227,
+    "y": 420,
+    "r": 131,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 14,
+    "x": 1143,
+    "y": 686,
+    "r": 43,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 15,
+    "x": 1531,
+    "y": 679,
+    "r": 65,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 16,
+    "x": 1207,
+    "y": 1161,
+    "r": 85,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 17,
+    "x": 726,
+    "y": 961,
+    "r": 107,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 18,
+    "x": 1560,
+    "y": 855,
+    "r": 77,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 19,
+    "x": 1727,
+    "y": 610,
+    "r": 62,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 20,
+    "x": 1381,
+    "y": 845,
+    "r": 35,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 21,
+    "x": 702,
+    "y": 224,
+    "r": 66,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 22,
+    "x": 1453,
+    "y": 910,
+    "r": 52,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 23,
+    "x": 1514,
+    "y": 527,
+    "r": 58,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 24,
+    "x": 1044,
+    "y": 747,
+    "r": 66,
+    "text": "",
+    "media": []
+  },
+  {
+    "id": 25,
+    "x": 765,
+    "y": 517,
+    "r": 68,
+    "text": "",
+    "media": []
+  }
+]
