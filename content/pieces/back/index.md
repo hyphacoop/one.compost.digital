@@ -1,5 +1,9 @@
 ---
-title: Back page
+title: Back Cover
+description: Tangents, fragments, and shoutouts!
+tableOfContentsImageUrl: ./images/title-images/back-cover-700x350.png
+titleImageUrl: ./images/title-images/back-cover-700x350.png
+endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
 ---
 
 {{< rawhtml >}}

@@ -3,8 +3,8 @@ title: Stickers
 description: 
 author: Angelica Blevins
 description: Inspired by Kaoni, these stickers are cute pixelated blob emojis from the myspace era of the internet. Download and use them as you like!
-tableOfContentsImageUrl: ./images/angelica-gifs/mantis_computer.gif
-titleImageUrl: ./images/angelica-gifs/mantis_computer.gif
+tableOfContentsImageUrl: ./images/title-images/stickers-cover-700x350.png
+titleImageUrl: ./images/title-images/stickers-cover-700x350.png
 endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
 
 ---
