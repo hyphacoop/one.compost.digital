@@ -1,56 +1,62 @@
+{{ define "body-class" }}
+grey-background
+{{ end }}
+
 {{ define "main" }}
   
-  <div class="piece-container main-column {{ .Params.customClass }}">
-    {{ $author := index (where .Site.Data.people "name" .Params.author) 0 }}
+  <div class="piece-container {{ .Params.customClass }}">
+    <div class="piece-content main-column">
+      {{ $author := index (where .Site.Data.people "name" .Params.author) 0 }}
 
-    {{ if isset .Params "titleimageurl" }}
-      <div class="piece-title-image">
-        <figure>
-          <img src="{{ .Params.titleImageUrl | relURL }}">
-          <figcaption><p>{{ .Params.titleImageCaption }}</p></figcaption>
-        </figure>
-      </div>
-    {{ end }}
+      {{ if isset .Params "titleimageurl" }}
+        <div class="piece-title-image">
+          <figure>
+            <img src="{{ .Params.titleImageUrl | relURL }}">
+            <figcaption><p>{{ .Params.titleImageCaption }}</p></figcaption>
+          </figure>
+        </div>
+      {{ end }}
 
-    <h1>{{.Params.title}}</h1>
+      <h1>{{.Params.title}}</h1>
 
-    {{ if isset .Params "subtitle" }}
-      <h2 class="piece-subtitle">{{ .Params.subtitle }}</h2>
-    {{ end }}
+      {{ if isset .Params "subtitle" }}
+        <h2 class="piece-subtitle">{{ .Params.subtitle }}</h2>
+      {{ end }}
 
-    <div class="author-name">{{ $author.name }}</div>
+      <div class="author-name">{{ $author.name }}</div>
 
-    {{ .Content }}
+      {{ .Content }}
 
-    {{ if isset .Params "endingimageurl" }}
-      <div class="gif-ending">
-        <img src="{{ .Params.endingImageUrl | relURL }}">
-      </div>
-    {{ else }}
-      <div class="gif-ending">
-        <img src="{{ "./images/angelica-gifs/mantis_computer.gif" | relURL }}">
-      </div>
-    {{ end }}
-    
-    <div class="bio"><p>{{ $author.bio | markdownify }}</p></div>
+      {{ if isset .Params "endingimageurl" }}
+        <div class="gif-ending">
+          <img src="{{ .Params.endingImageUrl | relURL }}">
+        </div>
+      {{ else }}
+        <div class="gif-ending">
+          <img src="{{ "./images/angelica-gifs/mantis_computer.gif" | relURL }}">
+        </div>
+      {{ end }}
+      
+      <div class="bio"><p>{{ $author.bio | markdownify }}</p></div>
 
-    {{ partial "prev-and-next-buttons.html" . }}
+      {{ partial "prev-and-next-buttons.html" . }}
 
-    <!-- Footnotes -->
-    <div class="footnotes-container"></div>
-    <!-- See baseof.html for mobile-footnotes-container -->
+      <!-- Footnotes -->
+      <div class="footnotes-container"></div>
+      <!-- See baseof.html for mobile-footnotes-container -->
 
-    {{ if isset .Params "footnotesurl" }}
-      <script>
-        var footnotes = JSON.parse({{ (.Resources.GetMatch .Params.footnotesUrl).Content }})
-      </script>
-    {{ end }}
+      {{ if isset .Params "footnotesurl" }}
+        <script>
+          var footnotes = JSON.parse({{ (.Resources.GetMatch .Params.footnotesUrl).Content }})
+        </script>
+      {{ end }}
 
-    {{ if isset .Params "footnotes" }}
-      <script>
-        var footnotes = JSON.parse({{ .Params.footnotes | jsonify }})
-      </script>
-    {{ end }}
+      {{ if isset .Params "footnotes" }}
+        <script>
+          var footnotes = JSON.parse({{ .Params.footnotes | jsonify }})
+        </script>
+      {{ end }}
+    </div>
   </div>
 
 {{ end }}

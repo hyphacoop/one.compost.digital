@@ -32,6 +32,7 @@
       @include desktop {
         position: relative;
         width: 100%;
+        max-width: $desktop-homepage-width;
         margin: 0px auto;
       }
 
