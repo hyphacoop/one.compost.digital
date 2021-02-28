@@ -358,10 +358,6 @@ main {
 
   .piece-container, .main-column {
 
-    &.has-footnotes {
-      transform: translateX(-($footnote-column-width / 2));
-    }
-
     .piece-title-image {
       img {
         // border: 1px solid $compost-green;

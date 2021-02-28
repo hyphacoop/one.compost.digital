@@ -34,7 +34,6 @@ function renderFootnotes() {
   footnoteContainerEl.innerHTML = ''
   footnoteTags.forEach((footnoteLink, index) => {
     let footnoteId = footnoteLink.getAttribute('footnote-id')
-    // console.log(footnoteLink, footnoteLink.parentNode)
     footnoteLink.parentNode.replaceChild(
       html`<span class="footnote-link" footnote-id="${footnoteId}">[${1 + index}]</span>`,
       footnoteLink
@@ -43,9 +42,6 @@ function renderFootnotes() {
   footnoteTags = Array.from(document.querySelectorAll('[footnote-id]'))
 
   if (canFitFootnoteColumn()) {
-    // Move the page body a little bit to the left to center the footnotes sidebar
-    // document.querySelector('.piece-container').classList.add('has-footnotes')
-    
     // Render the footnotes in the sidebar
     let lastFootnoteEndPos = 0
     footnoteTags.forEach(footnoteLink => {
@@ -97,10 +93,8 @@ function renderMobileFootnote() {
     mobileFootnotesContainer.innerHTML = ''
     mobileFootnotesContainer.appendChild(footnoteEl)
     mobileFootnotesContainer.style['max-height'] = Math.min(400, footnoteEl.offsetHeight + 2) + 'px'
-    // mobileFootnotesContainer.classList.add('open')
   } else {
     mobileFootnotesContainer.style['max-height'] = '0px'
-    // mobileFootnotesContainer.classList.remove('open') 
   }
 }
 
