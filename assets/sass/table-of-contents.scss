@@ -57,7 +57,7 @@
         height: 40px;
 
         @include homepage-desktop {
-          height: 50px;
+          height: 60px;
           margin-top: 28px;
         }
 
@@ -69,7 +69,7 @@
       .mushroom {
         position: absolute;
         right: 22px;
-        top: 6px;
+        top: 3px;
         height: 60px;
 
         @include homepage-desktop {
