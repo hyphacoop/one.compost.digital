@@ -1,4 +1,4 @@
-<div class="prev-and-next-buttons">
+<div class="prev-and-next-buttons" role="navigation">
   
   {{/*
     writing code in go template syntax is :( The code
@@ -20,15 +20,15 @@
 
   {{ if ge $prevPageIndex 0 }}
   <a href="{{ relref . (index $pieceSequence $prevPageIndex) }}">
-    <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowLft_Black.png" | relURL }}" alt="Back arrow" role="navigation" aria-label="Previous Piece">
+    <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowLft_Black.png" | relURL }}" alt="Back arrow" aria-label="Previous Piece">
   </a>
   {{ end }}
   <a href="{{ relref . "/" }}">
-    <img class="home-icon" src="{{ "images/COMPOST_Assets_HOME_500.png" | relURL }}" alt="Home" title="Home">
+    <img class="home-icon" src="{{ "images/COMPOST_Assets_HOME_500.png" | relURL }}" alt="Home" aria-label="Home">
   </a>
   {{ if le (add $nextPageIndex 1) (len $pieceSequence) }}
   <a href="{{ relref . (index $pieceSequence $nextPageIndex) }}">
-    <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowRt_Black.png" | relURL }}" alt="next arrow" role="navigation" aria-label="Next Piece">
+    <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowRt_Black.png" | relURL }}" alt="next arrow" aria-label="Next Piece">
   </a>
   {{ end }}
 
