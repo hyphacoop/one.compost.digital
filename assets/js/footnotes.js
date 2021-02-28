@@ -1,4 +1,4 @@
-let footnoteTags = Array.from(document.querySelectorAll('[footnote-id]'))
+let footnoteTags
 
 // Set up some helper funs
 let getFootnoteTag = (footnoteId) => footnoteTags.find(el => el.getAttribute('footnote-id') === footnoteId)
@@ -16,21 +16,33 @@ let getFootnoteData = (footnoteId) => {
 }
 
 function renderFootnotes() {
-  // Render the footnote link numbers in the piece body
-  footnoteTags.forEach((tag, index) => {
-    tag.innerText = `[${1 + index}]`
-  })
-
+  footnoteTags = Array.from(document.querySelectorAll('[footnote-id]'))
+  
   if (footnoteTags.length <= 0) {
     return
   }
 
-  if (isDesktop()) {
-    // Move the page body a little bit to the left to center the footnotes sidebar
-    // document.querySelector('.piece-container').classList.add('has-footnotes')
-    
+  let canFitFootnoteColumn = () => {
+    let mainColumnWidth = 780
+    let footnoteColumnWidth = 220
+    let padding = 60
+    return document.body.offsetWidth > (mainColumnWidth + 2 * (footnoteColumnWidth + padding))
+  }
+
+  // Reset everything
+  let footnoteContainerEl = document.querySelector('.footnotes-container')
+  footnoteContainerEl.innerHTML = ''
+  footnoteTags.forEach((footnoteLink, index) => {
+    let footnoteId = footnoteLink.getAttribute('footnote-id')
+    footnoteLink.parentNode.replaceChild(
+      html`<span class="footnote-link" footnote-id="${footnoteId}">[${1 + index}]</span>`,
+      footnoteLink
+    )
+  })
+  footnoteTags = Array.from(document.querySelectorAll('[footnote-id]'))
+
+  if (canFitFootnoteColumn()) {
     // Render the footnotes in the sidebar
-    let footnoteContainerEl = document.querySelector('.footnotes-container')
     let lastFootnoteEndPos = 0
     footnoteTags.forEach(footnoteLink => {
       let footnoteId = footnoteLink.getAttribute('footnote-id')
@@ -45,7 +57,6 @@ function renderFootnotes() {
       footnoteContainerEl.appendChild(footnoteEl)
       lastFootnoteEndPos = footnotePos + footnoteEl.offsetHeight
     })
-
 
     document.querySelector('.piece-container').style.minHeight = `${lastFootnoteEndPos}px`
   } else {
@@ -82,23 +93,20 @@ function renderMobileFootnote() {
     mobileFootnotesContainer.innerHTML = ''
     mobileFootnotesContainer.appendChild(footnoteEl)
     mobileFootnotesContainer.style['max-height'] = Math.min(400, footnoteEl.offsetHeight + 2) + 'px'
-    // mobileFootnotesContainer.classList.add('open')
   } else {
     mobileFootnotesContainer.style['max-height'] = '0px'
-    // mobileFootnotesContainer.classList.remove('open') 
   }
 }
 
 function openMobileFootnote(footnoteId) {
-  console.log('OPENING')
   currentFootnoteId = footnoteId
   renderMobileFootnote()
 }
 
 function closeMobileFootnote() {
-  console.log('CLOSING')
   currentFootnoteId = null
   renderMobileFootnote()
 }
 
 document.fonts.ready.then(() => renderFootnotes())
+window.addEventListener('resize', () => renderFootnotes())

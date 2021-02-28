@@ -7,6 +7,7 @@ titleImageAlt: A birds-eye view of a salt flat
 tableOfContentsImageUrl: ./images/title-images/tal-cover-700x350.jpg
 tableOfContentsImageAlt: A birds-eye view of a salt flat 
 footnotesUrl: "footnotes.json"
+customClass: tals-piece
 ---
 
 >_For Judy_  

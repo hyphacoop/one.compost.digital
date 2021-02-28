@@ -61,7 +61,8 @@ It kept happening every week or so, the clusters of weird text. They tried filin
 
 One morning, she got the idea as she watched her mom tap an eraser on her chin and frown at a word puzzle in the newspaper, accusing the paper with her eyes of some small but grave offense. She snuck back upstairs before school and frantically pasted down a log of all the Blips. She pored over this log for secrets. Over several weeks, she began to see patterns. One night, when the chat was empty and the Matriarch was long asleep, she blipped back to the Blip: `kwmM.,(!_+s=’j;KqJ~rrrr~rrrr~rrrr?`
 
-The algaes
+## The algaes
+
 The algaes had a complicated relationship with the cuttlefish. The cuttlefish had corralled them from the open current and kindly protected them from nibblers, but out of self-interest more than altruism. When they started to feel the sluggishness of shadow, he would kindly scoop them back up near the surface to soak in the light. But he would also shove them all into this hole.
 
 Some old clam, one of those razorship rock-boring boys, had carved out this spot in the strange rock a long time ago. The cuttlefish, who undoubtedly thought himself clever, had poked around in the hole and discovered little bits of light. For days, he wedged one eye into the hole, crooning “oooh! blink blink!” into the flashing bits of rock.
@@ -139,6 +140,6 @@ Every time the men lifted her up now she still winked at the sun, but wished upo
 
 ## Notes
 
-Ingrid Burrington has called the Internet “the largest terraforming project” in existence. If you are even mildly interested in this piece, you may be deeply interested in Burrington’s work (http://lifewinning.com/).
+Ingrid Burrington has called the Internet “the largest terraforming project” in existence. If you are even mildly interested in this piece, you may be deeply interested in Burrington’s work ([http://lifewinning.com/](http://lifewinning.com/)).
 
 Gratitude to Giovanna, Elina, Abhishek, Nick Zurku (co-founder of the Pittsburgh Internet Exchange), the Bridge #science channel, Caro, Austin, Strange Friend Brian, Aurelia, Smol Dyke, and all the COMPOST crew. Writing is terrifying and lonely, but you all make it feel less so.

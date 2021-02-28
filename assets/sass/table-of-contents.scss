@@ -15,13 +15,13 @@
   .toc-header {
     background: white;
     height: 80px;
-    border-bottom: 1px solid;
+    border-bottom: 1px dashed;
     margin-bottom: 20px;
     background-image:
       linear-gradient(rgba(255,255,255,.96), rgba(255,255,255,.96)),
       url('../images/COMPOST_Pattern_A1.jpg');
 
-    @include homepage-desktop {
+    @include desktop {
       margin-bottom: 40px;
       height: calc(#{$desktop-logo-height} + 20px);
     }
@@ -29,20 +29,20 @@
     .header-top {
       display: flex;  
       
-      @include homepage-desktop {
+      @include desktop {
         position: relative;
-        width: $desktop-homepage-width;
+        width: 100%;
         margin: 0px auto;
       }
 
       .compost-logo {
         position: absolute;
         left: 50%;
-        top: 10px;
+        top: 12px;
         transform: translateX(-50%);
         height: $mobile-logo-height;
 
-        @include homepage-desktop {
+        @include desktop {
           height: $desktop-logo-height;
         }
 
@@ -56,9 +56,9 @@
         margin-left: 10px;
         height: 40px;
 
-        @include homepage-desktop {
-          height: 50px;
-          margin-top: 25px;
+        @include desktop {
+          height: 60px;
+          margin-top: 28px;
         }
 
         img {
@@ -72,9 +72,9 @@
         top: 3px;
         height: 60px;
 
-        @include homepage-desktop {
-          height: 70px;
-          top: 8px;
+        @include desktop {
+          height: 90px;
+          top: 4px;
         }
 
         img {
