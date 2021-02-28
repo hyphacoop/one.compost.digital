@@ -38,7 +38,7 @@
       .compost-logo {
         position: absolute;
         left: 50%;
-        top: 10px;
+        top: 12px;
         transform: translateX(-50%);
         height: $mobile-logo-height;
 
@@ -58,7 +58,7 @@
 
         @include homepage-desktop {
           height: 50px;
-          margin-top: 25px;
+          margin-top: 28px;
         }
 
         img {
@@ -69,12 +69,12 @@
       .mushroom {
         position: absolute;
         right: 22px;
-        top: 3px;
+        top: 6px;
         height: 60px;
 
         @include homepage-desktop {
-          height: 70px;
-          top: 8px;
+          height: 90px;
+          top: 4px;
         }
 
         img {

@@ -1,9 +1,9 @@
 @import './fonts.scss';
 
 $mobile-header-height: 160px;
-$desktop-header-height: 190px;
+$desktop-header-height: 200px;
 $mobile-logo-height: 60px;
-$desktop-logo-height: 80px;
+$desktop-logo-height: 90px;
 $desktop-homepage-width: 1200px;
 $desktop-column-width: 780px;
 $footnote-column-width: 220px;
@@ -105,7 +105,7 @@ a, a:visited, .link-style {
     .compost-logo {
       position: absolute;
       left: 50%;
-      top: 10px;
+      top: 12px;
       transform: translateX(-50%);
       height: $mobile-logo-height;
 
@@ -125,7 +125,7 @@ a, a:visited, .link-style {
 
       @include homepage-desktop {
         height: 50px;
-        margin-top: 25px;
+        margin-top: 28px;
       }
 
       img {
@@ -136,12 +136,12 @@ a, a:visited, .link-style {
     .mushroom {
       position: absolute;
       right: 22px;
-      top: 3px;
+      top: 6px;
       height: 60px;
 
       @include homepage-desktop {
-        height: 70px;
-        top: 8px;
+        height: 90px;
+        top: 4px;
       }
 
       img {
