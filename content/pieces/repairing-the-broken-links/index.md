@@ -5,6 +5,7 @@ author: Annie Howard
 description: Just because we figure out who we are online doesn't mean we can easily hold on to our digital pasts. How do we understand the unfolding of our virtual selves, when they're contantly destroyed by the platforms that they once called home?
 tableOfContentsImageUrl: ./images/title-images/annie-700x350.jpg
 titleImageUrl: ./images/title-images/annie-700x350.jpg
+titleImageCaption: We live on a mote of dust.
 endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
 footnotesUrl: "footnotes.json"
 ---
@@ -27,7 +28,7 @@ Formative experiences that are less than five years old are now lost to me, at l
 
 Probably the most painful loss I’ve experienced on the Web was on NewHive. The site was a platform for making creative webpages that I used in a digital humanities class called “Art, Writing, Technology” in the spring of 2016. Our task was simple: Each week, twice a week, use the platform, which combined rudimentary CSS coding with drag-and-drop capabilities, to make web pages that responded to challenges like creating a conceptual Twitter account or using a scanner to make time-based, stop-motion art.
 
-![](scanner-talk.gif)
+{{< figure src="scanner-talk.gif" alt="alt text goes here" >}}
 
 For my concluding work, I brought my own whiteness into the frame in a piece called “Contort Myself,” drawing upon texts I’d been reading in an African American Studies class called Unsettling Whiteness. The video montage allowed me to examine my complicity with white supremacy and the contortions I’d experienced in trying to challenge it . To this day, the film is a marker of a very specific iteration of myself, with NewHive serving as a necessary conduit for the expansiveness I felt then. Even without having the experience of early-Web experimentation, I encountered its vital possibilities on the platform.
 

@@ -5,7 +5,10 @@
 
     {{ if isset .Params "titleimageurl" }}
       <div class="piece-title-image">
-        <img src="{{ .Params.titleImageUrl | relURL }}">
+        <figure>
+          <img src="{{ .Params.titleImageUrl | relURL }}">
+          <figcaption><p>{{ .Params.titleImageCaption }}</p></figcaption>
+        </figure>
       </div>
     {{ end }}
 

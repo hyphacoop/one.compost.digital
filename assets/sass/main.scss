@@ -43,6 +43,16 @@ html, body {
     line-height: 1.4em;
   }
 
+  figure {
+    margin: 0px;
+    figcaption {
+      p {
+        font-size: 0.8rem;
+        margin: 0px;
+      }
+    }
+  }
+
   &.no-scroll {
     overflow: hidden;
   }
