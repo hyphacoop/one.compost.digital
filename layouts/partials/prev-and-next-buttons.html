@@ -1,7 +1,7 @@
 <div class="prev-and-next-buttons">
   
   {{/*
-    writing code in go template syntax is totally lame. The code
+    writing code in go template syntax is :( The code
     below is for getting the names of the next and previous pieces
     for the arrow links. Probably best to avoid doing this kind of thing
     in the template, and do it all in javascript. :/
@@ -20,15 +20,15 @@
 
   {{ if ge $prevPageIndex 0 }}
   <a href="{{ relref . (index $pieceSequence $prevPageIndex) }}">
-    <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowLft_Black.png" | relURL }}">
+    <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowLft_Black.png" | relURL }}" alt="Back arrow" title="Previous">
   </a>
   {{ end }}
   <a href="{{ relref . "/" }}">
-    <img class="home-icon" src="{{ "images/COMPOST_Assets_HOME_500.png" | relURL }}">
+    <img class="home-icon" src="{{ "images/COMPOST_Assets_HOME_500.png" | relURL }}" alt="Home" title="Home">
   </a>
   {{ if le (add $nextPageIndex 1) (len $pieceSequence) }}
   <a href="{{ relref . (index $pieceSequence $nextPageIndex) }}">
-    <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowRt_Black.png" | relURL }}">
+    <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowRt_Black.png" | relURL }}" alt="next arrow" title="Next">
   </a>
   {{ end }}
 
