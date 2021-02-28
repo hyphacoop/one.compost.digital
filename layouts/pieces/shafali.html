@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-  <div class="shafali-container">
+  <div class="shafali-container piece-container">
     {{ $author := index (where .Site.Data.people "name" .Params.author) 0 }}
 
     <div class="main-column">
@@ -15,61 +15,92 @@
       <div class="author-name">{{ $author.name }}</div>
       
       {{ .Content }}
+
+      <!-- Footnotes -->
+      <div class="footnotes-container"></div>
+      <!-- See baseof.html for mobile-footnotes-container -->
     </div>
 
     <div class="sketches-column">
       <section class="shafali-row biases">
         <div class="sketch biases-sketch">
           <iframe id="biasesF"></iframe>
-          <div class="sketch-text">A black cat meowed at the crosswalk
-and what felt like racing heartbeat
-was actually the sound of progressing footsteps.</div>
+          <div class="sketch-text"> 
+            early morning Saturday
+            a black cat meowed at the crosswalk
+            and what felt like a racing heartbeat
+            was actually the sound of progressing footsteps.
+            </div>
         </div>
         <div class="biases-text">
-          <div class="shafali-big-text">31,500 search results later sat a story of a space that quietly pulled us in to a world within the world.</div>
+          <div class="shafali-big-text">
+            31,500 search results later
+            sat a story of a space 
+            that quietly pulled us in 
+            to a world within the world.
+          </div>
         </div>
       </section>
       <section class="shafali-row material-creator">
         <div class="sketch material-sketch">
           <iframe id="materialF"></iframe>
-          <div class="sketch-text">It is in the nature of things
-To not exist
-But we've been shaped
-To form, to mould.</div>
+          <div class="sketch-text">
+            it is in the nature of things 
+            To not exist
+            but we've been shaped 
+            To form, to mould.
+            <span class="footnote-link" footnote-id="[3]"></span>
+          </div>
         </div>
         <div class="sketch creator-sketch">
           <iframe id="CreatorF"></iframe>  
-          <div class="sketch-text">Squeals of laughter came bubbling from a corner
-where the creators of today painted
-an unmistakable picture of tomorrow.</div>
+          <div class="sketch-text">
+            laughter burst from a corner 
+            where the creators of today painted 
+            an unmistakable picture of tomorrow.
+          </div>
         </div>
       </section>
       <section class="shafali-row literacy-respect">
         <div class="sketch literacy-sketch">
           <iframe id="LiteracyF"></iframe>
-          <div class="sketch-text">The inevitability finally dawned
-Assumptions were bygones
-It was no more banking
-Much more accepting.</div>
+          <div class="sketch-text">
+            the inevitability finally dawned
+            Assumptions were bygones
+            it was no more banking
+            much more shaping.
+            <span class="footnote-link" footnote-id="[4]"></span>
+          </div>
         </div>
         <div class="sketch respect-sketch">
           <iframe id="RespectF"></iframe>
-          <div class="sketch-text">You and I have long fought for this wind
-of freedom, respect and justice
-that flows past each one of us equally.</div>
+          <div class="sketch-text">
+            you and I have long fought for this wind 
+            of freedom, respect and justice 
+            that flows past each one of us equally.
+          </div>
         </div>
       </section>
       <section class="shafali-row intergenerational">
         <div class="intergenerational-text">
-          <div class="shafali-big-text">Outside, the rest of the world's rushing, searching for its own voice in the cacophany. But here, sun has become one with the river, the crickets have started humming the songs of the stars and we who have finally found home, delight in this.</div>
+          <div class="shafali-big-text">
+            Outside, the rest of the world's rushing,
+            selves searching for their own voices in the cacophony.
+            But here, Sun has become one with the river,
+            the crickets have started humming the songs of the stars 
+            and we who have finally found home,
+            delight in this. 
+            We’ve never lost our voice.
+          </div>
         </div>
         <div class="sketch intergenerational-sketch">
           <iframe id="IGF"></iframe>
-          <div class="sketch-text">I tried to find metaphors
-in the way a little sapling grew by a tree now old
-one's roots strengthen the other.
-At a distance a radio played the songs of a forgotten past
-to which a girl danced with her grandmother.</div>
+          <div class="sketch-text">
+            in the way a little sapling grew by a tree now old							
+            one's roots strengthen the other.
+            at a distance, a radio played the songs of a forgotten past. 
+            a girl danced with her grandmother.
+          </div>
         </div>
       </section>
     </div>
@@ -90,5 +121,17 @@ to which a girl danced with her grandmother.</div>
 {{ end }}
 
 {{ define "scripts" }}
+  {{ if isset .Params "footnotesurl" }}
+  <script>
+    var footnotes = JSON.parse({{ (.Resources.GetMatch .Params.footnotesUrl).Content }})
+  </script>
+  {{ end }}
+
+  {{ if isset .Params "footnotes" }}
+  <script>
+    var footnotes = JSON.parse({{ .Params.footnotes | jsonify }})
+  </script>
+  {{ end }}
   <script src="{{ (resources.Get "js/shafali.js").RelPermalink }}"></script>
+  <script src="{{ (resources.Get "js/footnotes.js").RelPermalink }}"></script>
 {{ end }}
