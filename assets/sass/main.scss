@@ -359,7 +359,7 @@ main {
     // This is really just for The Salt of the Cosmos
     // Maybe should put in a piece-specific style override
     ol {
-      padding-inline-start: 10px;
+      padding-inline-start: 20px;
 
       @include desktop {
         padding-inline-start: 0px;
