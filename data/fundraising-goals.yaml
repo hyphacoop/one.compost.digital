@@ -1,15 +1,15 @@
-- label: HOST A MICROCONFERENCE!
-  description: We'll run a half-day micro-conference with Issue One contributors and community. We'll discuss issues we face on the (d)web and in collective publishing.
-  amountCAD: 30000
-- label: A WEBRING FOR THE DWEB!
-  description: We'll launch a webring for the decentralized web to make allied web and dweb projects more discoverable.
-  amountCAD: 20000
-- label: PHYSICAL PRINTS FOR ISSUE ONE!
-  description: We'll design print layouts and create physical copies for Issue One for you to order online or download as an e-pub.
-  amountCAD: 12000
-- label: STICKER PACKS AND SCREENPRINTS!
-  description: We'll make sticker packs and a custom screenprinted poster available for free digital download or purchase online.
-  amountCAD: 10000
 - label: LAUNCH ISSUE TWO!
   description: Thanks to a grant from Grant For The Web, we launched COMPOST with our Issue Two budget already fulfilled.
   amountCAD: 9000
+- label: STICKER PACKS AND SCREENPRINTS!
+  description: We'll make sticker packs and a custom screenprinted poster available for free digital download or purchase online.
+  amountCAD: 10000
+- label: PHYSICAL PRINTS FOR ISSUE ONE!
+  description: We'll design print layouts and create physical copies for Issue One for you to order online or download as an e-pub.
+  amountCAD: 12000
+- label: A WEBRING FOR THE DWEB!
+  description: We'll launch a webring for the decentralized web to make allied web and dweb projects more discoverable.
+  amountCAD: 20000
+- label: HOST A MICROCONFERENCE!
+  description: We'll run a half-day micro-conference with Issue One contributors and community. We'll discuss issues we face on the (d)web and in collective publishing.
+  amountCAD: 30000
