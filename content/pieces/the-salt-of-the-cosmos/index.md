@@ -8,9 +8,8 @@ endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
 footnotesUrl: "footnotes.json"
 ---
 
-_For Judy_
-
-_For Rose_
+>_For Judy_  
+>_For Rose_  
 
 1.  The Google image search for Salar de Uyuni is dazzling. The pictures are so white your eyes hurt. The spaciousness is almost terrifying. You can’t help but think that a place so full of emptiness must contain mirages: tricks of the light, secret delusions, passages to indeterminate places and unruly desires. The dried up lake looks like it could go on forever and ever. Everything here is in your head.{{< footnote "[1]" >}}
 
@@ -56,11 +55,11 @@ _For Rose_
 
 16. mine(n): an excavation in the earth for extracting coal or other minerals
 
-                (WE WILL COUP WHOEVER WE WANT!)
+    >(WE WILL COUP WHOEVER WE WANT!)
 
     mine(pro): a thing that belongs to me
 
-                (DEAL WITH IT!)
+    >(DEAL WITH IT!)
 
     _Mine as in the entitlement of self, the ownership embedded in personhood._
 
@@ -84,7 +83,7 @@ _For Rose_
 
 23. mine(verb): to obtain units of a cryptocurrency by running a computer process to solve specific computational problems
 
-                    (In November of 2017, online magazine The New Inquiry released Bail Bloc — a mining software that generates secure and untraceable cryptocurrency and then redirects that exchanged money to bail funds on a rotational basis.)
+    >(In November of 2017, online magazine The New Inquiry released Bail Bloc — a mining software that generates secure and untraceable cryptocurrency and then redirects that exchanged money to bail funds on a rotational basis.)
 
     _Mine as in a cryptocurrency scheme against ownership.{{< footnote "[27]" >}} Mine as in the possibility of a decentralized future invested in non-carceral care._
 
