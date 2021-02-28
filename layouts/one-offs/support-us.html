@@ -1,12 +1,10 @@
 {{ define "main" }}
 <div class="main-column support-us-page">
   <h1 id="support-us">{{ .Page.Title }}</h1>
-  <p>We are building towards a digital commons: publishing our work freely and stewarding tools for anyone to use. It
-    takes hard work that we all benefit from. If you like what we’re doing, consider supporting us with a tip!
-  </p>
+  <p>We are building towards a digital commons: publishing our work freely and stewarding tools for anyone to use. If you like what we’re doing, consider supporting us!</p>
 
   <section class="donation-callout support-us-section">
-    <img src="{{ "./images/angelica-gifs/mushroom_net.gif" | relURL }}">
+    <img src="{{ "./images/angelica-gifs/blue_flower.gif" | relURL }}">
     <div class="donation-buttons">
       <div class="button-row">
         <a class="donation-button" href="https://opencollective.com/compost/contribute/backer-22573/checkout"
@@ -83,11 +81,7 @@
 
 {{ define "scripts" }}
 <script>
-  var goals = JSON.parse({
-    {
-      (index.Site.Data "fundraising-goals") | jsonify
-    }
-  })
+  var goals = JSON.parse({{ (index.Site.Data "fundraising-goals") | jsonify }})
 </script>
 {{ $js := resources.Get "js/support-us.js" }}
 <script src="{{ $js.Permalink }}"></script>
