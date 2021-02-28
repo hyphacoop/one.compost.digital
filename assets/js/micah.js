@@ -3,7 +3,7 @@ console.log('micah')
 async function init() {
   var viewer = window.viewer = OpenSeadragon({
     id: "openseadragon1",
-    prefixUrl: `/js/vendor/openseadragon-bin-2.4.2/images/`,
+    prefixUrl: `../../js/vendor/openseadragon-bin-2.4.2/images/`,
     tileSources: {
       type: "image",
       url: micahImageURL
