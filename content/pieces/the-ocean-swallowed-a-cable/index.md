@@ -1,5 +1,6 @@
 ---
 title: The Ocean Swallowed a Cable
+subtitle: Scenes from Undersea Internet Infrastructure
 author: Maggie Oates
 description: nibble nibble nibble nibble. undersea cables and fish.
 titleImageUrl: ./images/title-images/maggie-cover-700x350.jpg

@@ -1,5 +1,6 @@
 ---
-title: "Repairing Broken Links: Growth and Renewal from the Decaying Web"
+title: "Repairing Broken Links"
+subtitle: "Growth and Renewal on the Decaying Web"
 author: Annie Howard
 description: Just because we figure out who we are online doesn't mean we can easily hold on to our digital pasts. How do we understand the unfolding of our virtual selves, when they're contantly destroyed by the platforms that they once called home?
 tableOfContentsImageUrl: ./images/title-images/annie-700x350.jpg
