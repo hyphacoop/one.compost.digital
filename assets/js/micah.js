@@ -7,7 +7,8 @@ async function init() {
     tileSources: {
       type: "image",
       url: micahImageURL
-    }
+    },
+    useCanvas: false
   })
 
   let markers = [
