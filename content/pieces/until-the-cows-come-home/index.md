@@ -3,7 +3,7 @@ title: Until the Cows Come Home
 subtitle: Aamne Saamni Pi
 author: Shafali Jain
 description: Young Women who look beyond the obvious. Vernacular digital futures.
-tableOfContentsImageUrl: ./images/title-images/shafali-cover.
+tableOfContentsImageUrl: ./images/title-images/shafali-cover.png
 tableOfContentsImageAlt: The collage "Roots" by mripp, includes a cow, a humanoid, and flower.
 titleImageUrl: ./images/title-images/shafali-cover.png
 titleImageAlt: The collage "Roots" by mripp, includes a cow, a humanoid, and flower.
