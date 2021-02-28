@@ -25,7 +25,14 @@ function renderFootnotes() {
     return
   }
 
-  if (isDesktop()) {
+  let canFitFootnoteColumn = () => {
+    let mainColumnWidth = 780
+    let footnoteColumnWidth = 220
+    let padding = 60
+    return document.body.offsetWidth > (mainColumnWidth + 2 * (footnoteColumnWidth + padding))
+  }
+
+  if (canFitFootnoteColumn()) {
     // Move the page body a little bit to the left to center the footnotes sidebar
     // document.querySelector('.piece-container').classList.add('has-footnotes')
     
