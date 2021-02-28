@@ -43,7 +43,7 @@
           <a href="{{$page.Permalink}}" class="toc-piece-tile">
             <div class="toc-piece-image">
               {{ if isset $page.Params "tableofcontentsimageurl" }}
-                <img src="{{ $page.Params.tableOfContentsImageUrl | relURL }}">
+                <img src="{{ $page.Params.tableOfContentsImageUrl | relURL }}" alt="{{ $page.Params.tableOfContentsImageAlt }}">
               {{ else }}
                 <img src="{{ "./images/defaults/default-toc-image.png" | relURL }}">
               {{ end }}

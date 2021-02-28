@@ -34,8 +34,11 @@ title: Seeding the Wild
 author: Magma Collective # this needs to match an author name in data/people.yaml
 description: In which seeds are strewn into small spaces, while blindfolded, and holding three apricots between two butt cheeks.
 tableOfContentsImageUrl: ./images/angelica-gifs/mantis_computer.gif # must be 700x350
+tableOfContentsImageAlt: A praying mantis dances in front of a laptop. # Alt text. this is weakly optional 
 titleImageUrl: ./images/title-images/love-ya.png # this is optional
-endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
+titleImageAlt: # Alt text. this is weakly optional 
+endingImageUrl: ./images/angelica-gifs/mantis_computer.gif # this is optional
+endingImageAlt: # Alt text. this is weakly optional 
 ---
 ```
 

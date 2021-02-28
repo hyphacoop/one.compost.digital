@@ -6,7 +6,7 @@
     {{ if isset .Params "titleimageurl" }}
       <div class="piece-title-image">
         <figure>
-          <img src="{{ .Params.titleImageUrl | relURL }}">
+          <img src="{{ .Params.titleImageUrl | relURL }}" alt="{{ .Params.titleImageAlt }}">
           <figcaption><p>{{ .Params.titleImageCaption }}</p></figcaption>
         </figure>
       </div>
@@ -24,7 +24,7 @@
 
     {{ if isset .Params "endingimageurl" }}
       <div class="gif-ending">
-        <img src="{{ .Params.endingImageUrl | relURL }}">
+        <img src="{{ .Params.endingImageUrl | relURL }}" alt="{{ .Params.endingImageAlt }}">
       </div>
     {{ else }}
       <div class="gif-ending">

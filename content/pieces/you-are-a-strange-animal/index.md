@@ -4,8 +4,10 @@ subtitle: A Study in Intimate Datasets
 author: AC Gillette
 description: What does it mean to cultivate an intimate dataset, and where can they be found? An exploration into the poetics, ethics, and value of intimate data.
 tableOfContentsImageUrl: ./images/title-images/ac-cover-image.png
+tableOfContentsImageAlt: A glitched-out bird overlaid on a choatic field of plain text arrows and symbols. Scattered phrases such as 'of a cybernetic ecology' emerge from the background.
 titleImageUrl: ./images/title-images/ac-cover-image.png
-endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
+titleImageAlt: A glitched-out bird overlaid on a choatic field of plain text arrows and symbols. Scattered phrases such as 'of a cybernetic ecology' emerge from the background.
+
 ---
 
 I don't remember how I found the forum. Perhaps I had been directed from one of my usual haunts at the time, referred by another user who shared my interest. The internet of 2007 still felt like a serendipitious place, where you could stumble onto mysterious corners. These kinds of spaces were still popular in the days before ubiquitious social media. Back then, communities seemed to emerge like constellations in the spacious inky void of the net.
