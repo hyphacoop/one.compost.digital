@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="monetization" content="{{ .Site.Params.webmonPaymentPointer }}">
 
+    <!-- In the future, we may want to override this with piece-specific info -->
+    {{ block "og" . }}
+      <meta property="og:title" content="COMPOST" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://one.compost.digital" />
+      <meta property="og:image" content="https://one.compost.digital/images/COMPOST_Assets_OpenGraph-Issue1.jpg" />
+    {{ end }}
+
     <link rel="icon" href="{{ "./favicon-32.png" | relURL }}" sizes="32x32">
 
     <link rel="stylesheet" href="{{ (resources.Get "sass/main.scss" | resources.ToCSS).Permalink }}">
