@@ -3,8 +3,9 @@ title: The Salt of the Cosmos
 author: Tal Milovina
 description: Frolicking through lithium-powered spaces, we flirt with the possibility of escaping the tidy capture of a regime intent on determining normality and value.
 titleImageUrl: ./images/title-images/tal-cover-700x350.jpg
+titleImageAlt: A birds-eye view of a salt flat 
 tableOfContentsImageUrl: ./images/title-images/tal-cover-700x350.jpg
-endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
+tableOfContentsImageAlt: A birds-eye view of a salt flat 
 footnotesUrl: "footnotes.json"
 ---
 

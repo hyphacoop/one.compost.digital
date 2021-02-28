@@ -4,8 +4,11 @@ description:
 author: Angelica Blevins
 description: Inspired by Kaoni, these stickers are cute pixelated blob emojis from the myspace era of the internet. Download and use them as you like!
 tableOfContentsImageUrl: ./images/angelica-gifs/mantis_computer.gif
+tableOfContentsImageAlt: A praying mantis dances in front of a laptop.
 titleImageUrl: ./images/angelica-gifs/mantis_computer.gif
+titleImageAlt: A praying mantis dances in front of a laptop. 
 endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
+endingImageAlt: A praying mantis dances in front of a laptop. 
 
 ---
 

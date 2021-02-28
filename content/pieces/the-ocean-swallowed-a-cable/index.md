@@ -4,8 +4,9 @@ subtitle: Scenes from Undersea Internet Infrastructure
 author: Maggie Oates
 description: nibble nibble nibble nibble. undersea cables and fish.
 titleImageUrl: ./images/title-images/maggie-cover-700x350.jpg
+titleImageAlt: A cable snakes across some sand, covered in tiny plants and algaes. 
 tableOfContentsImageUrl: ./images/title-images/maggie-cover-700x350.jpg
-endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
+tableOfContentsImageAlt: A cable snakes across some sand, covered in tiny plants and algaes. 
 footnotesUrl: "footnotes.json"
 ---
 
@@ -80,7 +81,7 @@ It only took two days for the men to return. They gently traced her length, lift
 
 to cling to, some of her anemone jewels may have succumbed to Eaters {{< footnote "Eaters" >}}. As she nuzzled back into the sand and returned to feeling like herself, she shared a warm sigh of relief with the other cables. She invited back all the creatures, calling, “Come home friends!”
 
-![](cable.png)
+![Three bright sea anemones perch on a cable like jewels.](cable.png)
 
 ## A fishes
 
