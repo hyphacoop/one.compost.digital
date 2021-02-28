@@ -66,6 +66,10 @@ html, body {
   }
 }
 
+body {
+  overflow-x: hidden;
+}
+
 a, a:visited, .link-style {
   cursor: pointer;
   color: $link-color;
