@@ -15,6 +15,10 @@
       <div class="author-name">{{ $author.name }}</div>
       
       {{ .Content }}
+
+      <!-- Footnotes -->
+      <div class="footnotes-container"></div>
+      <!-- See baseof.html for mobile-footnotes-container -->
     </div>
 
     <div class="sketches-column">
@@ -84,28 +88,23 @@ to which a girl danced with her grandmother.</div>
       <div class="bio">{{ $author.bio | markdownify }}</div>
 
       {{ partial "prev-and-next-buttons.html" . }}
-
-      <!-- Footnotes -->
-      <div class="footnotes-container"></div>
-      <!-- See baseof.html for mobile-footnotes-container -->
-
-      {{ if isset .Params "footnotesurl" }}
-      <script>
-        var footnotes = JSON.parse({{ (.Resources.GetMatch .Params.footnotesUrl).Content }})
-      </script>
-      {{ end }}
-
-      {{ if isset .Params "footnotes" }}
-      <script>
-        var footnotes = JSON.parse({{ .Params.footnotes | jsonify }})
-      </script>
-      {{ end }}
     </div>
   </div>
 
 {{ end }}
 
 {{ define "scripts" }}
+  {{ if isset .Params "footnotesurl" }}
+  <script>
+    var footnotes = JSON.parse({{ (.Resources.GetMatch .Params.footnotesUrl).Content }})
+  </script>
+  {{ end }}
+
+  {{ if isset .Params "footnotes" }}
+  <script>
+    var footnotes = JSON.parse({{ .Params.footnotes | jsonify }})
+  </script>
+  {{ end }}
   <script src="{{ (resources.Get "js/shafali.js").RelPermalink }}"></script>
   <script src="{{ (resources.Get "js/footnotes.js").RelPermalink }}"></script>
 {{ end }}
