@@ -2,7 +2,7 @@
 title: Stickers
 description: 
 author: Angelica Blevins
-description: Inspired by Kaoni, these stickers are cute pixelated blob emojis from the myspace era of the internet. Download and use them as you like!
+description: Inspired by Kaoni, these gif stickers are cute pixelated blob emojis from the myspace era of the internet. Download and use them as you like!
 tableOfContentsImageUrl: ./images/title-images/stickers-cover-700x350.png
 tableOfContentsImageAlt: Stickers!
 titleImageUrl: ./images/title-images/stickers-cover-700x350.png
