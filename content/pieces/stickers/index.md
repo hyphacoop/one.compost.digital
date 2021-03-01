@@ -7,7 +7,7 @@ tableOfContentsImageUrl: ./images/title-images/stickers-cover-700x350.png
 tableOfContentsImageAlt: Stickers!
 titleImageUrl: ./images/title-images/stickers-cover-700x350.png
 titleImageAlt: Stickers!
-endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
+endingImageUrl: ./images/angelica-gifs/mushroom_net.gif
 endingImageAlt: A praying mantis dances in front of a laptop. 
 
 ---
