@@ -456,6 +456,7 @@ main {
     code {
       font-size: 0.8rem;
       background: scale-color($compost-green, $lightness: 62%, $saturation: -20%);
+      word-wrap: normal;
     }
 
     pre {
@@ -463,6 +464,7 @@ main {
       font-size: 0.8rem;
       overflow: auto;
       background: scale-color($compost-green, $lightness: 62%, $saturation: -20%);
+      word-wrap: normal;
     }
 
     h1 {
