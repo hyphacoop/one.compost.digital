@@ -232,16 +232,17 @@ main {
         @include small {
           padding-top: calc(#{$desktop-header-height} + 0px);
           margin: 0px auto;
-          height: 100vh;
           flex-direction: row;
           padding-left: 40px;
           padding-right: 40px;
+          padding-bottom: 40px;
           font-size: 18px;
         }
 
         @include desktop {
+          height: 100vh;
           font-size: 21px;
-          padding-top: calc(#{$desktop-header-height} + 40px);
+          padding-top: calc(#{$desktop-header-height} + 80px);
         }
 
         // Special break point for above-the-fold-content to make it fit
@@ -266,9 +267,14 @@ main {
             width: 100%;
             
             @include small {
+              width: 300px;
+              height: auto;
+              border: 1px solid $compost-green;
+            }
+
+            @include desktop {
               height: 100%;
               width: auto;
-              border: 1px solid $compost-green;
             }
           }
         }
@@ -279,6 +285,12 @@ main {
           background-image:
             linear-gradient(rgba(255,255,255,.98), rgba(255,255,255,.98)),
             url('../images/COMPOST_Pattern_A1.jpg');
+          border-bottom: 1px solid;
+          border-top: 1px solid;
+
+          // Fixes a weird gap on mobile
+          position: relative;
+          top: -8px;
 
           h1 {
             display: inline-block;
@@ -290,6 +302,8 @@ main {
 
           @include small {
             background-image: none;
+            border: none;
+            top: 0px;
             margin-left: 40px;
             padding: 0px;
             h1 {
@@ -303,7 +317,6 @@ main {
         }
 
         .gap-worm {
-          display: none;
           position: absolute;
           top: 100%;
           left: 50%;
