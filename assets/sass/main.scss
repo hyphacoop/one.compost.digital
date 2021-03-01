@@ -55,12 +55,29 @@ html, body {
     line-height: 1.4em;
   }
 
+  p {
+    img {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
   figure {
+    text-align: center;
     margin: 0px;
+    
     figcaption {
+      text-align: left;
       p {
         font-size: 0.8rem;
         margin: 0px;
+      }
+    }
+
+    &.has-shadow {
+      img {
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
       }
     }
   }
@@ -382,6 +399,7 @@ main {
             }
             
             img {
+              box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
               width: 100%;
               max-height: 100%;
             }
