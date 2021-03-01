@@ -264,9 +264,11 @@ main {
             url('../images/COMPOST_Pattern_A1.jpg');
 
           h1 {
+            display: inline-block;
             @include skinny-italic-style;
             font-size: 3.0em;
             margin-bottom: 0px;
+            border-bottom: 1px dashed;
           }
 
           @include small {
