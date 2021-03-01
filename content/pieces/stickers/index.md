@@ -39,7 +39,7 @@ These gifs were inspired by _kaoani_, a pervasive, incredibly cute pixelated blo
 {{< anigif name="wormin2" class="inline" >}}
 
 ## License
-These gifs come with a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license. 
+These gifs are licensed [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/). 
 
 ### Feel free to
 
@@ -54,4 +54,4 @@ These gifs come with a [Creative Commons Attribution-ShareAlike 4.0 Internationa
 **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
 --- 
-This text was adapted from the [creativecommons.org website](https://creativecommons.org/). Check it out to learn more CC licensing and how to use it for your own materials.
+This text was adapted from the [creativecommons.org website](https://creativecommons.org/). Visit the site to learn more about CC licensing and how you can use it for your own materials!
