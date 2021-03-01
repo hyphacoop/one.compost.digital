@@ -7,6 +7,8 @@ tableOfContentsImageUrl: ./images/title-images/shafali-cover.png
 tableOfContentsImageAlt: The collage "Roots" by mripp, includes a cow, a humanoid, and flower.
 titleImageUrl: ./images/title-images/shafali-cover.png
 titleImageAlt: The collage "Roots" by mripp, includes a cow, a humanoid, and flower.
+endingImageUrl: ./images/angelica-gifs/phone_photo.gif
+endingImageAlt: A flower checking out a cell phone
 layout: shafali
 footnotesUrl: "footnotes.json"
 ---

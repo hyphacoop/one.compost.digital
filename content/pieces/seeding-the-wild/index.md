@@ -6,6 +6,8 @@ tableOfContentsImageUrl: ./images/title-images/magma-collective-700x350.png
 tableOfContentsImageAlt: A poofy dandelion floats over a dense network graph. 
 titleImageUrl: ./images/title-images/magma-collective-700x350.png
 titleImageAlt: A poofy dandelion floats over a dense network graph. 
+endingImageUrl: ./images/angelica-gifs/dandelion.gif
+endingImageAlt: A patch of dandelions
 footnotesUrl: "footnotes.json"
 ---
 
@@ -18,6 +20,8 @@ In peer-to-peer networks, we ‘seed’ for one another. We spread our bytes lik
 Energies toward peer-to-peer decentralisation are rising again. Riding this fresh breeze, we wonder if these nature analogies can lift us away from the monocultures of platform giants towards a flourishing technological biodiversity.
 
 This experimental essay explores the similarities between the client-server network architecture and the historical expropriation of the commons, both of which forced the creation of a working class and moneyed intermediation.
+
+![](../../images/angelica-gifs/tinyworm-3.gif)
 
 ## Stolen Lands
 
@@ -51,6 +55,8 @@ In the early days of the World Wide Web, websites generally hosted content which
 
 The resulting monocrop condition of our network infrastructures do not provide an easy ground for peer-to-peer technologies to flourish. Peer-to-peer protocol biodiversity is dosed with weed killer, while the client-server monocrop is fertilized.
 
+![](../../images/angelica-gifs/tinyworm-2.gif)
+
 #### Servers are easy to find and connect to
 
 The IP address space is limited, and home internet connections are often given dynamic (changing) IP addresses. This gave many of us our inferior role as 'clients'. We can consume services but not provide them, as we are not addressable to others. Furthermore, Network Address Tables (NAT) are very often used by routers to allow a number of devices in the home to share the same IP address. These factors make it very difficult to reliably connect to a home computer directly over the internet.
@@ -58,12 +64,16 @@ The IP address space is limited, and home internet connections are often given d
 _And yet, peer-to-peer is putting cracks in the concrete:_
 There are solutions to the problems around NAT traversal and peer discovery. A number of techniques exist for 'hole-punching' network address tables, in order to allow connections to be made between two computers, neither of which are directly connected to the Internet. These generally rely on having some sort of 'rendez-vous server' used in order for the NAT to allow the connection. That is to say, the technique only works with 'help' from a server which is not behind a NAT, which means that although the server's role is minimal, it does not give us complete independence. However, techniques for peer discovery, such as distributed hash tables (DHTs) and 'gossip protocols' mean that we have a lot of flexibility about which server is used. We can have a dynamic 'pool' of cooperative servers, meaning the server we happen to use does not constitute a single point of failure. This minimises the degree of power the server operators have over the network.
 
+![](../../images/angelica-gifs/tinyworm-1.gif)
+
 #### Asymmetrical bandwidth
 
 Connections to private homes generally have greater download bandwidth than upload bandwidth. This means that you can get information from a data centre faster than you can get it from your neighbour. With the popular protocol HTTP, client requests tend to be small in comparison to server responses. So narrow upload bandwidth hinders people from serving content themselves.
 
 _And yet, under the concrete and in between the cracks, new life is growing:_
 Multiple-source 'swarming', as is used by peer-to-peer protocols like BitTorrent, can overcome the problem of asymmetrical upload/download bandwidth. By having a way of referring to an online resource other than by its physical location, it is possible to retrieve a single resource from sources in several physical locations. This means even those with limited bandwidth and low quality hardware can play a part in delivering data very quickly, because different parts can be delivered simultaneously from various locations.
+
+![](../../images/angelica-gifs/blue_flower.gif)
 
 #### Clients are getting thinner
 
