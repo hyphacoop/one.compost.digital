@@ -18,7 +18,7 @@ This local mesh network was to act as an intranet of local informal archives tha
 We would like to present narratives from the field of possibilities and futures that our network members came across. The main aim of this endeavour was to set up the network as a way to to document and creatively engage with folklore, songs, and oral practices held by women of various communities in Bidar. The intent was to connect the unconnected through collaborative activities and create mutual annotation of oral knowledge practices. 
 
 
-![](../../images/angelica-gifs/tinyworm-3.gif)
+![](../images/angelica-gifs/tinyworm-3.gif)
 
 
 ## How to read this artifact
@@ -26,7 +26,7 @@ We would like to present narratives from the field of possibilities and futures 
 The following image has been annotated with descriptions of the projects, responses from various network members, and internal thoughts and reflections. The image is a condensed map of places, artifacts and people in these different spaces. It is an exercise in sensemaking through collecting different experiences, emotions, epiphanies and hopes in the context of the mesh. It is an abstraction of Bidar  — a small city with rich histories of diverse populations and cultures meeting.
 
 
-![](../../images/angelica-gifs/tinyworm-2.gif)
+![](../images/angelica-gifs/tinyworm-2.gif)
 
 
 ## Why is it made this way 
@@ -34,7 +34,7 @@ The following image has been annotated with descriptions of the projects, respon
 It is a common gripe among researchers and activists in our area of work in India, that writing in English forces us to capture and categorise. This is a smaller effort on our part to bring out the intangible, give a glimpse into the cultural interconnections as well as account for different articulations than what a traditional format allows. During this piece, you might get lost and some things won’t make sense and you’d want to know things that aren’t explicitly said. But imagine yourself as a traveler. Please wonder and wander as you explore and listen. 
 
 
-![](../../images/angelica-gifs/blue_flower.gif)
+![](../images/angelica-gifs/blue_flower.gif)
 
 
 ## Techno-Futures from Bidar

@@ -21,7 +21,7 @@ Energies toward peer-to-peer decentralisation are rising again. Riding this fres
 
 This experimental essay explores the similarities between the client-server network architecture and the historical expropriation of the commons, both of which forced the creation of a working class and moneyed intermediation.
 
-![](../../images/angelica-gifs/tinyworm-3.gif)
+![](../images/angelica-gifs/tinyworm-3.gif)
 
 ## Stolen Lands
 
@@ -55,7 +55,7 @@ In the early days of the World Wide Web, websites generally hosted content which
 
 The resulting monocrop condition of our network infrastructures do not provide an easy ground for peer-to-peer technologies to flourish. Peer-to-peer protocol biodiversity is dosed with weed killer, while the client-server monocrop is fertilized.
 
-![](../../images/angelica-gifs/tinyworm-2.gif)
+![](../images/angelica-gifs/tinyworm-2.gif)
 
 #### Servers are easy to find and connect to
 
@@ -64,7 +64,7 @@ The IP address space is limited, and home internet connections are often given d
 _And yet, peer-to-peer is putting cracks in the concrete:_
 There are solutions to the problems around NAT traversal and peer discovery. A number of techniques exist for 'hole-punching' network address tables, in order to allow connections to be made between two computers, neither of which are directly connected to the internet. These generally rely on having some sort of 'rendez-vous server' used in order for the NAT to allow the connection. That is to say, the technique only works with 'help' from a server which is not behind a NAT, which means that although the server's role is minimal, it does not give us complete independence. However, techniques for peer discovery, such as distributed hash tables (DHTs) and 'gossip protocols' mean that we have a lot of flexibility about which server is used. We can have a dynamic 'pool' of cooperative servers, meaning the server we happen to use does not constitute a single point of failure. This minimises the degree of power the server operators have over the network.
 
-![](../../images/angelica-gifs/tinyworm-1.gif)
+![](../images/angelica-gifs/tinyworm-1.gif)
 
 #### Asymmetrical bandwidth
 
@@ -73,7 +73,7 @@ Connections to private homes generally have greater download bandwidth than uplo
 _And yet, under the concrete and in between the cracks, new life is growing:_
 Multiple-source 'swarming', as is used by peer-to-peer protocols like BitTorrent, can overcome the problem of asymmetrical upload/download bandwidth. By having a way of referring to an online resource other than by its physical location, it is possible to retrieve a single resource from sources in several physical locations. This means even those with limited bandwidth and low quality hardware can play a part in delivering data very quickly, because different parts can be delivered simultaneously from various locations.
 
-![](../../images/angelica-gifs/blue_flower.gif)
+![](../images/angelica-gifs/blue_flower.gif)
 
 #### Clients are getting thinner
 

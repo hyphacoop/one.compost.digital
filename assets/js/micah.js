@@ -3,10 +3,10 @@ console.log('micah')
 async function init() {
   var viewer = window.viewer = OpenSeadragon({
     id: "openseadragon1",
-    prefixUrl: `../../js/vendor/openseadragon-bin-2.4.2/images/`,
+    prefixUrl: `../js/vendor/openseadragon-bin-2.4.2/images/`,
     tileSources: {
       type: "image",
-      url: '../../micah/nb v24.jpg'
+      url: '../micah/nb v24.jpg'
     },
     useCanvas: false
   })
@@ -30,7 +30,7 @@ async function init() {
     }
   ]
 
-  let annotations = await fetch('../../micah/micahsMapAnnotations.json').then(res => res.json())
+  let annotations = await fetch('../micah/micahsMapAnnotations.json').then(res => res.json())
   console.log(annotations)
   
   let infoEl = html`<div id="mesh-map-info-container"></div>`
@@ -39,9 +39,9 @@ async function init() {
   const renderInfo = (annotation) => {
     const makeMediaElement = (item) => {
       if (item.type === 'image') {
-        return html`<img src="../../${item.url}">`
+        return html`<img src="../${item.url}">`
       } else if (item.type === 'audio') {
-        return html`<audio controls src="../../${item.url}">`
+        return html`<audio controls src="../${item.url}">`
       }
     }
     
@@ -75,7 +75,7 @@ async function init() {
     let markerElement = html`<img
       class="mesh-marker"
       id="right-arrow-overlay"
-      src="../../micah/info-icon.svg"
+      src="../micah/info-icon.svg"
       alt="Right arrow"
       width="20">`
 
