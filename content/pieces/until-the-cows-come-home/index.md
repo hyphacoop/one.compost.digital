@@ -5,7 +5,7 @@ author: Shafali Jain
 description: Young Women who look beyond the obvious. Vernacular digital futures.
 tableOfContentsImageUrl: ./images/title-images/shafali-cover.png
 titleImageUrl: ./images/title-images/shafali-cover.png
-endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
+endingImageUrl: ./images/angelica-gifs/phone_photo.gif
 layout: shafali
 footnotesUrl: "footnotes.json"
 ---
