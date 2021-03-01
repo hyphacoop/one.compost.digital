@@ -249,6 +249,11 @@ main {
           padding-top: calc(#{$desktop-header-height} + 80px);
         }
 
+        @media (min-width: 2400px) {
+          height: auto;
+          padding-bottom: 80px;
+        }
+
         // Special break point for above-the-fold-content to make it fit
         // the fixed height
         @media (max-width: 1000px) {
