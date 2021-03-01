@@ -25,6 +25,18 @@
     
     <div class="mesh-map" id="openseadragon1"></div>
 
+    <h3>Authors</h3>
+    <p>The people involved in creating this piece moved between different roles and undertook efforts that don’t just come under a ‘Contributor’ tag. They danced between these roles care-fully, annotating the article in a way that no one else could.</p>
+    <h4>Maintainer-Repairers</h4>
+    <p>“When there are many people singing and someone’s voice fails them, another can step up to support it.”</p>
+    <p>Vinay, Supriya, Dilip, Dinesh, Shalini, Shreyas</p>
+    <h4>Translator-Weaver-Facilitators</h4>
+    <p>“They connect ideas, concepts, struggles, people, and practices while experimenting with the overlaps and distinctions with care according to context.”</p>
+    <p>Micah, Siddhant, Shreyas, Sanketh, Bhanu, Vinay, Dheeraj</p>
+    <h4>Storyteller-Archiver-Guides</h4>
+    <p>“They are the keepers of memory. A living archive of practices, places and collectives.”</p>
+    <p>Narsappa, Ruksaana, Vidyawati, Malamma, Tulsamma, Zakiya-Bi, The Bhooteya, The Kumbhara, The Khadim</p>
+
     {{ if isset .Params "endingimageurl" }}
       <div class="gif-ending">
         <img src="{{ .Params.endingImageUrl | relURL }}">
@@ -35,8 +47,12 @@
       </div>
     {{ end }}
     
-    <div class="bio"><p>{{ $author.bio | markdownify }}</p></div>
-
+    <div class="bio">
+      <p>{{ $author.bio | markdownify }}</p>
+      <p>
+        <strong>Siddhant</strong> is a recent graduate from Srishti Institute of Art, Design, and Technology. He is interested in rural livelihood and how design can work with local collectives. His work combines fieldwork with a design-oriented research approach to further understand people’s everyday practices, different stakeholders’ needs, and the development of different participatory methods to engage with individuals and communities. His previous works involve collaboration with grassroots organizations, non-governmental organizations, and the marginalized community in different parts of rural and urban areas in India.
+      </p>
+    </div>
     {{ partial "prev-and-next-buttons.html" . }}
   
   </div>

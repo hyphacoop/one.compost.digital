@@ -8,8 +8,6 @@ endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
 layout: micah
 ---
 
-## Introduction and context setting
-
 This piece is a group reflection of a project run in Bidar, India, to set up a community mesh network facilitated by Living Labs Network and Forum, and Janastu/Servelots. 
 
 This local mesh network was to act as an intranet of local informal archives that would collectively function as a knowledge network. These archives come from various communities in Bidar and their knowledge practices. During the course of the project, we came to see both the limitations of technology but also the potential of it to catalyse and nurture many more spaces of cultural collaboration. 
@@ -26,7 +24,7 @@ It is a common gripe among researchers and activists in our area of work in Indi
 
 ## Techno-Futures from Bidar
 
-The following image has been annotated with descriptions of the projects. Please click around the map to experience responses, reflections, and songs from network members in Bidar.
+Please click around the map to experience responses, reflections, and songs from network members in Bidar. It's best viewed by toggling the full page view button, which is the last button in the top-left corner of the map.
 
 
 <!-- see layouts/pieces/micah.html -->

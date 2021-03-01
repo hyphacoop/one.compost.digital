@@ -1,6 +1,6 @@
 ---
 title: Seeding the Wild
-author: Magma Collective
+author: magma collective
 description: In peer-to-peer technologies we 'seed' for one another. This essay is an invitation to take such nature metaphors even further into future visions and efforts towards sustainable, diverse, rich and wild network ecosystems.
 tableOfContentsImageUrl: ./images/title-images/magma-collective-700x350.png
 titleImageUrl: ./images/title-images/magma-collective-700x350.png
