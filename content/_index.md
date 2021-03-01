@@ -6,7 +6,7 @@ title: Compost Issue One
 
 # FERTILE GROUNDS
 
-`ISSUE ONE`
+`ISSUE 01`
 
 Even as existing digital infrastructure fails to embolden truth or bring people together, we are hopeful. In _Fertile Grounds_ we explore how our decaying web can help new networks flourish.
 

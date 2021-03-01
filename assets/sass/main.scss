@@ -10,6 +10,7 @@ $footnote-column-width: 220px;
 $compost-green: #336633;
 $link-color: $compost-green;
 $title-sans-serif: 'Open Sans', sans-serif;
+$skinny-italic-sans-serif: 'Work Sans', sans-serif;
 
 $header-z-index: 10;
 $toc-z-index: 20;
@@ -36,6 +37,11 @@ $toc-z-index: 20;
   font-family: $title-sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+}
+
+@mixin skinny-italic-style {
+  font-family: $skinny-italic-sans-serif;
+  font-weight: 100;
 }
 
 html, body {
@@ -221,6 +227,12 @@ main {
           padding-top: calc(#{$desktop-header-height} + 40px);
         }
 
+        // Special break point for above-the-fold-content to make it fit
+        // the fixed height
+        @media (max-width: 1000px) {
+          font-size: 18px !important;
+        }
+
         @include homepage-desktop {
           width: $desktop-homepage-width;
         }
@@ -250,6 +262,12 @@ main {
           background-image:
             linear-gradient(rgba(255,255,255,.98), rgba(255,255,255,.98)),
             url('../images/COMPOST_Pattern_A1.jpg');
+
+          h1 {
+            @include skinny-italic-style;
+            font-size: 3.0em;
+            margin-bottom: 0px;
+          }
 
           @include small {
             background-image: none;
