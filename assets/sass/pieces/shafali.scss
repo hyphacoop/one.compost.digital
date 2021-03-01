@@ -49,7 +49,7 @@ $sketch-text-border-width: 2px;
       }
 
       .sketch-text {
-        white-space: pre;
+        white-space: pre-wrap;
         font-family: $title-sans-serif;
         font-size: 0.8em;
         margin: 20px 0px;
