@@ -1,5 +1,10 @@
+{{ define "body-class" }}
+grey-background
+{{ end }}
+
 {{ define "main" }}
   
+<<<<<<< HEAD
   <div class="piece-container main-column {{ .Params.customClass }}">
     {{ $author := index (where .Site.Data.people "name" .Params.author) 0 }}
 

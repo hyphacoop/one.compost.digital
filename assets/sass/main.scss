@@ -63,7 +63,7 @@ html, body {
     overflow: hidden;
   }
 
-  @include desktop {
+  @include small {
     font-size: 21px;
     
     p, li {
@@ -74,6 +74,16 @@ html, body {
 
 body {
   overflow-x: hidden;
+
+  &.grey-background {
+    background: rgba(230, 230, 230, 0.1);
+  }
+
+  &.light-squiggle-background {
+    background-image:
+        linear-gradient(rgba(255,255,255,.98), rgba(255,255,255,.98)),
+        url('../images/COMPOST_Pattern_A2.jpg');
+  }
 }
 
 a, a:visited, .link-style {
@@ -110,6 +120,7 @@ a, a:visited, .link-style {
       margin: 0px auto;
       position: relative;
       width: 100%;
+      max-width: $desktop-homepage-width;
     }
 
     .compost-logo {
@@ -196,12 +207,18 @@ main {
         box-sizing: border-box;
 
         @include small {
-          padding-top: calc(#{$desktop-header-height} + 40px);
+          padding-top: calc(#{$desktop-header-height} + 0px);
           margin: 0px auto;
           height: 100vh;
           flex-direction: row;
           padding-left: 40px;
           padding-right: 40px;
+          font-size: 18px;
+        }
+
+        @include desktop {
+          font-size: 21px;
+          padding-top: calc(#{$desktop-header-height} + 40px);
         }
 
         @include homepage-desktop {
@@ -255,7 +272,7 @@ main {
           left: 50%;
           transform: translate(-50%, -50%);
 
-          @include homepage-desktop {
+          @include small {
             display: block;
           }
           
@@ -268,13 +285,17 @@ main {
     }
 
     .home-toc-pieces-container {
-      background-image:
-        linear-gradient(rgba(255,255,255,.98), rgba(255,255,255,.98)),
-        url('../images/COMPOST_Pattern_A2.jpg');
+      padding-top: 60px;
+      // background-image:
+      //   linear-gradient(rgba(255,255,255,.98), rgba(255,255,255,.98)),
+      //   url('../images/COMPOST_Pattern_A2.jpg');
+
+      @include homepage-desktop {
+        padding-top: 80px;
+      }
 
       .home-toc-pieces-content {
         margin: 0px auto;
-        margin-top: 60px;
         padding: 0px 20px;
         width: 100%;
         box-sizing: border-box;
@@ -289,8 +310,8 @@ main {
 
         @include homepage-desktop {
           width: $desktop-homepage-width;
-          margin-top: 80px;
-          padding: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
         }
         
         .toc-piece-tile {
@@ -364,15 +385,20 @@ main {
     width: 100%;
     padding: 0px 20px;
     padding-bottom: 40px;
-    padding-top: calc(#{$mobile-header-height} - 20px);
+    padding-top: calc(#{$mobile-header-height} + 0px);
     box-sizing: border-box;
     word-wrap: break-word;
 
-    @include desktop {
-      padding-top: calc(#{$desktop-header-height} + 30px);
+    @include small {
+      padding-top: calc(#{$mobile-header-height} + 20px);
       width: $desktop-column-width;
       margin: 0px auto;
     }
+
+    @include desktop {
+      padding-top: calc(#{$desktop-header-height} + 30px);
+    }
+    
   }
 
   .piece-container, .main-column {

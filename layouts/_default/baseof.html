@@ -23,7 +23,7 @@
       {{ block "title" . }}{{ .Site.Title }}{{ end }}
     </title>
   </head>
-  <body>
+  <body class="{{ block "body-class" . }}{{ end }}">
     <header class="main-header">
       <div class="header-top" role="Navigation" >
         <a class="hamburger-worm" onclick="showTableOfContents()" title="Table of Contents" aria-label="Show Table of Contents">
