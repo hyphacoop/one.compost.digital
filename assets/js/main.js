@@ -6,20 +6,24 @@ let isMobile = () => !isDesktop()
 // Table of contents
 //
 
-function showTableOfContents() {
+function showTableOfContents(e) {
   document.querySelector('[table-of-contents-container]').style.display = 'block'
   document.body.classList.add('no-scroll')
   if (isMobile()) {
     showMobileTOCWorm()
   }
+  document.querySelector('.toc-close-button').focus()
+  e.preventDefault()
 }
 
-function hideTableOfContents() {
+function hideTableOfContents(e) {
   document.querySelector('[table-of-contents-container]').style.display = 'none'
   document.body.classList.remove('no-scroll')
   if (isMobile()) {
     hideMobileTOCWorm()
   }
+  document.querySelector('.hamburger-worm').focus()
+  e.preventDefault()
 }
 
 // For animated gifs, I bake them into this javascript file in base64, and set the src in JS.
