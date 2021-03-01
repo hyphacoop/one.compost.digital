@@ -22,7 +22,7 @@ if (isDesktop()) {
   document.querySelector('#materialF').src = "../../shafali/materialF_2021_01_19_17_20_25_mobile/"
   document.querySelector('#CreatorF').src = "../../shafali/CreatorF_2021_01_19_17_20_32_mobile/"
   document.querySelector('#LiteracyF').src = "../../shafali/LiteracyF_2021_01_19_17_20_37_mobile/"
-  document.querySelector('#RespectF').src = "../../shafali/RespectF_2021_01_19_17_20_12_mobile/"
+  document.querySelector('#RespectF').src = "../../shafali/RespectF_2021_01_19_17_20_12/"
   document.querySelector('#IGF').src = "../../shafali/intergenerational_Final_2021_01_19_17_19_49_mobile/"
 }
 
