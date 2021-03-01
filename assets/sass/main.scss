@@ -210,13 +210,8 @@ main {
   }
 
   .home-container {
-    margin: 0px auto;
     width: 100%;
     overflow: hidden;
-    
-    @media (min-width: 1920px) {
-      max-width: 1920px;  
-    }
     
     .above-the-fold-container {
       
@@ -268,7 +263,7 @@ main {
           width: 100%;
 
           @include small {
-            height: 80%;
+            height: 90%;
             width: auto;
           }
           
@@ -285,6 +280,11 @@ main {
             @include desktop {
               height: 100%;
               width: auto;
+            }
+
+            @media (min-width: 2400px) {
+              height: auto;
+              max-width: 600px;
             }
           }
         }
@@ -576,11 +576,6 @@ main {
 
 .footer-container {
   width: 100%;
-  
-  @media (min-width: 1920px) {
-    margin: 0px auto;
-    max-width: 1920px;  
-  }
   
   background-image:
     linear-gradient( rgba(255,255,255,.9), rgba(255,255,255,.9) ),
