@@ -1,0 +1,9 @@
+{{ $gifName := .Get "name" }}
+{{ $class := .Get "class" }}
+{{ $gifs := index .Site.Data "gifs" }}
+
+<div class="animated-gif {{ $class }}">
+  <figure>
+    <img src="{{ (index $gifs $gifName).url | relURL }}" alt="{{ (index $gifs $gifName).alt }}">
+  </figure>
+</div>

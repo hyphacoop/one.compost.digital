@@ -53,6 +53,11 @@ html, body {
 
   .animated-gif {
     margin: 80px 0px;
+
+    &.inline {
+      display: inline-block;
+      margin: 0px;
+    }
   }
 
   p, li {

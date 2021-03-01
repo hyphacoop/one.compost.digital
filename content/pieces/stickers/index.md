@@ -20,23 +20,23 @@ These gifs were inspired by _kaoani_, a pervasive, incredibly cute pixelated blo
 [↳ Download all the stickers!](../images/angelica-gifs.zip)
 
 ## Individual stickers
-![Blue dancing flowers](../images/angelica-gifs/blue_flower.gif)
-![A four-leaf clover typing on laptop](../images/angelica-gifs/clover_computer.gif)
-!['COMPOST', with small worms and flowers emerging](../images/angelica-gifs/compost_goodbrown.gif)
-![A patch of dandelions](../images/angelica-gifs/dandelion.gif)
-![A flower cheerfully typing](../images/angelica-gifs/flower_computer.gif)
-![A praying mantis swaying before a laptop](../images/angelica-gifs/mantis_computer.gif)
-![A four-leaf clover and flower looking at a map](../images/angelica-gifs/map.gif)
-![A mushroom chilling in front of laptop](../images/angelica-gifs/mushroom_computer.gif)
-![A group of mushrooms connected in a network](../images/angelica-gifs/mushroom_net.gif)
-![A vintage Macintosh computer with leaves growing from it](../images/angelica-gifs/old_macintosh.gif)
-![A flower checking out a cell phone](../images/angelica-gifs/phone_photo.gif)
-![A tiny wriggly worm](../images/angelica-gifs/tinyworm-1.gif)
-![A tiny curled wriggly worm](../images/angelica-gifs/tinyworm-2.gif)
-![A tiny curled wriggly worm](../images/angelica-gifs/tinyworm-3.gif)
-![A worm happily typing with its head on a laptop](../images/angelica-gifs/worm_computer.gif)
-![A happy wriggly worm](../images/angelica-gifs/wormin1.gif)
-![A happy wriggly worm](../images/angelica-gifs/wormin2.gif)
+{{< anigif name="blue_flower" class="inline" >}}
+{{< anigif name="clover_computer" class="inline" >}}
+{{< anigif name="compost_goodbrown" class="inline" >}}
+{{< anigif name="dandelion" class="inline" >}}
+{{< anigif name="flower_computer" class="inline" >}}
+{{< anigif name="mantis_computer" class="inline" >}}
+{{< anigif name="map" class="inline" >}}
+{{< anigif name="mushroom_computer" class="inline" >}}
+{{< anigif name="mushroom_net" class="inline" >}}
+{{< anigif name="old_macintosh" class="inline" >}}
+{{< anigif name="phone_photo" class="inline" >}}
+{{< anigif name="tinyworm-1" class="inline" >}}
+{{< anigif name="tinyworm-2" class="inline" >}}
+{{< anigif name="tinyworm-3" class="inline" >}}
+{{< anigif name="worm_computer" class="inline" >}}
+{{< anigif name="wormin1" class="inline" >}}
+{{< anigif name="wormin2" class="inline" >}}
 
 ## License
 These gifs come with a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license. 
