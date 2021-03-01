@@ -60,11 +60,5 @@
 
 {{ define "scripts" }}
   <script src="{{ "js/vendor/openseadragon-bin-2.4.2/openseadragon.min.js" | relURL }}"></script>
-  <!-- <script src="{{ "js/vendor/annotorious-openseadragon-2.2.1/openseadragon-annotorious.min.js" | relURL }}"></script> -->
-  <script>
-    var micahImageURL = {{ "micah/nb v24.jpg" | relURL }}
-    var micahAnnotationURL = {{ "micah/annotations.w3c.json" | relURL }}
-    var staticFilesPrefix = {{ "/" | relURL }}
-  </script>
   <script src="{{ (resources.Get "js/micah.js").RelPermalink }}"></script>
 {{ end }}
