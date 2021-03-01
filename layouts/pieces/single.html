@@ -2,6 +2,10 @@
 grey-background
 {{ end }}
 
+{{ define "title" }}
+COMPOST Issue 01: {{ .Params.title }} by {{ .Params.author }}
+{{ end }}
+
 {{ define "main" }}
   
   <div class="piece-container main-column {{ .Params.customClass }}">
