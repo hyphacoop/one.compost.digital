@@ -1,6 +1,6 @@
 ---
 title: Until the Cows Come Home
-subtitle: Aamne Saamni Pi
+subtitle: Aamne Saamne Pi
 author: Shafali Jain
 description: Young women look beyond the obvious. Small communities sustain vernacular narratives through mesh networks.
 tableOfContentsImageUrl: ./images/title-images/shafali-cover.png
