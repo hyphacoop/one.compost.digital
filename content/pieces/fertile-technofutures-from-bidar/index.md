@@ -3,8 +3,9 @@ title: Fertile Technofutures from Bidar
 author: Micah Alex
 description: Bidar offers a different vision for technology, unique to the city's socio-material reality. We present the vision in this piece - fractured, non-cohesive, multi-voiced and ephemeral.
 tableOfContentsImageUrl: ./images/title-images/micah-cover-700x350.png
+tableOfContentsImageAlt: Techno-Futures from Bidar
 titleImageUrl: ./images/title-images/micah-cover-700x350.png
-endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
+titleImageAlt: A landscape map of Bidar, painted in different shades of green and yellow splotch and splat, stroke and shallow. The contours are obvious, built on a hill as the city is. The fort isn't on the page but we can almost see it, if we squint real hard and then imagine it, like the millions of people hustling and bustling on. The city city streets drawn in electric pink buzzing with life.
 layout: micah
 ---
 
