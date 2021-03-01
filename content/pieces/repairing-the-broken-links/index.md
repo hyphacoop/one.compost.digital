@@ -6,7 +6,7 @@ description: Just because we figure out who we are online doesn't mean we can ea
 tableOfContentsImageUrl: ./images/title-images/annie-700x350.jpg
 titleImageUrl: ./images/title-images/annie-700x350.jpg
 titleImageCaption: We live on a mote of dust.
-endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
+endingImageUrl: ./images/angelica-gifs/flower_computer.gif
 footnotesUrl: "footnotes.json"
 ---
 
@@ -36,7 +36,7 @@ Fragments from the class remain in my Dropbox, including the final edit of “Co
 
 On the web, nothing is ever certain to remain. Step away, and you’re likely to find dead links and inaccessible archives when you return. All the same, my pages do exist on a hard drive somewhere. Having recently spoken with one of the NewHive founders, I learned that they will return… eventually. While this possibility is genuinely thrilling, I ask myself: What happens when we encode new possibilities for ourselves online, only to watch past virtual selves obliterated by the platforms we once called home?
 
----
+![](../../images/angelica-gifs/tinyworm-3.gif)
 
 I should have seen the end coming. On the morning of our presentation, I scrambled to put together a quick tutorial for Just Constellations using NewHive. But the program was barely working. Though it came together in the end, the warning signs were right in front of me; despite the obvious, ever-encroaching decay, I failed to save my pages. It was riddled with broken image links on pages I’d just created days prior.
 
@@ -52,7 +52,7 @@ Sad as it is to say, all relationships are too a leap of faith. There is no guar
 
 I’m still gutted by many changes in the time that followed. Our relationship shifted and grew silent as interpersonal dynamics within the co-op eroded the context for our shared becoming. It’s heartbreaking how the digital infrastructure we’d nurtured together now eludes us: so much of your impact remains within me, but absent are the traces of the work we’d done together, lost in the digital ether.
 
-—
+![](../../images/angelica-gifs/tinyworm-2.gif)
 
 It was a strange experience to find Are.na {{< footnote "Arena" >}} while our collaboration on Just Constellations was ending. The platform embodied so many of our goals: nurtured within a dedicated community, the platform emphasized human curation as its driving mission, displacing the impersonal touch of most search engine algorithms. To see a platform embody the goals we’d staked for ourselves, operationalizing a different model of web connectivity that felt humane and generative instead of distracting and dehumanizing, was both reassuring and melancholic. Our distinct approach to connectivity, made effective on this already-vibrant website, reaffirmed our core vision while taking the wind out of our sails. Though many other factors pushed us apart, the success of Are.na, now a platform that structures my daily research practices, I marvel at the ways in which another group of people shared our vision and had brought it to wider adoption so successfully. Seeing Are.na thrive makes me thankful to have thought through these questions with you before, valuable not just for their contribution to the wider world, but to the personal growth our time together created.
 
@@ -72,6 +72,6 @@ In her essay "On Keeping a Notebook"{{< footnote "On Keeping a Notebook" >}}, Jo
 
 Though I do my best to make peace with my archivist impulses, I accept that perfect preservation is a logical fallacy, especially online. I can’t help but be haunted by Didion’s warnings: “We forget all too soon the things we thought we could never forget.”
 
----
+![](../../images/angelica-gifs/tinyworm-1.gif)
 
 I hope that the roots we’ve already planted may bear fruit for us both once more, changed from earlier blossomings long since decayed but made heartier by lessons learned in more fallow times. Even if we cannot reemerge together, your presence in the root structure of my life remains secure, sustaining a firmament that can withstand your absence. While the memories we built through the internet persist in decayed form, I am grateful for anything that’s been preserved, even as I long for so much more.
