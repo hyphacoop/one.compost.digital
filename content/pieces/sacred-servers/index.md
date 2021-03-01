@@ -17,6 +17,8 @@ The friends I was with all grew quiet as well, or rather, it was as if a type of
 
 What was the source of that quiet — the source of the power and energy I felt there? Did it emanate from the well itself, an ageless power felt by those who discovered it? Or was it a collaboration with the land, an energy that accumulated with each person who left something of themself with their prayer? Perhaps their spoken words trembled the water, resonating with all the other pilgrims' prayers, and joining the soft echo of the ancient rock walls. Perhaps what I felt was the sublime power of concentrated belief.
 
+![](../../images/angelica-gifs/tinyworm-3.gif)
+
 ## Power in Place
 
 There are places and objects that feel powerful because I am told they are powerful; that are imbued with belief, tradition, and history. In these places, my body responds appropriately. It's a reflexive respect that brings my voice to a whisper in a church, compels me to take my shoes off at the entrance of a temple, or finds me searching for symbolic foreshadowing in the childhood home of an artistic hero.
@@ -24,6 +26,8 @@ There are places and objects that feel powerful because I am told they are power
 Then there are the places and things that hold power for a small, mysterious reason. The childhood toy I can't get rid of because it would insult the toy. The impulse when moving to a new home — no matter how bare and clean it may be — to sweep the whole place before moving my own things in. Or how, when thrift shopping, there are items that seem to "call" to me, and I say "I think this wants to come home with me" in a tone somewhere between a light joke and simple observation.
 
 If I were to try to explain it directly, I would say “these places and things have feelings too” — a reason that felt obvious as a child, but now sounds foolish. Instead, I might try to say that in this toy, home, and op-shop treasure, there seems to be an energy left by the people who came before; a loop of time lingering in the space.
+
+![](../../images/angelica-gifs/tinyworm-2.gif)
 
 ## Time Online
 
@@ -35,6 +39,8 @@ Yet, whenever I'm in a conversation about social media, it always seems to take 
 
 We know it's bad, and yet still something holds us. Something beyond its addictive design — a personal attachment we're hesitant to let go of. What is it that attaches us?
 
+![](../../images/angelica-gifs/tinyworm-1.gif)
+
 ## Growing Online
 
 At one point, I considered the internet separate from the world; an imaginary boundless place. As a kid, my house had dial-up internet, and to connect to it required a short ritual with arcane sounds. We also had one phone line, so the internet could not be in the house continually. It was a mysterious world encountered late at night, like catching a distant AM station bouncing off the sky.
@@ -44,6 +50,8 @@ The web today no longer feels imaginary, as much as we keep up the refrain that 
 I have a new ritual for being online, a timer I set whenever I sit down at the computer. Every 25 minutes it goes off, reminding me to stand up, stretch my body, and let my eyes focus on some soft, unlit thing. I do this to help slow this intangible world's lasting effects on me.
 
 We know the web has left a mark on us. What isn't discussed as much is how much we've given back to it, all the remnants of us we've left within it.
+
+![](../../images/angelica-gifs/blue_flower.gif)
 
 ## A Few Sites of Endless Feeling
 
@@ -67,6 +75,8 @@ We grieve, we upload every photo and memory of someone we lost and switch their 
 
 We post again and again to the same few platforms. The platforms that leave us feeling exhausted and drained. We share everything to them; then take a digital detox to recover from it all.
 
+![](../../images/angelica-gifs/tinyworm-3.gif)
+
 ## Tangible and Intangible
 
 There is a presence I feel when holding an old childhood journal, as if the book is heavier with my words. There is a presence I feel when holding a lover's warmth-scented shirt, some essence of them still clothed in it. There is energy built up in our actions — the crackle you feel walking into a room where people just finished arguing, or the pleasant warmth after a party when everyone is gone, but the buzz ofpeople is still mingling in the air.
@@ -76,6 +86,8 @@ I don't think this is imaginary. I think this energy is real. Yet, even though I
 We place our thoughts into input forms set expectantly at the top of the page like an offering dish. We place them in, feeling the full emotion attached to our words, desires, and memories. Then we press submit and they're whisked away — through arcane technical processes — only to appear again in a second back on the screen as a new piece of the global feed.
 
 Though these processes are obscure, they're not secret. We know where our words and images go when shared to Twitter, Google, or Facebook. They go to their s servers.
+
+![](../../images/angelica-gifs/tinyworm-2.gif)
 
 ## Servers as Possessors
 
@@ -89,6 +101,8 @@ magnetized moments. Tiny, physical, but invisible points hold the requested magn
 I think there's a presence held in our words and actions that lingers after the sound and motion has passed. I cannot explain it directly, except to say that we move through the world like a brush stroke, our colour left to blend with all that came before. That as we project our thoughts and feelings out to the world, the world holds and reflects them back, like heat from the night earth after a day of full summer sun.
 
 And I think when we share our feelings with the world digitally, that presence is passed along with them down the wire, left to hover within and around the data center with all the rest of our things.
+
+![](../../images/angelica-gifs/tinyworm-1.gif)
 
 ## A Separate Cyberspace
 
@@ -106,6 +120,8 @@ Maybe it was once useful to distinguish places on the internet as separate from 
 
 There is no separation. We are all in it together, overlaid and coexistent. And, from my view, to declare a space of ideas and the mind to be necessarily separate from the world is to deny the world the aliveness and agency it holds.
 
+![](../../images/angelica-gifs/tinyworm-3.gif)
+
 ## Sacred and Profane
 
 I'll be direct: we have given so much energy and intention to a handful of centralized platforms that it's become metaphysically dangerous. These tech companies are like bootstrapped archons, drawing power from the passion and humanity we share to their sites, and from the continued illusion that this is how it must be.
@@ -121,6 +137,8 @@ However, this isn't how it must be. Technology is not inevitable, a straight cou
 We can give as much as we do now, but to networks and servers that are actually ours. We can share our hopes and memories directly to one another with no central force monitoring and feeding off our words. We can acknowledge the inchoate energy we build beneath our fingers, amplify it through our communities and families, and store it in revered spaces that hold our own generational force. We can use technology that is intentionally small, local, and humble to the natural world.
 
 We've felt the tremendous weight of power that profane tech companies hold. The power comes from us. Why don't we take it and distribute it among ourselves?
+
+![](../../images/angelica-gifs/blue_flower.gif)
 
 ## Dreaming Another Future
 
