@@ -4,9 +4,8 @@ subtitle: Scenes from Undersea Internet Infrastructure
 author: Maggie Oates
 description: nibble nibble nibble nibble. undersea cables and fish.
 titleImageUrl: ./images/title-images/maggie-cover-700x350.jpg
-titleImageAlt: A cable snakes across some sand, covered in tiny plants and algaes. 
 tableOfContentsImageUrl: ./images/title-images/maggie-cover-700x350.jpg
-tableOfContentsImageAlt: A cable snakes across some sand, covered in tiny plants and algaes. 
+endingImageUrl: ./images/angelica-gifs/worm_computer.gif
 footnotesUrl: "footnotes.json"
 ---
 
@@ -20,6 +19,8 @@ Three days of labor and a whole ocean later, her end (and beginning) emerged fro
 
 A few blinks later she was connected. That was the real breath of life. She felt the other cables greet her warmly, a sense of relief as they off-loaded some of their burden to her and rearranged their flows in welcome {{< footnote "flows in welcome">}}. New cables were still rare then, only a dozen or two laid each year. Since then, thankfully, the humans mostly left her alone. She’d been sinking and floating and swaying and groaning happily in this saltwater home. “I am here,” she whispered in delight.
 
+![](../../images/angelica-gifs/tinyworm-3.gif)
+
 ## A fishes
 
 The fishes all mingled about and around each other. They were all one in this community, this shoal of herring. One fish felt anxious at the edges of the shoal and tried to stick to the center. Another fish secretly liked the way the fins felt when they brushed a fish schooling by, even though collisions of any kind were taboo. Another fish played a game with kinself to stare directly up at the sun and perceive the light wobbles through the waves{{< footnote "wobbles through the waves" >}}.
@@ -27,6 +28,8 @@ The fishes all mingled about and around each other. They were all one in this co
 They almost all loved the feeling of moving together. Out here in the open ocean, light winked and shimmered between scales as they swam. When danger loomed, they packed tight and dense. In close formations, light refracted off their bodies in a thousand directions. That shiny noise stopped the Eaters from tuning in to the signal of any single fish. While some predators grew too clever for such tricks, the school still managed to overwhelm the senses of many others. After the Eaters left, they would both mourn their losses and celebrate the small comfort of making their own quiet, noisy safety.
 
 One day, the sunlight hit a new spot. The shoal, curious, moved to investigate. The creature — a long sort of eel —had dark oily skin and no fins to speak of. The eel buzzed faintly. Less a sound and more a familiar tingle in their noses. There were some tasty things to nibble on trying to hide beneath its smooth curves {{< footnote "smooth curves">}}. “This creature is quiet and noisy,” they all agreed with affection.
+
+![](../../images/angelica-gifs/tinyworm-2.gif)
 
 ## A teenager
 
@@ -61,6 +64,8 @@ It kept happening every week or so, the clusters of weird text. They tried filin
 
 One morning, she got the idea as she watched her mom tap an eraser on her chin and frown at a word puzzle in the newspaper, accusing the paper with her eyes of some small but grave offense. She snuck back upstairs before school and frantically pasted down a log of all the Blips. She pored over this log for secrets. Over several weeks, she began to see patterns. One night, when the chat was empty and the Matriarch was long asleep, she blipped back to the Blip: `kwmM.,(!_+s=’j;KqJ~rrrr~rrrr~rrrr?`
 
+![](../../images/angelica-gifs/tinyworm-1.gif)
+
 ## The algaes
 
 The algaes had a complicated relationship with the cuttlefish. The cuttlefish had corralled them from the open current and kindly protected them from nibblers, but out of self-interest more than altruism. When they started to feel the sluggishness of shadow, he would kindly scoop them back up near the surface to soak in the light. But he would also shove them all into this hole.
@@ -72,6 +77,8 @@ The day he’d found the algae bloom, he was equally delighted that their kind b
 Now in the hole, they huddled pressed tight together. The cuttlefish started a poking rhythm to provoke the algaes into sneezing those bursts of light. Concentrating carefully, with each poke he twisted a loose arm into a deliberate pose, signing and spelling out in a flashing code:
 “F U CK M E ? W H Y T H A N K Y O U !” {{< footnote "flashing code">}}
 
+![](../../images/angelica-gifs/blue_flower.gif)
+
 ## A cable
 
 It felt less like pain and more like a loss. That day she was bitten. Large mouth, strong jaws, curious teeth. As the shark creature hinged down in fierce curiosity, she felt a crunch and then a loss. The traffic lessened, but grew somehow heavier.
@@ -82,7 +89,9 @@ It only took two days for the men to return. They gently traced her length, lift
 
 to cling to, some of her anemone jewels may have succumbed to Eaters {{< footnote "Eaters" >}}. As she nuzzled back into the sand and returned to feeling like herself, she shared a warm sigh of relief with the other cables. She invited back all the creatures, calling, “Come home friends!”
 
-![Three bright sea anemones perch on a cable like jewels.](cable.png)
+![](cable.png)
+
+![](../../images/angelica-gifs/tinyworm-3.gif)
 
 ## A fishes
 
@@ -93,6 +102,8 @@ On their long journey back toward the coast, they’d seen the shark bite the Lo
 Longest Eel was quiet and seemed dented, but they could feel the jumpy singsong buzz still moving through her. Some of them danced around to her buzz, laughing and choreographing new movements as they followed her length toward the coast. As they arrived, the spawning began en masse. There was a sudden undersea blizzard, flurries of eggs drifting down to the floor. They noticed that Longest Eel caught many of the eggs and held them tightly to her skin.
 
 Through generations, the shoal learned the dances of the Longest Eel. The buzzing of the shoal in motion began sound-feeling more and more like her buzzes. Each migration in and out from sea they swam along her length, grazing at the plant snacks she offered. The sharks all learned that the Longest Eel was not tasty and avoided her. The shoal found that if they pretended to be Longest Eel, the sharks and other big-gulpers left them alone a little more often. “A precious gift,” they agreed. “Thank you, Longest Eel.”
+
+![](../../images/angelica-gifs/tinyworm-2.gif)
 
 ## A teenager
 
@@ -128,6 +139,8 @@ Most of the others had moved on from the chat over the years. It was out of date
 
 One arm punched the air in celebration. Her other hand reached to keystroke open a new file: ♥♥THE OFFICIAL BLIP DICTIONARY♥♥.txt.
 
+![](../../images/angelica-gifs/tinyworm-1.gif)
+
 ## A cable
 
 She hummed a mindless birthday tune to herself. Two decades in, she felt both wise and shrewd. Much had changed. Her plants were thriving. As the corals increasingly gave out, bleaching white into necrosis, she was the place for anemones to rest and small things to hide. While the ship and the men still did her maintenance pedicures and looked after her larger wounds, she now knew much they didn’t. She and the other cables giggled under their breaths as the men scratched their heads over the mysterious network issues.
@@ -137,6 +150,8 @@ The cuttlefish groups long ago learned how to tickle her spine with light. They 
 Every time the men lifted her up now she still winked at the sun, but wished upon the beams that the men wouldn’t find the holes the clams had drilled, that they wouldn’t find her secrets, that they would just return her home below. She held the humans’ traffic and they cared for her skin, but she was not theirs. She was the ocean floor itself, a geologic fixture, a current. And she was also a creature, gardening, dancing, groaning, and matchmaking. She and her internet shoal belonged to the oceans.
 
 ---
+
+![](../../images/angelica-gifs/blue_flower.gif)
 
 ## Notes
 
