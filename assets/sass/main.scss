@@ -270,6 +270,7 @@ main {
               width: 300px;
               height: auto;
               border: 1px solid $compost-green;
+              box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
             }
 
             @include desktop {
