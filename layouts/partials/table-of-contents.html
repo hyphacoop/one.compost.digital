@@ -1,25 +1,24 @@
 <div class="toc-container" table-of-contents-container>
   
   <div class="toc-header">
-    <div class="header-top">
-      <a class="toc-close-button" onclick="hideTableOfContents()">
-        <img src="{{ "./images/COMPOST_Assets_X_blk-1.png" | relURL }}">
+    <div class="header-top" role="navigation">
+      <a class="toc-close-button" aria-label="Close Table of Contents" role="button" tabindex="0" title="Close" onclick="hideTableOfContents()">
+        <img src="{{ "./images/COMPOST_Assets_X_blk-1.png" | relURL }}" alt="X">
       </a>
-      <a class="compost-logo" href="{{ relref . "/" }}">
-        <img src="{{ "./images/COMPOST_Logo_1920BLK 1.png" | relURL }}">
+      <a class="compost-logo" href="{{ relref . "/" }}" title="Home">
+        <img src="{{ "./images/COMPOST_Logo_1920BLK 1.png" | relURL }}" alt="COMPOST" >
       </a>
-      <a class="mushroom" href="{{ relref . "support-us" }}">
-        <img src="{{ "./images/Compost_Mushroom2.gif" | relURL }}" webmon-mushroom-black>
+      <a class="mushroom" href="{{ relref . "support-us" }}" alt="mushroom" title="Support Us">
+        <img src="{{ "./images/Compost_Mushroom2.gif" | relURL }}"  webmon-mushroom-black>
       </a>
     </div>
   </div>
   
   <div class="toc-body">
-    
     <div class="toc-nav-container">
       <div class="toc-nav-links">
-        <div class="worm-link">
-          <img class="worm-image">
+        <div class="worm-link">	
+          <img class="worm-image" alt="worm">
           <a href="{{ relref . "/" }}">Issue 01</a>
         </div>
         <div class="worm-link">
@@ -27,12 +26,12 @@
           <a href="{{ relref . "about" }}">About</a>
         </div>
         <div class="worm-link">
-          <img class="worm-image">
+          <img class="worm-image" alt="worm">
           <a href="{{ relref . "support-us" }}">Support Us</a>
         </div>
       </div>
       <div class="mobile-worm">
-        <img worm-facing-left-mobile>
+        <img worm-facing-left-mobile alt="worm">
       </div>
     </div>
     
@@ -40,7 +39,7 @@
       {{ $pieceSequence := index .Site.Data "piece-sequence" }}
       {{ range $pageName := $pieceSequence }}
           {{ $page := $.Site.GetPage $pageName }}
-          <a href="{{$page.Permalink}}" class="toc-piece-tile">
+          <a href="{{$page.Permalink}}" class="toc-piece-tile" title="{{$page.Title}}">
             <div class="toc-piece-image">
               {{ if isset $page.Params "tableofcontentsimageurl" }}
                 <img src="{{ $page.Params.tableOfContentsImageUrl | relURL }}" alt="{{ $page.Params.tableOfContentsImageAlt }}">
