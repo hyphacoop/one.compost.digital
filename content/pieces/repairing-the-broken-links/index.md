@@ -51,7 +51,7 @@ Despite the tenuousness of our web page and fledgling software, the conference p
 
 Too many other pieces of our shared archive remain deleted or inaccessible, but this image remains: the two of us, dressed in our gayest summertime finery, beaming in a conference room where we’d soon have an eager audience of co-creators. More than two dozen people came to share their incredible knowledge using our newly functional plugin, giving reality to our dream of constellating social justice resources. As I wrote in my journal that night: “In no way could I imagine how affirming our presentation would be. We of course have given it our all, but sharing that baby with the world is always going to be a leap of faith.”
 
-![](just-constellations-cards.gif)
+![](just-constellation-cards.jpg)
 
 Sad as it is to say, all relationships are too a leap of faith. There is no guarantee of persistence or longevity, however eternal they might feel in the moment. I wrote that weekend that “This whole thing wouldn’t have been possible or desirable in the first place without their magical energy and passion,” and that “I feel so unself-conscious in their presence, a sensation I’ve surely been missing as of late.” Even knowing all that would follow in the years after that momentous and challenging weekend, I wouldn’t trade it for anything. Rereading my journal now, the specific beauty of our shared adventures remains undimmed.
 
