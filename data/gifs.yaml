@@ -1,0 +1,51 @@
+blue_flower:
+  alt: Blue dancing flowers
+  url: ./images/angelica-gifs/blue_flower.gif
+clover_computer:
+  alt: A four-leaf clover typing on laptop
+  url: ./images/angelica-gifs/clover_computer.gif
+compost_goodbrown:
+  alt: "'COMPOST', with small worms and flowers emerging"
+  url: ./images/angelica-gifs/compost_goodbrown.gif
+dandelion:
+  alt: A patch of dandelions
+  url: ./images/angelica-gifs/dandelion.gif
+flower_computer:
+  alt: A flower cheerfully typing
+  url: ./images/angelica-gifs/flower_computer.gif
+mantis_computer:
+  alt: A praying mantis swaying before a laptop
+  url: ./images/angelica-gifs/mantis_computer.gif
+map:
+  alt: A four-leaf clover and flower looking at a map
+  url: ./images/angelica-gifs/map.gif
+mushroom_computer:
+  alt: A mushroom chilling in front of laptop
+  url: ./images/angelica-gifs/mushroom_computer.gif
+mushroom_net:
+  alt: A group of mushrooms connected in a network
+  url: ./images/angelica-gifs/mushroom_net.gif
+old_macintosh:
+  alt: A vintage Macintosh computer with leaves growing from it
+  url: ./images/angelica-gifs/old_macintosh.gif
+phone_photo:
+  alt: A flower checking out a cell phone
+  url: ./images/angelica-gifs/phone_photo.gif
+tinyworm-1:
+  alt: A tiny wriggly worm
+  url: ./images/angelica-gifs/tinyworm-1.gif
+tinyworm-2:
+  alt: A tiny curled wriggly worm
+  url: ./images/angelica-gifs/tinyworm-2.gif
+tinyworm-3:
+  alt: A tiny curled wriggly worm
+  url: ./images/angelica-gifs/tinyworm-3.gif
+worm_computer:
+  alt: A worm happily typing with its head on a laptop
+  url: ./images/angelica-gifs/worm_computer.gif
+wormin1:
+  alt: A happy wriggly worm
+  url: ./images/angelica-gifs/wormin1.gif
+wormin2:
+  alt: A happy wriggly worm
+  url: ./images/angelica-gifs/wormin2.gif
