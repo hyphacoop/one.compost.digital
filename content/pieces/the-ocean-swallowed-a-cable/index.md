@@ -155,6 +155,6 @@ Every time the men lifted her up now she still winked at the sun, but wished upo
 
 ## Notes
 
-Ingrid Burrington has called the Internet “the largest terraforming project” in existence. If you are even mildly interested in this piece, you may be deeply interested in Burrington’s work ([http://lifewinning.com/](http://lifewinning.com/)).
+Ingrid Burrington has called the internet “the largest terraforming project” in existence. If you are even mildly interested in this piece, you may be deeply interested in Burrington’s work ([http://lifewinning.com/](http://lifewinning.com/)).
 
 Gratitude to Giovanna, Elina, Abhishek, Nick Zurku (co-founder of the Pittsburgh Internet Exchange), the Bridge #science channel, Caro, Austin, Strange Friend Brian, Aurelia, Smol Dyke, and all the COMPOST crew. Writing is terrifying and lonely, but you all make it feel less so.
