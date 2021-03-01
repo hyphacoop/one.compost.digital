@@ -22,10 +22,12 @@
     "y": 634,
     "r": 30,
     "text": "\"People have things to do to earn their food. When will they engage with the network mesh when just surviving takes so much time?\"",
-    "media": [{
-      "type": "image",
-      "url": "micah/annotation-assets/2/APC_COMMUNITYS_2ND_WORKSHOP_20200109_P014.jpg"
-    }]
+    "media": [
+      {
+        "type": "image",
+        "url": "micah/annotation-assets/2/APC_COMMUNITYS_2ND_WORKSHOP_20200109_P014.jpg"
+      }
+    ]
   },
   {
     "id": 3,
@@ -33,10 +35,12 @@
     "y": 620,
     "r": 76,
     "text": "Kumabara is an occupation-based community of potters. We engaged with women of Kumabara from Naubad, a locality in Bidar. The women and men both engage with the craft of making pottery. They sing Kumabara padagalu (songs) and as a bhajan (devotional songs). These songs are passed on from one generation to another through oral practice. More than seeing an implementation of the network, these women are keen on recording the songs as they are not available on the Internet.",
-    "media": [{
-      "type": "audio",
-      "url": "micah/annotation-assets/3/APC_COMMUNITYS_2ND_WORKSHOP_20200109_V001.mp3"
-    }]
+    "media": [
+      {
+        "type": "audio",
+        "url": "micah/annotation-assets/3/APC_COMMUNITYS_2ND_WORKSHOP_20200109_V001.mp3"
+      }
+    ]
   },
   {
     "id": 4,
@@ -68,7 +72,7 @@
     "x": 876,
     "y": 1024,
     "r": 36,
-    "text": "",
+    "text": "\"It might become possible to change the perceptions of local practices to see them as sources of livelihoods. This shift is necessary in order to avoid the monetization of the local knowledge by third parties, especially in the context of migration to the cities for more immediately lucrative jobs.\"",
     "media": []
   },
   {
@@ -76,15 +80,24 @@
     "x": 215,
     "y": 1164,
     "r": 137,
-    "text": "",
-    "media": []
+    "text": "We contributed, presented, and participated in the Anthillhacks and the CNX event organised in December 2019. The event is a more situated hackathon that happens in Tumkur, consisting of people from different specialities and places coming together to hack together something that is needed in their own places. The exchange of this event led to:\n1) A dialogue on feminist geography and decentralised network — about how intersubjectivity is something that subverts claims to universality in projects like community networks. The situated context truly changes the way the network is set up, bought into and maintained. This kind of specificity also requires a much more long term engagement than can be afforded while operating within a project mode.\n2) Our team sharing our experience of initiating the mesh network and exchanging learnings from the approaches by communities in other parts of India and the world.\nWe continue to engage with Servelots/Janastu, as well as the wider network of communities connected during Anthillhacks.",
+    "media": [
+      {
+        "type": "image",
+        "url": "micah/annotation-assets/6/APC_ANTHILLHACKS+CNX_20191211_P030.jpg"
+      },
+      {
+        "type": "image",
+        "url": "micah/annotation-assets/6/APC_ANTHILLHACKS+CNX_20191214_P022.jpg"
+      }
+    ]
   },
   {
     "id": 7,
     "x": 1500,
     "y": 982,
     "r": 32,
-    "text": "",
+    "text": "\"If these kinds of projects (community networks) are truly for the communities, the grantees would consider how it actually works on the ground. There are important questions that must come up. Why is it even important? Who is maintaining this network on the ground? An ordinary person won't even understand the language of technology. Someone who may have to learn this would need to first memorise all the jargon that doesn’t translate and then learn further. How can this be done in a span of a year? Why are there no follow-ups from the grantee about how the project is functioning on ground presently? It takes long-term support for everyone involved.\"",
     "media": []
   },
   {
@@ -92,15 +105,48 @@
     "x": 591,
     "y": 221,
     "r": 49,
-    "text": "",
-    "media": []
+    "text": "We engaged with the many forms in which women and non-binary gender groups hold knowledge. We engaged mainly with the oral traditions that are so closely linked to generational knowledge related to food, cultures, histories and home remedies.",
+    "media": [
+      {
+        "type": "audio",
+        "url": "micah/annotation-assets/8/APC_DHOLAK_ZAKIYABI_20191111_a06.mp3"
+      },
+      {
+        "type": "audio",
+        "url": "micah/annotation-assets/8/APC_KUMBARAHADU_VIDHYAVATI_20190929_a01.mp3"
+      },
+      {
+        "type": "audio",
+        "url": "micah/annotation-assets/8/APC_TULSAMMA_BHOOTERU_GONDAL_RENUKARAJA_STORY.mp3"
+      },
+      {
+        "type": "audio",
+        "url": "micah/annotation-assets/8/DholakGeet_Recording_on_the_PiZ_Network_recorder_by_Woman_Singer_at_Faizpura-_02.mp3"
+      },
+      {
+        "type": "audio",
+        "url": "micah/annotation-assets/8/MuharramPadagalu.mp3"
+      },
+      {
+        "type": "audio",
+        "url": "micah/annotation-assets/8/Qawwali_at_Abul_Faiz_Dargah.mp3"
+      },
+      {
+        "type": "audio",
+        "url": "micah/annotation-assets/8/SeegiHaadu_Woman_singing_Seegi_haadu_at_Bompalli-01.mp3"
+      },
+      {
+        "type": "audio",
+        "url": "micah/annotation-assets/8/Vamiki_Song.mp3"
+      }
+    ]
   },
   {
     "id": 9,
     "x": 718,
     "y": 427,
     "r": 35,
-    "text": "",
+    "text": "\"This project revealed a lot of things, such as it is not necessary for everyone to know everything. It makes it harder to align. When we take the tech to the ground therefore, we have to be extremely care-full. The collaborations and relationships we have developed over the years work because of a certain trust. When we can’t follow through on the promises of the network, it becomes that much harder to go back in the future.\"",
     "media": []
   },
   {
@@ -108,7 +154,7 @@
     "x": 989,
     "y": 656,
     "r": 33,
-    "text": "",
+    "text": "\"I couldn't understand the technology myself being someone who has studied up to a Masters level. It became really hard to function on ground in a techno-centric way. However, when we started focusing on the narratives and songs, the tech just became a side gimmick. And that worked. Making people familiar with such conceptions of technology takes years of ground work. And no one will fund that.\"",
     "media": []
   },
   {
@@ -116,23 +162,33 @@
     "x": 750,
     "y": 774,
     "r": 67,
-    "text": "",
-    "media": []
+    "text": "Team YUVAA has now reoriented to mobilising political change through grassroots elections. This kind of intervention became necessary after the lockdown. The mesh network could be used to develop capacities for political participation and movement in the villages adjoining Bidar.",
+    "media": [
+      {
+        "type": "audio",
+        "url": "micah/annotation-assets/11/Vinay_Talk.mp3"
+      }
+    ]
   },
   {
     "id": 12,
     "x": 1721,
     "y": 485,
     "r": 63,
-    "text": "",
-    "media": []
+    "text": "\"Another possibility of a mesh like this is to provide an alternative digital infrastructure to support ground movements.\" (This is loaded with the context of socio-political tensions and oppressions in India. The backlash almost always in the past eight years has been a shutdown of the internet and increased censoring of 'anti-national' speech online.)",
+    "media": [
+      {
+        "type": "audio",
+        "url": "micah/annotation-assets/12/APC_SAHASRA_SAHABHOJANA_WORKSHOP_20191229_V004.mp3"
+      }
+    ]
   },
   {
     "id": 13,
     "x": 1227,
     "y": 420,
     "r": 131,
-    "text": "",
+    "text": "These are a few women living in and around the Multani Pasha Dargah situated in the Old City, the historic precinct of Bidar. They offer services to the Dargah and the followers of the Sufi saint, Hazrat Multani Pasha. They maintain and clean the Dargah premises, as well as sing at different occasions such as the naming of a newborn, the asking of a Mannat (a wish or a desire) for a particular problem or person, the cooking of a communal meal, offering a prayer and so on. Devotees offer alms in payment for their services.",
     "media": []
   },
   {
@@ -140,7 +196,7 @@
     "x": 1143,
     "y": 686,
     "r": 43,
-    "text": "",
+    "text": "We embarked on a collective process to recognise, appreciate, and co-create a platform for the lesser known or understood knowledge practices in Bidar. This particular engagement was to explore folklore, musical and storytelling-based mediums of different traditions, knowledge and ways of being.",
     "media": []
   },
   {
@@ -148,7 +204,7 @@
     "x": 1531,
     "y": 679,
     "r": 65,
-    "text": "",
+    "text": "\"The network mesh is not a solution to a thing but an exchange between the communities. Each group can relate the mesh in certain ways and use the mesh as a medium.\"",
     "media": []
   },
   {
@@ -156,7 +212,7 @@
     "x": 1207,
     "y": 1161,
     "r": 85,
-    "text": "",
+    "text": "\"In this time of Whatsapp and Facebook, why will people use this?\"",
     "media": []
   },
   {
@@ -164,7 +220,7 @@
     "x": 726,
     "y": 961,
     "r": 107,
-    "text": "",
+    "text": "One of our challenges was scheduling these interviews, and community members did not have a lot of time to spare. There were multiple reasons for this. As some of these knowledge practices are directly linked to their livelihood, asking for their time was initially difficult. There were cultural barriers and trust issues in certain locations where we engaged with different communities. Making them understand the technological aspects of the project is also challenging as most of the women (not all) in the communities are less educated or not educated at all. The funds for setting up a technological network initially caused this fracture between what had to be directly revealed to the community and what steps needed to come before that. The technicalities, without context, seemed alien to the age-old practices that we were trying to introduce them into.",
     "media": []
   },
   {
@@ -172,7 +228,7 @@
     "x": 1560,
     "y": 855,
     "r": 77,
-    "text": "",
+    "text": "\"The mesh network has also the potential to catalyse many location-specific, occupation-specific smaller networks. One of these offshoots that we are currently thinking about is creating a new network of women. We are thinking of facilitating streams of conversations in the kitchen, of traditional cuisines and knowledge held by women which often do not make it to the public sphere.\"",
     "media": []
   },
   {
@@ -180,15 +236,20 @@
     "x": 1727,
     "y": 610,
     "r": 62,
-    "text": "",
-    "media": []
+    "text": "\"Technological projects in rural India always come with a solutionistic gaze. We want to solve everything through technology. It is imperative that we bring the role of technology down a peg and realistically look at what we are introducing and if it can, truly, “solve” anything. It is much more pragmatic to introduce technology as a new way of generating, storing and disseminating cultural practices among many many others and avoid the political glorification of it.\" Context: The Indian government is pushing hard for newer digital transactions and infrastructures without an understanding of all that needs to come before that, including examining their impact on communities’ human rights and privacy.",
+    "media": [
+      {
+        "type": "image",
+        "url": "micah/annotation-assets/19/APC_LIBRE_ROUTERS_AT_BIDAR_20191227_P013.jpg"
+      }
+    ]
   },
   {
     "id": 20,
     "x": 1381,
     "y": 845,
     "r": 35,
-    "text": "",
+    "text": "Between September and October 2019, we had introduced the process of recording on Pi Zero. It connected to the local Wi-Fi network and used the browser interface to playback the recordings. We used the Pi Zero with women and non-binary people in nine different locations across four different communities.",
     "media": []
   },
   {
@@ -196,7 +257,7 @@
     "x": 702,
     "y": 224,
     "r": 66,
-    "text": "",
+    "text": "Some of the women expressed the value in recording their practices, which seldom receives the kind of recognition it should. A 60-year-old Dholak singer was enthusiastic about recording traditional Dholak geet (songs). She has seven sisters and five granddaughters, but none of them had been keen to learn and continue the practice.",
     "media": []
   },
   {
@@ -204,7 +265,7 @@
     "x": 1453,
     "y": 910,
     "r": 52,
-    "text": "",
+    "text": "Bhooteru/Bhooteya are of a community that identifies itself with the ritualistic practices associated with the Bhavani Mata Temples. Their performance happens in a group, either in the temples or at homes where they are invited during which they sing various songs. The group we engaged with comprised of seven members from this community who live in Maniyar Taleem in the Old City of Bidar. They are performers who are mostly non-binary. Some continue to remain as women and the others transform into a woman at the time of the worship. They believe that they become the goddess Yellamma-incarnate as they worship. These fuzzy gender boundaries have also allowed a safe space for the otherwise ostracised trans-communities to find spaces with more dignity and respect.",
     "media": []
   },
   {
@@ -212,7 +273,7 @@
     "x": 1514,
     "y": 527,
     "r": 58,
-    "text": "",
+    "text": "\"The network-mesh is a socio-techno-material construct. A digital commons that would work as a place for self-exploration of different ways of being, knowing, living — together and alone.\"",
     "media": []
   },
   {
@@ -220,7 +281,7 @@
     "x": 1044,
     "y": 747,
     "r": 66,
-    "text": "",
+    "text": "This was a series of two workshops where we co-annotated the songs and narratives with people of collaborating communities, using different media like clay, photos, songs, and text. The workshops were interesting because community members that had different knowledge practices came together and met each other for the first time. The translation process that started there enabled for many more collaborations that could grow organically after we left.",
     "media": []
   },
   {
@@ -228,7 +289,7 @@
     "x": 765,
     "y": 517,
     "r": 68,
-    "text": "",
+    "text": "When many things on the technological front didn’t go as planned, we had to adopt other frameworks. ‘People as Nodes’ was one of these methodologies. Where instead of a router in a mesh network, a person would act as the intermediary/translator between two different communities. This approach distances from treating the mesh as primarily a digital technology to understanding it in its social context. It requires a reverse simulation of the technology. Co-creation requires ‘Slowness in thinking’. To be mindful about the alterations that such a network can make to the existing social relationships is something that isn’t possible on a rapid timescale. This wouldn’t have been possible without the delay.",
     "media": []
   }
 ]
