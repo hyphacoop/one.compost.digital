@@ -2,6 +2,10 @@
 COMPOST: {{ .Params.title }}
 {{ end }}
 
+{{ define "body-class" }}
+light-squiggle-background
+{{ end }}
+
 {{ define "main" }}
   <div class="main-column">
     {{ .Content }}

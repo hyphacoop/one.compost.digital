@@ -36,28 +36,28 @@ One day, the sunlight hit a new spot. The shoal, curious, moved to investigate. 
 She defiantly whispered “fuck. that.” Silently, so her mother (The Matriarch) couldn’t hear. Everything about today was unfair, but she also liked the taste of the little bits of power that formed in her mouth with the harsh ffff and gloopy -uck. Retreating to her room, she loaded and spit out the word a few times for the singsong pleasure of it. Logging on, she poked the crusty keyboard with the same forceful delight. The group chat was pretty mellow today, so she kicked it off:
 
 ```
-16:26 @cephalopudding	its official my mom hates me. idek why she has kids honestly she should hav e used a condom
-16:26 @cheese_nutz		oh no
-16:26 @cheese_nutz		im sorry :(((
-16:26 @audrel0rde22		whatd she do this time omg??
-16:27 @allBLM	dude your moms uptight but youre her kid. she’s basically required by law to loves you
-16:27 @cephalopudding	i got an A- on that quiz and MATRIARCH still isnt letting me go to pride next week!
-16:28 @cephalopudding	i thought we lived in a DEMOCRACY not MOM TYRANNY!!
-16:29 @cheese_nutz		o dam that sux :\
-16:29 @cephalopudding	i thought we lived in a DEMOCRACY not THE KINGDUM of MOM TYRANNY!!
-16:30 @cephalopudding	also we are out of good snacks
-16:30 @audrel0rd22		OVERTHROW PARENTS honestly fling them into the sea
-16:31 @cheese_nutz		FLING FLING FLING
+16:26 @cephalopudding    its official my mom hates me. idek why she has kids honestly she should hav e used a condom
+16:26 @cheese_nutz    oh no
+16:26 @cheese_nutz    im sorry :(((
+16:26 @audrel0rde22    whatd she do this time omg??
+16:27 @allBLM    dude your moms uptight but youre her kid. she’s basically required by law to loves you
+16:27 @cephalopudding    i got an A- on that quiz and MATRIARCH still isnt letting me go to pride next week!
+16:28 @cephalopudding    i thought we lived in a DEMOCRACY not MOM TYRANNY!!
+16:29 @cheese_nutz    o dam that sux :\
+16:29 @cephalopudding    i thought we lived in a DEMOCRACY not THE KINGDUM of MOM TYRANNY!!
+16:30 @cephalopudding    also we are out of good snacks
+16:30 @audrel0rd22    OVERTHROW PARENTS honestly fling them into the sea
+16:31 @cheese_nutz    FLING FLING FLING
 ```
 
 A minute later, `@allBLM` sent a hasty animation of a catapult yeeting a stick figure into space, labeled “your mom.” She snorted at the image, the laugh clearing a bit of the tension cobwebbed in her jaw and shoulders. They were mostly strangers, scattered across the world, but this group always had her back. These people and this internet was a fact of life for her, as incorporeal and forceful as grades or gravity. They were hashing out the finer points of child liberation when the weird thing started:
 
 ```
-16:40 @cheese_nutz	why do they call it the nuclear family anyway what kind of name is that?? is suhweb3MSDIHhiqb~rrrr
-16:40 @cephalopudding	lol wtf @cheese did your cat jump on the keyboard?
-16:41 @cheese_nutz	woah that’s trippy, i swear I typed a whole normal sentence, but it came weird in the chat??
-16:42 @allBLM	weird
-16:42 @allBLM	must be a bug I ge%TgjkwmM.,(!_+s=’j;KqJ
+16:40 @cheese_nutz    why do they call it the nuclear family anyway what kind of name is that?? is suhweb3MSDIHhiqb~rrrr
+16:40 @cephalopudding    lol wtf @cheese did your cat jump on the keyboard?
+16:41 @cheese_nutz    woah that’s trippy, i swear I typed a whole normal sentence, but it came weird in the chat??
+16:42 @allBLM    weird
+16:42 @allBLM    must be a bug I ge%TgjkwmM.,(!_+s=’j;KqJ
 ```
 
 It kept happening every week or so, the clusters of weird text. They tried filing a bug report, but the tech ops person said it was a network anomaly, nothing to do with the chat software. She wasn’t sure if she believed him, but she did add “anomaly” to her ✿~✿~✿MY FAVORITE WORDS✿~✿~✿.txt list anyway. Eventually, everyone got used to it, called it the Blip, like “oh I got blipped.” But the mystery compelled her.
@@ -110,31 +110,31 @@ Through generations, the shoal learned the dances of the Longest Eel. The buzzin
 She poked `Enter,` crossing her fingers and holding her breath and puffing her cheeks like a blowfish for luck. The last dozen tries had crashed into spectacular cascades of error messages. But this time? “Fuck yeah, no errors!” The spambot worked.
 
 ```
-16:26 @blipbop	qqqqqqqqqqqqqqqqqqqqq
-16:26 @blipbot	qqqqqqqqqqqqqqqqqqqqq
-16:27 @blipbot	qqqqqqqqqqqqqqqqqqqqq
-16:27 @cheese_nutz	AYYYY NICE YOU DID IT
-16:27 @blipbot	qqqqqqqqqqqqqqqqqqqqq
-16:28 @cephalopudding	!!!!
-16:28 @cephalopudding	and now we wait
-16:28 @blipbot	qqqqqqqqqqqqqqqqqqqqq
-16:29 @cheese_nutz	kinda ironic that we had to build a spam bot to communicate better
-16:29 @cephalopudding	ha! tru.
-16:29 @blipbot	qqqqqqqqqqqqqqqqqqqqq
-16:30 @blipbot	qqqqqqqqqqqqqqqqqqqqq
-16:30 @cephalopudding	poor Blips. can you imagine not being able to type? And you could only fuck with a signal, flippin bits
-16:30 @cephalopudding	and you could only fuck with a signal, flippin bits
-16:31 @cheese_nutz	i still think Blips are aliens.
-16:31 @cephalopudding	ya but GENIUS ones
+16:26 @blipbop    qqqqqqqqqqqqqqqqqqqqq
+16:26 @blipbot    qqqqqqqqqqqqqqqqqqqqq
+16:27 @blipbot    qqqqqqqqqqqqqqqqqqqqq
+16:27 @cheese_nutz    AYYYY NICE YOU DID IT
+16:27 @blipbot    qqqqqqqqqqqqqqqqqqqqq
+16:28 @cephalopudding    !!!!
+16:28 @cephalopudding    and now we wait
+16:28 @blipbot    qqqqqqqqqqqqqqqqqqqqq
+16:29 @cheese_nutz    kinda ironic that we had to build a spam bot to communicate better
+16:29 @cephalopudding    ha! tru.
+16:29 @blipbot    qqqqqqqqqqqqqqqqqqqqq
+16:30 @blipbot    qqqqqqqqqqqqqqqqqqqqq
+16:30 @cephalopudding    poor Blips. can you imagine not being able to type? And you could only fuck with a signal, flippin bits
+16:30 @cephalopudding    and you could only fuck with a signal, flippin bits
+16:31 @cheese_nutz    i still think Blips are aliens.
+16:31 @cephalopudding    ya but GENIUS ones
 ```
 
 Most of the others had moved on from the chat over the years. It was out of date, out of style, not even encrypted. Just her and `cheese` and the Blips were left. They had figured out pieces of the Blips the past few months. The teen was pretty proud. They were the caretakers and interpreters and friends of the Blips, facilitating their communication. The Blips only seemed to be able to manipulate text that was already streaming through. If her and `cheese` left the chat silent, there would be no blip activity. So they built the bot. And waited for a sign.
 
 ```
-17:11 @blipbot	qqqqqqqqqqqqqqqqqqqqq
-17:12 @blipbot	qqqqqqqqqqqqqqqqqqqqq
-17:13 @blipbot	qqhw0b3MSDIHhiqb~rrrr
-17:14 @blipbot	3MSDIHhiqb~rrrstqqqqq
+17:11 @blipbot    qqqqqqqqqqqqqqqqqqqqq
+17:12 @blipbot    qqqqqqqqqqqqqqqqqqqqq
+17:13 @blipbot    qqhw0b3MSDIHhiqb~rrrr
+17:14 @blipbot    3MSDIHhiqb~rrrstqqqqq
 ```
 
 One arm punched the air in celebration. Her other hand reached to keystroke open a new file: ♥♥THE OFFICIAL BLIP DICTIONARY♥♥.txt.
