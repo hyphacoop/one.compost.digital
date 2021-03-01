@@ -35,7 +35,13 @@ function renderFootnotes() {
   footnoteTags.forEach((footnoteLink, index) => {
     let footnoteId = footnoteLink.getAttribute('footnote-id')
     footnoteLink.parentNode.replaceChild(
-      html`<span class="footnote-link" footnote-id="${footnoteId}">[${1 + index}]</span>`,
+      html`
+        <a href="#footnote-block-${footnoteId}"
+           id="footnote-link-${footnoteId}"
+           class="footnote-link"
+           title="Footnote ${1 + index}"
+           aria-label="Footnote ${1 + index}"
+           footnote-id="${footnoteId}">[${1 + index}]</a>`,
       footnoteLink
     )
   })
@@ -50,8 +56,10 @@ function renderFootnotes() {
       let minFootnoteSpacing = 20
       let footnotePos = Math.max(footnoteLink.offsetTop, lastFootnoteEndPos + minFootnoteSpacing)
       let footnoteEl = html`
-        <div class="footnote" style="position: absolute; top: ${footnotePos}px">
-          <span class="footnote-number">${getFootnoteIndex(footnoteId)}.</span> ${footnoteData.text}
+        <div id="footnote-block-${footnoteId}" class="footnote" style="position: absolute; top: ${footnotePos}px">
+          <span class="footnote-number">${getFootnoteIndex(footnoteId)}.</span>
+          <span> ${footnoteData.text} </span>
+          <a href="#footnote-link-${footnoteId}" title="Back to content" aria-label="Back to content">↵</a>
         </div>
       `
       footnoteContainerEl.appendChild(footnoteEl)
