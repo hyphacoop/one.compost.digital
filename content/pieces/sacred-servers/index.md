@@ -4,7 +4,7 @@ author: Zach Mandeville
 description: An exploration of the essence we share online, and how to cast our magical powers responsibly.
 tableOfContentsImageUrl: ./images/title-images/zach-700x350.png
 titleImageUrl: ./images/title-images/zach-700x350.png
-endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
+endingImageUrl: ./images/angelica-gifs/old_macintosh.gif
 ---
 
 In the spring of a while ago, during a trip to Ireland, I had the chance to visit a sacred well. Sacred wells are pilgrimage sites — have been since pre-Christian Ireland — with pagan rituals adapting to and persisting through new Christian traditions over the last 1500 years.
