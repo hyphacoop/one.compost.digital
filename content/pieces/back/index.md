@@ -6,11 +6,9 @@ titleImageUrl: ./images/title-images/back-cover-700x350.png
 endingImageUrl: ./images/angelica-gifs/old_macintosh.gif
 ---
 
-## ｡☆✼★━━━━━━━━━━━━★✼☆｡
+{{< anigif name="blue_flower" class="inline" >}} {{< anigif name="compost_goodbrown" class="inline" >}} {{< anigif name="blue_flower" class="inline" >}}
 
-{{< anigif name="blue_flower" class="inline" >}} {{< anigif name="compost_goodbrown" class="inline" >}} {{< anigif name="phone_photo" class="inline" >}}
-
-## ⁺˚･༓☾our other projects+writings☽༓･˚⁺ 
+## ⁺˚･༓☾our other projects and writings☽༓･˚⁺ 
 
 ░t░a░l░
 ```
@@ -56,7 +54,7 @@ what would we do without you, dawn walker? your support+wisdom has been invaluab
 big s/o to _maggie oates_ for the incredible work adding alt texts to all the images on this site and making it more accessible.
 
 
-## ༓༝̩̩̥͙ ⊹ if u like COMPOST check these out ⊹༝̩̩̥͙ ༓
+## ༓༝̩̩̥͙⊹ if u like COMPOST check these out ⊹༝̩̩̥͙༓
 
 ```
 https://disco.coop/
