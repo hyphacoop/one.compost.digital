@@ -7,7 +7,11 @@ endingImageUrl: ./images/angelica-gifs/old_macintosh.gif
 endingImageAlt: A vintage Macintosh computer with leaves growing from it
 ---
 
-{{< anigif name="tinyworm-3" class="inline" >}}{{< anigif name="compost_goodbrown" class="inline" >}}{{< anigif name="tinyworm-3" class="inline" >}}
+---
+
+⋇⋆✦⋆⋇ _beg_ ⋇⋆✦⋆⋇
+
+![](../images/angelica-gifs/tinyworm-3.gif)![](../images/angelica-gifs/compost_goodbrown.gif)![](../images/angelica-gifs/tinyworm-3.gif)
 
 ## ･༓☾our other projects + writings☽༓･ 
 
@@ -79,3 +83,5 @@ https://alt-text-as-poetry.net/
 {{< /rawhtml >}}
 
 ⋇⋆✦⋆⋇ _fin_ ⋇⋆✦⋆⋇
+
+---
