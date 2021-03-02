@@ -7,19 +7,26 @@ endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
 ---
 
 
-Tal
-https://www.atm-magazine.com
+~ check out some of the projects our contributors are involved in ~ 
 
-Zach
+tal
+```
+ATM magazine >>>
+https://www.atm-magazine.com
+```
+
+zach
+```
 https://coolguy.website
 https://solarpunk.cool
+```
 
-Micah
+micah
+```
 www.khattamicah.online
 https://medium.com/micah-alex
-https://instagram.com/micah_chooo?igshid=1ohpyb1jd8naa 
-https://medium.com/lln-fieldnotes 
-http://blog.janastu.org/
+http://thelivinglabs.net/
+```
 
 Shafali
 http://open.janastu.org/
@@ -33,16 +40,20 @@ https://maisutton.net/
 https://getdweb.net/
 
 
-SHOUT OUTS
-Jennifer Seaman Cook
+✼ SHOUT OUTS ✼
+
+thank you Jennifer Seaman Cook for your 
 Dawn Walker
 Maggie Oates for helping make our website more accessible.
+
+
+if u like compost maybe u wanna check these out 
 
 https://disco.coop/
 https://logicmag.io/
 
 
-Thank you yo our supporters and partners!
+thank you yo our supporters and partners!
 {{< rawhtml >}}
 
 <a href="https://distributed.press" target="_blank"><img src="logo-distributedpress.png" alt="Distributed Press" /></a>
