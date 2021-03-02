@@ -4,42 +4,43 @@ description: Tangents, fragments, and shoutouts!
 tableOfContentsImageUrl: ./images/title-images/back-cover-700x350.png
 titleImageUrl: ./images/title-images/back-cover-700x350.png
 endingImageUrl: ./images/angelica-gifs/old_macintosh.gif
+endingImageAlt: A vintage Macintosh computer with leaves growing from it
 ---
 
 {{< anigif name="tinyworm-3" class="inline" >}}{{< anigif name="compost_goodbrown" class="inline" >}}{{< anigif name="tinyworm-3" class="inline" >}}
 
-## ⁺˚･༓☾our other projects and writings☽༓･˚⁺ 
+## ･༓☾our other projects + writings☽༓･ 
 
-░t░a░l░
+### ░t░a░l░
 ```
-https://www.atm-magazine.com
-```
-
-Żⓐ𝐜𝕙
-```
-https://coolguy.website
-https://solarpunk.cool
+https://www.atm-magazine.com/
 ```
 
-ᔕᕼᗩᖴᗩᒪI
+### Ż₳𝐜𝕙
 ```
-http://open.janastu.org/
-http://blog.janastu.org/
-```
-
-ϻ𝔦𝐂αн
-```
-www.khattamicah.online
-https://medium.com/micah-alex
-http://thelivinglabs.net/
+https://coolguy.website/
+https://solarpunk.cool/
 ```
 
-ⓐⓝⓝⓘⓔ
+### ᔕᕼᗩᖴᗩᒪI
 ```
-http://annie-howard.com
+https://open.janastu.org/
+https://blog.janastu.org/
 ```
 
-ʍǟɨ
+### ϻ𝔦𝐂αн
+```
+https://khattamicah.online/
+https://medium.com/micah-alex/
+https://thelivinglabs.net/
+```
+
+### ⓐⓝⓝⓘⓔ
+```
+http://annie-howard.com/
+```
+
+### ʍǟɨ
 ```
 https://maisutton.net/
 https://getdweb.net/
@@ -60,11 +61,12 @@ big s/o to maggie oates for adding alt texts to all the images on this site and 
 https://disco.coop/
 https://logicmag.io/
 https://www.are.na/
+https://newart.city/
 https://alt-text-as-poetry.net/
 ```
 
 
-## ＊✿❀ BIG thank you to our supporters & partners! ❀✿＊
+## ＊✿❀ BIG thank you to our supporters + partners! ❀✿＊
 {{< rawhtml >}}
 <a href="https://hypha.coop" target="_blank"><img src="logo-hypha.png" style="vertical-align:top; padding-right:5%; padding-bottom:5%; max-width:20%; max-height:100px;"></a>
 <a href="https://grantfortheweb.org" target="_blank"><img src="logo-gftw.png" style="vertical-align:top; padding-right:5%; padding-bottom:5%; max-width:20%; max-height:100px;"></a>
@@ -75,3 +77,5 @@ https://alt-text-as-poetry.net/
 <a href="https://webmonetization.org" target="_blank"><img src="logo-webmonetization.png" style="vertical-align:top; padding-right:5%; padding-bottom:5%; max-width:20%; max-height:100px;"></a>
 <a href="https://gitcoin.co" target="_blank"><img src="logo-gitcoin.png" style="vertical-align:top; padding-right:5%; padding-bottom:5%; max-width:20%; max-height:100px;"></a>
 {{< /rawhtml >}}
+
+⋇⋆✦⋆⋇ _fin_ ⋇⋆✦⋆⋇
