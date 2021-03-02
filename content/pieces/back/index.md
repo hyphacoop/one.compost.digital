@@ -8,7 +8,7 @@ endingImageUrl: ./images/angelica-gifs/old_macintosh.gif
 
 {{< anigif name="wormin1" class="inline" >}} {{< anigif name="compost_goodbrown" class="inline" >}} {{< anigif name="wormin2" class="inline" >}}
 
-## ‧͙⁺˚*･༓☾ check out our other projects + writings ☽༓･*˚⁺‧͙ 
+## ⁺˚･༓☾our other projects+writings☽༓･˚⁺ 
 
 ░t░a░l░
 ```
@@ -54,7 +54,7 @@ what would we do without you, _dawn walker_ ?? your support + wisdom has been in
 big s/o to _maggie oates_ for the incredible work adding alt texts to all the images on this site and making it more accessible.
 
 
-## ༝̩̩̥͙ ༓༝̩̩̥͙ ⊹ if you like COMPOST you might wanna check these out ⊹༝̩̩̥͙ ༓༝̩̩̥͙
+## ༓༝̩̩̥͙ ⊹ if you like COMPOST you might wanna check these out ⊹༝̩̩̥͙ ༓
 
 ```
 https://disco.coop/
