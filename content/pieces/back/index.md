@@ -3,9 +3,10 @@ title: Back Cover
 description: Tangents, fragments, and shoutouts!
 tableOfContentsImageUrl: ./images/title-images/back-cover-700x350.png
 titleImageUrl: ./images/title-images/back-cover-700x350.png
-endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
+endingImageUrl: ./images/angelica-gifs/old_macintosh.gif
 ---
 
+{{< anigif name="wormin1" class="inline" >}} {{< anigif name="compost_goodbrown" class="inline" >}} {{< anigif name="wormin2" class="inline" >}}
 
 ## ‧͙⁺˚*･༓☾ check out our other projects + writings ☽༓･*˚⁺‧͙ 
 
@@ -53,16 +54,17 @@ what would we do without you, _dawn walker_ ?? your support + wisdom has been in
 big s/o to _maggie oates_ for the incredible work adding alt texts to all the images on this site and making it more accessible.
 
 
-## if you like compost you might wanna check these out 
+## ༝̩̩̥͙ ༓༝̩̩̥͙ ⊹ if you like COMPOST you might wanna check these out ⊹༝̩̩̥͙ ༓༝̩̩̥͙
 
 ```
 https://disco.coop/
 https://logicmag.io/
 https://www.are.na/
+https://alt-text-as-poetry.net/
 ```
 
 
-## thank you yo our supporters and partners!
+## ＊✿❀ and a BIG thank you to our supporters and partners! ❀✿＊
 {{< rawhtml >}}
 
 <a href="https://distributed.press" target="_blank"><img src="logo-distributedpress.png" alt="Distributed Press" /></a>
