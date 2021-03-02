@@ -6,7 +6,7 @@ titleImageUrl: ./images/title-images/back-cover-700x350.png
 endingImageUrl: ./images/angelica-gifs/old_macintosh.gif
 ---
 
-{{< anigif name="blue_flower" class="inline" >}} {{< anigif name="compost_goodbrown" class="inline" >}} {{< anigif name="blue_flower" class="inline" >}}
+{{< anigif name="tinyworm-3" class="inline" >}}{{< anigif name="compost_goodbrown" class="inline" >}}{{< anigif name="tinyworm-3" class="inline" >}}
 
 ## ⁺˚･༓☾our other projects and writings☽༓･˚⁺ 
 
@@ -49,9 +49,9 @@ https://getdweb.net/
 
 thank you jennifer seaman cook for embarking on this journey with us!
 
-what would we do without you, dawn walker? your support+wisdom has been invaluable 
+what would we do without you, dawn walker? your support + wisdom has been invaluable.
 
-big s/o to _maggie oates_ for the incredible work adding alt texts to all the images on this site and making it more accessible.
+big s/o to maggie oates for adding alt texts to all the images on this site and making it more accessible <3
 
 
 ## ༓༝̩̩̥͙⊹ if u like COMPOST check these out ⊹༝̩̩̥͙༓
@@ -64,7 +64,7 @@ https://alt-text-as-poetry.net/
 ```
 
 
-## ＊✿❀ and a BIG thank you to our supporters and partners! ❀✿＊
+## ＊✿❀ BIG thank you to our supporters & partners! ❀✿＊
 {{< rawhtml >}}
 
 <a href="https://distributed.press" target="_blank"><img src="logo-distributedpress.png" alt="Distributed Press" /></a>
