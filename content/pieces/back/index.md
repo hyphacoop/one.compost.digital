@@ -66,14 +66,12 @@ https://alt-text-as-poetry.net/
 
 ## ＊✿❀ BIG thank you to our supporters & partners! ❀✿＊
 {{< rawhtml >}}
-
-<a href="https://distributed.press" target="_blank"><img src="logo-distributedpress.png" alt="Distributed Press" /></a>
-<a href="https://grantfortheweb.org" target="_blank"><img src="logo-gftw.png" alt="Grant for the Web" /></a>
-<a href="https://gitcoin.co" target="_blank"><img src="logo-gitcoin.png" alt="Gitcoin" /></a>
-<a href="https://hypha.coop" target="_blank"><img src="logo-hypha.png" alt="Hypha Cooperative" /></a>
-<a href="https://www.madebysuper.com" target="_blank"><img src="logo-madebysuper.png" alt="Made by Super" /></a>
-<a href="https://opencollective.com" target="_blank"><img src="logo-opencollective.png" alt="Open Collective" /></a>
-<a href="https://simplysecure.org" target="_blank"><img src="logo-simplysecure.png" alt="Simply Secure" /></a>
-<a href="https://webmonetization.org" target="_blank"><img src="logo-webmonetization.png" alt="Web Monetization" /></a>
-
+<a href="https://hypha.coop" target="_blank"><img src="logo-hypha.png" style="vertical-align:top; padding-right:5%; padding-bottom:5%; max-width:20%; max-height:100px;"></a>
+<a href="https://grantfortheweb.org" target="_blank"><img src="logo-gftw.png" style="vertical-align:top; padding-right:5%; padding-bottom:5%; max-width:20%; max-height:100px;"></a>
+<a href="https://www.madebysuper.com" target="_blank"><img src="logo-madebysuper.png" style="vertical-align:top; padding-right:5%; padding-bottom:5%; max-width:22%; max-height:100px;"></a>
+<a href="https://simplysecure.org" target="_blank"><img src="logo-simplysecure.png" style="vertical-align:top; padding-right:5%; padding-bottom:5%; max-width:20%; max-height:100px;"></a>
+<a href="https://distributed.press" target="_blank"><img src="logo-distributedpress.png" style="vertical-align:top; padding-right:5%; padding-bottom:5%; max-width:40%; max-height:100px;"></a>
+<a href="https://opencollective.com" target="_blank"><img src="logo-opencollective.png" style="vertical-align:top; padding-right:5%; padding-bottom:5%; max-width:48%; max-height:100px;"></a>
+<a href="https://webmonetization.org" target="_blank"><img src="logo-webmonetization.png" style="vertical-align:top; padding-right:5%; padding-bottom:5%; max-width:20%; max-height:100px;"></a>
+<a href="https://gitcoin.co" target="_blank"><img src="logo-gitcoin.png" style="vertical-align:top; padding-right:5%; padding-bottom:5%; max-width:20%; max-height:100px;"></a>
 {{< /rawhtml >}}
