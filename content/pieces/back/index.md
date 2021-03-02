@@ -7,42 +7,47 @@ endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
 ---
 
 
-~ check out some of the projects our contributors are involved in ~ 
+~ check out our other projects + writings  ~ 
 
-tal
+░t░a░l░
 ```
-ATM magazine >>>
 https://www.atm-magazine.com
 ```
 
-zach
+Żⓐ𝐜𝕙
 ```
 https://coolguy.website
 https://solarpunk.cool
 ```
 
-micah
+ᔕᕼᗩᖴᗩᒪI
+```
+http://open.janastu.org/
+http://blog.janastu.org/
+```
+
+ϻ𝔦𝐂αн
 ```
 www.khattamicah.online
 https://medium.com/micah-alex
 http://thelivinglabs.net/
 ```
 
-Shafali
-http://open.janastu.org/
-http://blog.janastu.org/
-
-Annie Howard
+ⓐⓝⓝⓘⓔ
+```
 http://annie-howard.com
+```
 
-Mai
+ʍǟɨ
+```
 https://maisutton.net/
 https://getdweb.net/
+```
 
 
 ✼ SHOUT OUTS ✼
 
-thank you Jennifer Seaman Cook for your 
+thank you _jennifer seaman cook_ for your wisdom as we g
 Dawn Walker
 Maggie Oates for helping make our website more accessible.
 
