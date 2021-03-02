@@ -7,7 +7,7 @@ endingImageUrl: ./images/angelica-gifs/mantis_computer.gif
 ---
 
 
-~ check out our other projects + writings  ~ 
+## ‧͙⁺˚*･༓☾ check out our other projects + writings ☽༓･*˚⁺‧͙ 
 
 ░t░a░l░
 ```
@@ -44,21 +44,25 @@ https://maisutton.net/
 https://getdweb.net/
 ```
 
+## SHOUT OUTS ＼(￣▽￣)／
 
-✼ SHOUT OUTS ✼
+thank you _jennifer seaman cook_ for embarking on this journey with us!
 
-thank you _jennifer seaman cook_ for your wisdom as we g
-Dawn Walker
-Maggie Oates for helping make our website more accessible.
+what would we do without you, _dawn walker_ ?? your support + wisdom has been invaluable 
+
+big s/o to _maggie oates_ for the incredible work adding alt texts to all the images on this site and making it more accessible.
 
 
-if u like compost maybe u wanna check these out 
+## if you like compost you might wanna check these out 
 
+```
 https://disco.coop/
 https://logicmag.io/
+https://www.are.na/
+```
 
 
-thank you yo our supporters and partners!
+## thank you yo our supporters and partners!
 {{< rawhtml >}}
 
 <a href="https://distributed.press" target="_blank"><img src="logo-distributedpress.png" alt="Distributed Press" /></a>
