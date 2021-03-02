@@ -6,7 +6,9 @@ titleImageUrl: ./images/title-images/back-cover-700x350.png
 endingImageUrl: ./images/angelica-gifs/old_macintosh.gif
 ---
 
-{{< anigif name="wormin1" class="inline" >}} {{< anigif name="compost_goodbrown" class="inline" >}} {{< anigif name="wormin2" class="inline" >}}
+## ｡☆✼★━━━━━━━━━━━━★✼☆｡
+
+{{< anigif name="blue_flower" class="inline" >}} {{< anigif name="compost_goodbrown" class="inline" >}} {{< anigif name="phone_photo" class="inline" >}}
 
 ## ⁺˚･༓☾our other projects+writings☽༓･˚⁺ 
 
@@ -47,14 +49,14 @@ https://getdweb.net/
 
 ## SHOUT OUTS ＼(￣▽￣)／
 
-thank you _jennifer seaman cook_ for embarking on this journey with us!
+thank you jennifer seaman cook for embarking on this journey with us!
 
-what would we do without you, _dawn walker_ ?? your support + wisdom has been invaluable 
+what would we do without you, dawn walker? your support+wisdom has been invaluable 
 
 big s/o to _maggie oates_ for the incredible work adding alt texts to all the images on this site and making it more accessible.
 
 
-## ༓༝̩̩̥͙ ⊹ if you like COMPOST you might wanna check these out ⊹༝̩̩̥͙ ༓
+## ༓༝̩̩̥͙ ⊹ if u like COMPOST check these out ⊹༝̩̩̥͙ ༓
 
 ```
 https://disco.coop/
