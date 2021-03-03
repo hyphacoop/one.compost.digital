@@ -9,7 +9,7 @@ endingImageAlt: A vintage Macintosh computer with leaves growing from it
 
 ---
 
-![](../images/angelica-gifs/worm_computer.gif) 
+{{< anigif name="worm_computer" >}}
 
 
 ## ･༓☾our other projects + writings☽༓･ 

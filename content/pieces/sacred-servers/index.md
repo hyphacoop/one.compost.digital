@@ -21,7 +21,7 @@ The friends I was with all grew quiet as well, or rather, it was as if a type of
 
 What was the source of that quiet — the source of the power and energy I felt there? Did it emanate from the well itself, an ageless power felt by those who discovered it? Or was it a collaboration with the land, an energy that accumulated with each person who left something of themself with their prayer? Perhaps their spoken words trembled the water, resonating with all the other pilgrims' prayers, and joining the soft echo of the ancient rock walls. Perhaps what I felt was the sublime power of concentrated belief.
 
-![](../images/angelica-gifs/tinyworm-3.gif)
+{{< anigif name="tinyworm-3" >}}
 
 ## Power in Place
 
@@ -31,7 +31,7 @@ Then there are the places and things that hold power for a small, mysterious rea
 
 If I were to try to explain it directly, I would say “these places and things have feelings too” — a reason that felt obvious as a child, but now sounds foolish. Instead, I might try to say that in this toy, home, and op-shop treasure, there seems to be an energy left by the people who came before; a loop of time lingering in the space.
 
-![](../images/angelica-gifs/tinyworm-2.gif)
+{{< anigif name="tinyworm-2" >}}
 
 ## Time Online
 
@@ -43,7 +43,7 @@ Yet, whenever I'm in a conversation about social media, it always seems to take 
 
 We know it's bad, and yet still something holds us. Something beyond its addictive design — a personal attachment we're hesitant to let go of. What is it that attaches us?
 
-![](../images/angelica-gifs/tinyworm-1.gif)
+{{< anigif name="tinyworm-1" >}}
 
 ## Growing Online
 
@@ -55,7 +55,7 @@ I have a new ritual for being online, a timer I set whenever I sit down at the c
 
 We know the web has left a mark on us. What isn't discussed as much is how much we've given back to it, all the remnants of us we've left within it.
 
-![](../images/angelica-gifs/blue_flower.gif)
+{{< anigif name="blue_flower" >}}
 
 ## A Few Sites of Endless Feeling
 
@@ -79,7 +79,7 @@ We grieve, we upload every photo and memory of someone we lost and switch their 
 
 We post again and again to the same few platforms. The platforms that leave us feeling exhausted and drained. We share everything to them; then take a digital detox to recover from it all.
 
-![](../images/angelica-gifs/tinyworm-3.gif)
+{{< anigif name="tinyworm-3" >}}
 
 ## Tangible and Intangible
 
@@ -91,7 +91,7 @@ We place our thoughts into input forms set expectantly at the top of the page li
 
 Though these processes are obscure, they're not secret. We know where our words and images go when shared to Twitter, Google, or Facebook. They go to their s servers.
 
-![](../images/angelica-gifs/tinyworm-2.gif)
+{{< anigif name="tinyworm-2" >}}
 
 ## Servers as Possessors
 
@@ -106,7 +106,7 @@ I think there's a presence held in our words and actions that lingers after the 
 
 And I think when we share our feelings with the world digitally, that presence is passed along with them down the wire, left to hover within and around the data center with all the rest of our things.
 
-![](../images/angelica-gifs/tinyworm-1.gif)
+{{< anigif name="tinyworm-1" >}}
 
 ## A Separate Cyberspace
 
@@ -124,7 +124,7 @@ Maybe it was once useful to distinguish places on the internet as separate from 
 
 There is no separation. We are all in it together, overlaid and coexistent. And, from my view, to declare a space of ideas and the mind to be necessarily separate from the world is to deny the world the aliveness and agency it holds.
 
-![](../images/angelica-gifs/tinyworm-3.gif)
+{{< anigif name="tinyworm-3" >}}
 
 ## Sacred and Profane
 
@@ -142,7 +142,7 @@ We can give as much as we do now, but to networks and servers that are actually 
 
 We've felt the tremendous weight of power that profane tech companies hold. The power comes from us. Why don't we take it and distribute it among ourselves?
 
-![](../images/angelica-gifs/blue_flower.gif)
+{{< anigif name="blue_flower" >}}
 
 ## Dreaming Another Future
 
