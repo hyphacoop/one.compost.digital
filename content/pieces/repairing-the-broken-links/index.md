@@ -31,7 +31,7 @@ Formative experiences that are less than five years old are now lost to me, at l
 
 Probably the most painful loss I’ve experienced on the web was on NewHive. The site was a platform for making creative webpages that I used in a digital humanities class called “Art, Writing, Technology” in the spring of 2016. Our task was simple: Each week, twice a week, use the platform, which combined rudimentary CSS coding with drag-and-drop capabilities, to make web pages that responded to challenges like creating a conceptual Twitter account or using a scanner to make time-based, stop-motion art.
 
-{{< figure src="scanner-talk.gif" alt="An artistic work called 'Scanner Talk,' showing the author having a conversation with their scanner, and a looping series of images showing up in the speech bubble between them." caption="Image via Annie Howard">}}
+{{< figure src="scanner-talk.gif" class="has-shadow" alt="An artistic work called 'Scanner Talk,' showing the author having a conversation with their scanner, and a looping series of images showing up in the speech bubble between them." caption="Image via Annie Howard">}}
 
 For my concluding work, I brought my own whiteness into the frame in a piece called “Contort Myself,” drawing upon texts I’d been reading in an African American Studies class called Unsettling Whiteness. The video montage allowed me to examine my complicity with white supremacy and the contortions I’d experienced in trying to challenge it . To this day, the film is a marker of a very specific iteration of myself, with NewHive serving as a necessary conduit for the expansiveness I felt then. Even without having the experience of early-web experimentation, I encountered its vital possibilities on the platform.
 
@@ -51,7 +51,7 @@ Despite the tenuousness of our web page and fledgling software, the conference p
 
 Too many other pieces of our shared archive remain deleted or inaccessible, but this image remains: the two of us, dressed in our gayest summertime finery, beaming in a conference room where we’d soon have an eager audience of co-creators. More than two dozen people came to share their incredible knowledge using our newly functional plugin, giving reality to our dream of constellating social justice resources. As I wrote in my journal that night: “In no way could I imagine how affirming our presentation would be. We of course have given it our all, but sharing that baby with the world is always going to be a leap of faith.”
 
-{{< figure src="just-constellation-cards.jpg" alt="an image of business cards" caption="Image via Annie Howard">}}
+{{< figure src="just-constellation-cards.jpg" class="has-shadow" alt="an image of business cards" caption="Image via Annie Howard">}}
 
 Sad as it is to say, all relationships are too a leap of faith. There is no guarantee of persistence or longevity, however eternal they might feel in the moment. I wrote that weekend that “This whole thing wouldn’t have been possible or desirable in the first place without their magical energy and passion,” and that “I feel so unself-conscious in their presence, a sensation I’ve surely been missing as of late.” Even knowing all that would follow in the years after that momentous and challenging weekend, I wouldn’t trade it for anything. Rereading my journal now, the specific beauty of our shared adventures remains undimmed.
 
