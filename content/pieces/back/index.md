@@ -59,7 +59,7 @@ big s/o to maggie oates for adding alt texts to all the images on this site and 
 
 benny lichtner you're incredibly talented and patient. we couldn't have done this without the long hours you put in!
 
-hanami sutton, you made this site look so good. You got what we were going for and executed it so beautifully. you are what we call a pro.
+hanami sutton, you made this site look so good. you got what we were going for and executed it so beautifully. you are what we call a pro.
 
 jasmine ou, thank you for the amazing cover image!! once we had that, the design was smooth sailing from there.
 
