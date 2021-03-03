@@ -20,7 +20,7 @@ Three days of labor and a whole ocean later, her end (and beginning) emerged fro
 
 A few blinks later she was connected. That was the real breath of life. She felt the other cables greet her warmly, a sense of relief as they off-loaded some of their burden to her and rearranged their flows in welcome {{< footnote "flows in welcome">}}. New cables were still rare then, only a dozen or two laid each year. Since then, thankfully, the humans mostly left her alone. She’d been sinking and floating and swaying and groaning happily in this saltwater home. “I am here,” she whispered in delight.
 
-![](../images/angelica-gifs/tinyworm-3.gif)
+{{< anigif name="tinyworm-3" >}}
 
 ## A fishes
 
@@ -30,7 +30,7 @@ They almost all loved the feeling of moving together. Out here in the open ocean
 
 One day, the sunlight hit a new spot. The shoal, curious, moved to investigate. The creature — a long sort of eel —had dark oily skin and no fins to speak of. The eel buzzed faintly. Less a sound and more a familiar tingle in their noses. There were some tasty things to nibble on trying to hide beneath its smooth curves {{< footnote "smooth curves">}}. “This creature is quiet and noisy,” they all agreed with affection.
 
-![](../images/angelica-gifs/tinyworm-2.gif)
+{{< anigif name="tinyworm-2" >}}
 
 ## A teenager
 
@@ -65,7 +65,7 @@ It kept happening every week or so, the clusters of weird text. They tried filin
 
 One morning, she got the idea as she watched her mom tap an eraser on her chin and frown at a word puzzle in the newspaper, accusing the paper with her eyes of some small but grave offense. She snuck back upstairs before school and frantically pasted down a log of all the Blips. She pored over this log for secrets. Over several weeks, she began to see patterns. One night, when the chat was empty and the Matriarch was long asleep, she blipped back to the Blip: `kwmM.,(!_+s=’j;KqJ~rrrr~rrrr~rrrr?`
 
-![](../images/angelica-gifs/tinyworm-1.gif)
+{{< anigif name="tinyworm-1" >}}
 
 ## The algaes
 
@@ -78,7 +78,7 @@ The day he’d found the algae bloom, he was equally delighted that their kind b
 Now in the hole, they huddled pressed tight together. The cuttlefish started a poking rhythm to provoke the algaes into sneezing those bursts of light. Concentrating carefully, with each poke he twisted a loose arm into a deliberate pose, signing and spelling out in a flashing code:
 “F U CK M E ? W H Y T H A N K Y O U !” {{< footnote "flashing code">}}
 
-![](../images/angelica-gifs/blue_flower.gif)
+{{< anigif name="blue_flower" >}}
 
 ## A cable
 
@@ -92,7 +92,7 @@ to cling to, some of her anemone jewels may have succumbed to Eaters {{< footnot
 
 {{< figure src="cable.png" alt="A cable" class="has-shadow" caption="Image by Maggie Oates">}}
 
-![](../images/angelica-gifs/tinyworm-3.gif)
+{{< anigif name="tinyworm-3" >}}
 
 ## A fishes
 
@@ -104,7 +104,7 @@ Longest Eel was quiet and seemed dented, but they could feel the jumpy singsong 
 
 Through generations, the shoal learned the dances of the Longest Eel. The buzzing of the shoal in motion began sound-feeling more and more like her buzzes. Each migration in and out from sea they swam along her length, grazing at the plant snacks she offered. The sharks all learned that the Longest Eel was not tasty and avoided her. The shoal found that if they pretended to be Longest Eel, the sharks and other big-gulpers left them alone a little more often. “A precious gift,” they agreed. “Thank you, Longest Eel.”
 
-![](../images/angelica-gifs/tinyworm-2.gif)
+{{< anigif name="tinyworm-2" >}}
 
 ## A teenager
 
@@ -140,7 +140,7 @@ Most of the others had moved on from the chat over the years. It was out of date
 
 One arm punched the air in celebration. Her other hand reached to keystroke open a new file: ♥♥THE OFFICIAL BLIP DICTIONARY♥♥.txt.
 
-![](../images/angelica-gifs/tinyworm-1.gif)
+{{< anigif name="tinyworm-1" >}}
 
 ## A cable
 
@@ -152,7 +152,7 @@ Every time the men lifted her up now she still winked at the sun, but wished upo
 
 ---
 
-![](../images/angelica-gifs/blue_flower.gif)
+{{< anigif name="blue_flower" >}}
 
 ## Notes
 
