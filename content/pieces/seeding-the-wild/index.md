@@ -12,7 +12,14 @@ endingImageAlt: A patch of dandelions
 footnotesUrl: "footnotes.json"
 ---
 
-{{< figure src="dandelion-seeds.png" alt="Two seeds begin their journey of floating away from a poofy dandelion." caption="Image via magma collective">}}
+{{< rawhtml >}}
+ <figure>
+    <img src="dandelion-seeds.png" style="max-height:450px;"
+         alt="Two seeds begin their journey of floating away from a poofy dandelion."/> <figcaption>
+            <p>Image via magma collective</p>
+        </figcaption>
+</figure>
+{{< /rawhtml >}}
 
 _Two dandelion seeds float on a gentle summer breeze. One settles in an open meadow, another is blown across a fence into a flower patch._
 
@@ -102,3 +109,4 @@ Biological terminology has also been appropriated in our current economic system
 We are living a rebirth of peer-to-peer in a more mature form, acknowledging that sustainability matters and economic ideas need to be rethought to once again serve rather than poison the wild. Private property necessitates monetisation, but a process of digital rewilding might help create diverse forests of digital wealth unmediated by property and money relations. Peer-to-peer applications cannot be monetised in the same way traditional client-server applications can. They require radically different business models and require us to change our habits and ways of thinking. Perhaps new alliances and inspirations can form between the biological and technological, towards flourishing diversity and difference.
 
 {{< figure src="tree-tower-block.jpg" alt="A tree grows, taking over a building. Branches push through windows and overtake stairs. This growth seems less like a violence and more like a birth." caption="Image via magma collective">}}
+
