@@ -1,7 +1,7 @@
 ---
 title: Foreword
 authors: COMPOST editors
-description: Surveying the fertile grounds.
+description: A letter from the editors.
 titleImageUrl: ./images/title-images/foreword-cover-700x350.png
 tableOfContentsImageUrl: ./images/title-images/foreword-cover-700x350.png
 endingImageUrl: ./images/angelica-gifs/mushroom_net.gif
@@ -37,9 +37,6 @@ If you enjoy this issue, please consider supporting us by becoming a subscriber 
 Thanks for checking us out.  (.❛ ᴗ ❛.)
 
 In solidarity,
-
 Mai Ishikawa Sutton
-
 Udit Vira
-
 Benedict Lau
