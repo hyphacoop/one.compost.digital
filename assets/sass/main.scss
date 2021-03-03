@@ -11,6 +11,7 @@ $compost-green: #336633;
 $link-color: $compost-green;
 $title-sans-serif: 'Open Sans', sans-serif;
 $skinny-italic-sans-serif: 'Work Sans', sans-serif;
+$monospace: 'Roboto Mono', monospace;
 
 $header-z-index: 10;
 $toc-z-index: 20;
@@ -485,6 +486,7 @@ main {
       font-size: 0.8rem;
       background: scale-color($compost-green, $lightness: 62%, $saturation: -20%);
       word-wrap: normal;
+      font-family: $monospace;
     }
 
     pre {
@@ -583,8 +585,7 @@ main {
   width: 100%;
   
   background-image:
-    linear-gradient( rgba(255,255,255,.9), rgba(255,255,255,.9) ),
-    url('../images/COMPOST_Assets_Footer.png');
+    url('../images/COMPOST_Assets_Footer_faded.png');
   background-position: center top;
   background-size: cover;
   
