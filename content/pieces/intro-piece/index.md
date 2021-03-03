@@ -12,7 +12,7 @@ endingImageAlt: A group of mushrooms connected in a network.
 
 We’re thrilled to present to you the very first issue of COMPOST! 
 
-COMPOST is short for commons post, and it’s a magazine that publishes creative works reflecting on the web as a digital commons. This publication comes out of a year and a half of scheming, discussing, and organizing. It came out o f our desire to create a piece of the web that embodied our dreams. We were tired of platforms making us bitter, angry, and afraid to connect online. We were also tired of being cynical. From the beginning, this was about building a space for us to be honest and creative. 
+COMPOST is short for commons post, and it’s a magazine that publishes creative works reflecting on the web as a digital commons. This publication comes out of a year and a half of scheming, discussing, and organizing. It came out of our desire to create a piece of the web that embodied our dreams. We were tired of platforms making us bitter, angry, and afraid to connect online. We were also tired of being cynical. From the beginning, this was about building a space for us to be honest and creative. 
 
 Our theme, _Fertile Grounds_, was an invitation for peers to take stock of what the web has offered us — from the tools we use to the people we meet and become online. We were curious to unearth the ways that our failing web can still be trustful, healthy, and fun. The pieces in this issue were selected for their stylistic breadth, as well as for the care and vulnerability they promised. 
 
@@ -37,6 +37,6 @@ If you enjoy this issue, please consider supporting us by becoming a subscriber 
 Thanks for checking us out.  (.❛ ᴗ ❛.)
 
 In solidarity,
-Mai Ishikawa Sutton
-Udit Vira
-Benedict Lau
+Mai Ishikawa Sutton  
+Udit Vira  
+Benedict Lau  
