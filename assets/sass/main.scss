@@ -740,6 +740,20 @@ main {
         z-index: -1;
         transition: width 0.5s ease-out;
       }
+
+      .goal-checkmark {
+        position: absolute;
+        right: 20px;
+        font-size: 36px;
+        background: black;
+        color: white;
+        border-radius: 20px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
     }
   }
 }

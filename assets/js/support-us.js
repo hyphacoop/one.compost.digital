@@ -26,6 +26,10 @@ async function render() {
     let maxWidth = goalInnard.parentElement.offsetWidth
     let newWidth = maxWidth * Math.min(1, totalBalance / goalData.amountCAD)
     goalInnard.style.width = `${newWidth}px`
+
+    if (totalBalance >= goalData.amountCAD) {
+      goalInnard.parentElement.appendChild(html`<div class="goal-checkmark">✓</div>`)
+    }
   })
 
   let readableDate = new Intl.DateTimeFormat('en-US', { dateStyle: 'full' }).format(new Date(balances.timestamp))
