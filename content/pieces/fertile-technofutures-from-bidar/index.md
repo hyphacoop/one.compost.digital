@@ -24,6 +24,8 @@ We would like to present narratives from the field of possibilities and futures 
 
 The following image has been annotated with descriptions of the projects, responses from various network members, and internal thoughts and reflections. The image is a condensed map of places, artifacts and people in these different spaces. It is an exercise in sensemaking through collecting different experiences, emotions, epiphanies and hopes in the context of the mesh. It is an abstraction of Bidar  — a small city with rich histories of diverse populations and cultures meeting.
 
+{{< figure src="bidar_map_800px.jpg" alt="A digital painting of a bright grassy area, overlaid with electric pink lightning patterns. A blank map version of the interactive map below." class="has-shadow" caption="Image via Micah Alex" >}}
+
 {{< anigif name="tinyworm-2" >}}
 
 ## Why is it made this way 
