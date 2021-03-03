@@ -30,7 +30,7 @@ We want to thank our contributors for all the care and attentiveness they put in
 
 ![](../images/angelica-gifs/tinyworm-2.gif)
 
-If you enjoy this issue, please consider [supporting](.../layouts/one-offs/support-us.html) us by becoming a subscriber or sending us a one-time donation (we offer several ways to do this, including through crypto payment). We also encourage you to share this issue via the World Wide Web or DWeb. You can follow us on Twitter (@COMPOSTmag), Mastodon (social.coop/@COMPOST), Are.na, or join our _very_ low traffic mailing list, to hear about any upcoming events and announcements — including when we make our GIF stickers into actual stickers. 
+If you enjoy this issue, please consider [supporting](.../layouts/one-offs/support-us.html) us by becoming a subscriber or sending us a one-time donation (we offer several ways to do this, including through crypto payment). We also encourage you to share this issue via the World Wide Web or DWeb. You can follow us on Twitter (@COMPOSTmag), Mastodon (social.coop/@COMPOST), Are.na (https://www.are.na/compost), or join our _very_ low traffic mailing list, to hear about any upcoming events and announcements — including when we make our GIF stickers into actual stickers. 
 
 Thanks for checking us out.  (.❛ ᴗ ❛.)
 
