@@ -4,6 +4,7 @@ author: Tal Milovina
 description: Frolicking through lithium-powered spaces, we flirt with the possibility of escaping the tidy capture of a regime intent on determining normality and value.
 titleImageUrl: ./images/title-images/tal-cover-700x350.jpg
 titleImageAlt: A birds-eye view of a salt flat 
+titleImageCaption: Image by Coordenação-Geral de Observação da Terra/INPE (CC BY-SA 2.0)
 tableOfContentsImageUrl: ./images/title-images/tal-cover-700x350.jpg
 tableOfContentsImageAlt: A birds-eye view of a salt flat
 endingImageUrl: ./images/angelica-gifs/mushroom_computer.gif
