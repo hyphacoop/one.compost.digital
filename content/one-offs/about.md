@@ -37,9 +37,13 @@ AC Gillette, Angelica Blevins, Annie Howard, Maggie Oates, magma collective, Mic
 **Lead Editor:** Mai Ishikawa Sutton  
 **Editors:** Udit Vira, Benedict Lau
 
-### Technical
+### Publishing Tools
 
-Benedict Lau, Benny Lichtner, Elon Li, Udit Vira, Yurko
+Benedict Lau, Elon Li, Udit Vira, Yurko
+
+### Website 
+
+Benny Lichtner
 
 ### Creative
 

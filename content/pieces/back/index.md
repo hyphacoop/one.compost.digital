@@ -58,6 +58,7 @@ what would we do without you, dawn walker? your support + wisdom has been invalu
 
 big s/o to maggie oates for adding alt texts to all the images on this site and making it more accessible <3
 
+benny lichtner you're incredibly talented and patient. we couldn't have done this without the long hours you put in!
 
 ## ༓༝̩̩̥͙⊹ if you like COMPOST check these out ⊹༝̩̩̥͙༓
 
