@@ -5,13 +5,14 @@ description: In peer-to-peer technologies we 'seed' for one another. This essay 
 tableOfContentsImageUrl: ./images/title-images/magma-collective-700x350.png
 tableOfContentsImageAlt: A poofy dandelion floats over a dense network graph. 
 titleImageUrl: ./images/title-images/magma-collective-700x350.png
+titleImageCaption: Image via magma collective
 titleImageAlt: A poofy dandelion floats over a dense network graph. 
 endingImageUrl: ./images/angelica-gifs/dandelion.gif
 endingImageAlt: A patch of dandelions
 footnotesUrl: "footnotes.json"
 ---
 
-![Two seeds begin their journey of floating away from a poofy dandelion.](dandelion-seeds.png)
+{{< figure src="dandelion-seeds.png" alt="Two seeds begin their journey of floating away from a poofy dandelion." caption="Image via magma collective">}}
 
 _Two dandelion seeds float on a gentle summer breeze. One settles in an open meadow, another is blown across a fence into a flower patch._
 
@@ -21,7 +22,7 @@ Energies toward peer-to-peer decentralisation are rising again. Riding this fres
 
 This experimental essay explores the similarities between the client-server network architecture and the historical expropriation of the commons, both of which forced the creation of a working class and moneyed intermediation.
 
-![](../images/angelica-gifs/tinyworm-3.gif)
+{{< anigif name="tinyworm-3" >}}
 
 ## Stolen Lands
 
@@ -39,7 +40,7 @@ _The second seed began its germination but withered when one Wednesday afternoon
 
 The commons are cared for by the those that directly inhabit and gain from its wealth. But these are repeatedly fenced in, the soils stolen for monocultures, monocrops, monobytes, streamlined by singular metrics of value. Who cares about the wild lands and the living when you can sell tulips! {{< footnote "tulips" >}}
 
-![A crows-eye view of a small village. One road leads to an arena with a towering dandelion in it. Other roads lead to a dense network graph. ](dandelion-commons.png)
+{{< figure src="dandelion-commons.png" alt="A crows-eye view of a small village. One road leads to an arena with a towering dandelion in it. Other roads lead to a dense network graph." caption="Image via magma collective">}}
 
 ## Unwilding: from meadows to monocultures
 
@@ -55,7 +56,7 @@ In the early days of the World Wide Web, websites generally hosted content which
 
 The resulting monocrop condition of our network infrastructures do not provide an easy ground for peer-to-peer technologies to flourish. Peer-to-peer protocol biodiversity is dosed with weed killer, while the client-server monocrop is fertilized.
 
-![](../images/angelica-gifs/tinyworm-2.gif)
+{{< anigif name="tinyworm-2" >}}
 
 #### Servers are easy to find and connect to
 
@@ -64,7 +65,7 @@ The IP address space is limited, and home internet connections are often given d
 _And yet, peer-to-peer is putting cracks in the concrete:_
 There are solutions to the problems around NAT traversal and peer discovery. A number of techniques exist for 'hole-punching' network address tables, in order to allow connections to be made between two computers, neither of which are directly connected to the internet. These generally rely on having some sort of 'rendez-vous server' used in order for the NAT to allow the connection. That is to say, the technique only works with 'help' from a server which is not behind a NAT, which means that although the server's role is minimal, it does not give us complete independence. However, techniques for peer discovery, such as distributed hash tables (DHTs) and 'gossip protocols' mean that we have a lot of flexibility about which server is used. We can have a dynamic 'pool' of cooperative servers, meaning the server we happen to use does not constitute a single point of failure. This minimises the degree of power the server operators have over the network.
 
-![](../images/angelica-gifs/tinyworm-1.gif)
+{{< anigif name="tinyworm-1" >}}
 
 #### Asymmetrical bandwidth
 
@@ -73,7 +74,7 @@ Connections to private homes generally have greater download bandwidth than uplo
 _And yet, under the concrete and in between the cracks, new life is growing:_
 Multiple-source 'swarming', as is used by peer-to-peer protocols like BitTorrent, can overcome the problem of asymmetrical upload/download bandwidth. By having a way of referring to an online resource other than by its physical location, it is possible to retrieve a single resource from sources in several physical locations. This means even those with limited bandwidth and low quality hardware can play a part in delivering data very quickly, because different parts can be delivered simultaneously from various locations.
 
-![](../images/angelica-gifs/blue_flower.gif)
+{{< anigif name="blue_flower" >}}
 
 #### Clients are getting thinner
 
@@ -86,7 +87,7 @@ Perhaps most significantly, cryptographic techniques allow us to verify the inte
 
 The infrastructure favours the client-server model. It may be called the "client-server" model, but most of us clients aren't really looking to connect to a "server." What we want is to connect to a website. More accurately, we want to connect to friends or content. This desire for connection however is currently owned by platform giants rolling out huge server farms that harvest the world for data, while we are held captive, force-fed through feeds.
 
-![An antenna explodes from the top of a tower like a dandelion ejecting all its seeds. Buildings and cars fly throuh the air, seemingly damaged by this explosion. A cloud-like mess of what is perhaps debris scatters the ground, with fish bones and empty bottles.](seed-explosion.jpg)
+{{< figure src="seed-explosion.jpg" alt="An antenna explodes from the top of a tower like a dandelion ejecting all its seeds. Buildings and cars fly throuh the air, seemingly damaged by this explosion. A cloud-like mess of what is perhaps debris scatters the ground, with fish bones and empty bottles" caption="Image via magma collective">}}
 
 ## Rewilding the Network Commons
 
@@ -100,4 +101,4 @@ Biological terminology has also been appropriated in our current economic system
 
 We are living a rebirth of peer-to-peer in a more mature form, acknowledging that sustainability matters and economic ideas need to be rethought to once again serve rather than poison the wild. Private property necessitates monetisation, but a process of digital rewilding might help create diverse forests of digital wealth unmediated by property and money relations. Peer-to-peer applications cannot be monetised in the same way traditional client-server applications can. They require radically different business models and require us to change our habits and ways of thinking. Perhaps new alliances and inspirations can form between the biological and technological, towards flourishing diversity and difference.
 
-![A tree grows, taking over a building. Branches push through windows and overtake stairs. This growth seems less like a violence and more like a birth.](tree-tower-block.jpg)
+{{< figure src="tree-tower-block.jpg" alt="A tree grows, taking over a building. Branches push through windows and overtake stairs. This growth seems less like a violence and more like a birth." caption="Image via magma collective">}}

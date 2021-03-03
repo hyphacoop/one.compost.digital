@@ -7,7 +7,7 @@ tableOfContentsImageUrl: ./images/title-images/annie-700x350.jpg
 tableOfContentsImageAlt: Three slides illustrating a connection between stars forming in 'Just Constellations.'
 titleImageUrl: ./images/title-images/annie-700x350.jpg
 titleImageAlt: Three slides illustrating a connection between stars forming in 'Just Constellations.'
-titleImageCaption: We live on a mote of dust.
+titleImageCaption: Image via Annie Howard
 endingImageUrl: ./images/angelica-gifs/flower_computer.gif
 endingImageAlt: A flower cheerfully typing
 footnotesUrl: "footnotes.json"
@@ -31,7 +31,7 @@ Formative experiences that are less than five years old are now lost to me, at l
 
 Probably the most painful loss I’ve experienced on the web was on NewHive. The site was a platform for making creative webpages that I used in a digital humanities class called “Art, Writing, Technology” in the spring of 2016. Our task was simple: Each week, twice a week, use the platform, which combined rudimentary CSS coding with drag-and-drop capabilities, to make web pages that responded to challenges like creating a conceptual Twitter account or using a scanner to make time-based, stop-motion art.
 
-{{< figure src="scanner-talk.gif" alt="An artistic work called 'Scanner Talk,' showing the author having a conversation with their scanner, and a looping series of images showing up in the speech bubble between them." >}}
+{{< figure src="scanner-talk.gif" alt="An artistic work called 'Scanner Talk,' showing the author having a conversation with their scanner, and a looping series of images showing up in the speech bubble between them." caption="Image via Annie Howard">}}
 
 For my concluding work, I brought my own whiteness into the frame in a piece called “Contort Myself,” drawing upon texts I’d been reading in an African American Studies class called Unsettling Whiteness. The video montage allowed me to examine my complicity with white supremacy and the contortions I’d experienced in trying to challenge it . To this day, the film is a marker of a very specific iteration of myself, with NewHive serving as a necessary conduit for the expansiveness I felt then. Even without having the experience of early-web experimentation, I encountered its vital possibilities on the platform.
 
@@ -45,13 +45,13 @@ On the web, nothing is ever certain to remain. Step away, and you’re likely to
 
 I should have seen the end coming. On the morning of our presentation, I scrambled to put together a quick tutorial for Just Constellations using NewHive. But the program was barely working. Though it came together in the end, the warning signs were right in front of me; despite the obvious, ever-encroaching decay, I failed to save my pages. It was riddled with broken image links on pages I’d just created days prior.
 
-{{< figure src="just-constellations.gif" alt="A three-slide tutorial with screenshots of the Just Constellations web plugin. Slide 1: 'What you'll see if you're on a webpage in our star-map. Want to add it?' Slide 2: 'What you'll see if you're on a webpage in our star-map. Click a star to move to a highly related to whatever page youre currently on.' Slide 3: 'Use the submission form to grow our star-map!'" class="has-shadow" >}}
+{{< figure src="just-constellations.gif" alt="A three-slide tutorial with screenshots of the Just Constellations web plugin. Slide 1: 'What you'll see if you're on a webpage in our star-map. Want to add it?' Slide 2: 'What you'll see if you're on a webpage in our star-map. Click a star to move to a highly related to whatever page youre currently on.' Slide 3: 'Use the submission form to grow our star-map!'" class="has-shadow" caption="Image via Annie Howard">}}
 
 Despite the tenuousness of our web page and fledgling software, the conference presentation was a dream.
 
 Too many other pieces of our shared archive remain deleted or inaccessible, but this image remains: the two of us, dressed in our gayest summertime finery, beaming in a conference room where we’d soon have an eager audience of co-creators. More than two dozen people came to share their incredible knowledge using our newly functional plugin, giving reality to our dream of constellating social justice resources. As I wrote in my journal that night: “In no way could I imagine how affirming our presentation would be. We of course have given it our all, but sharing that baby with the world is always going to be a leap of faith.”
 
-{{< figure src="just-constellation-cards.jpg" >}}
+{{< figure src="just-constellation-cards.jpg" alt="an image of business cards" caption="Image via Annie Howard">}}
 
 Sad as it is to say, all relationships are too a leap of faith. There is no guarantee of persistence or longevity, however eternal they might feel in the moment. I wrote that weekend that “This whole thing wouldn’t have been possible or desirable in the first place without their magical energy and passion,” and that “I feel so unself-conscious in their presence, a sensation I’ve surely been missing as of late.” Even knowing all that would follow in the years after that momentous and challenging weekend, I wouldn’t trade it for anything. Rereading my journal now, the specific beauty of our shared adventures remains undimmed.
 
@@ -63,7 +63,7 @@ I’m still gutted by many changes in the time that followed. Our relationship s
 
 It was a strange experience to find Are.na {{< footnote "Arena" >}} while our collaboration on Just Constellations was ending. The platform embodied so many of our goals: nurtured within a dedicated community, the platform emphasized human curation as its driving mission, displacing the impersonal touch of most search engine algorithms. To see a platform embody the goals we’d staked for ourselves, operationalizing a different model of web connectivity that felt humane and generative instead of distracting and dehumanizing, was both reassuring and melancholic. Our distinct approach to connectivity, made effective on this already-vibrant website, reaffirmed our core vision while taking the wind out of our sails. Though many other factors pushed us apart, the success of Are.na, now a platform that structures my daily research practices, I marvel at the ways in which another group of people shared our vision and had brought it to wider adoption so successfully. Seeing Are.na thrive makes me thankful to have thought through these questions with you before, valuable not just for their contribution to the wider world, but to the personal growth our time together created.
 
-{{< figure src="arena-demo.gif" alt="A screengrab of scrolling through Arena, demonstrating features such as adding new links, aggregating content, and viewings friends' collections." class="has-shadow" >}}
+{{< figure src="arena-demo.gif" alt="A screengrab of scrolling through Arena, demonstrating features such as adding new links, aggregating content, and viewings friends' collections." class="has-shadow" caption="Image via Annie Howard" >}}
 
 Through my experiences with NewHive, Just Constellations, and Are.na, the personal growth each has enabled reminds me of the root and branch metaphor typically used in backend web development. One can imagine link decay, the persistent loss of web page accessibility affecting nearly half of all links every two years, as a metaphor not dissimilar to the organic processes that guide material decay in the natural world.
 

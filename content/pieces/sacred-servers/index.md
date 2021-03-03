@@ -5,6 +5,7 @@ description: An exploration of the essence we share online, and how to cast our 
 tableOfContentsImageUrl: ./images/title-images/zach-700x350.png
 tableOfContentsImageAlt: A collage of a router sitting on a bed of peonies. 
 titleImageUrl: ./images/title-images/zach-700x350.png
+titleImageCaption: Art by Angelica Blevins
 titleImageAlt: A collage of a router sitting on a bed of peonies. 
 endingImageUrl: ./images/angelica-gifs/old_macintosh.gif
 endingImageAlt: A vintage Macintosh computer with leaves growing from it
