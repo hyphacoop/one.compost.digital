@@ -37,6 +37,9 @@ If you enjoy this issue, please consider supporting us by becoming a subscriber 
 Thanks for checking us out.  (.❛ ᴗ ❛.)
 
 In solidarity,
+
 Mai Ishikawa Sutton
+
 Udit Vira
+
 Benedict Lau
