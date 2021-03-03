@@ -75,11 +75,11 @@ html, body {
   figure {
     text-align: center;
     margin: 0px;
-    
+    position: relative;
     figcaption {
-      text-align: center;
+      text-align: right;
       p {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
         margin: 0px;
       }
     }
