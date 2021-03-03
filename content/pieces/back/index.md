@@ -9,7 +9,8 @@ endingImageAlt: A vintage Macintosh computer with leaves growing from it
 
 ---
 
-![](../images/angelica-gifs/tinyworm-3.gif)![](../images/angelica-gifs/tinyworm-3.gif)![](../images/angelica-gifs/tinyworm-3.gif)
+＊✿❀ ![](../images/angelica-gifs/worm_computer.gif) ❀✿＊
+
 
 ## ･༓☾our other projects + writings☽༓･ 
 
