@@ -13,12 +13,12 @@ footnotesUrl: "footnotes.json"
 ---
 
 {{< rawhtml >}}
- <figure>
+ <br />
+ <figure class="has-shadow">
     <img src="dandelion-seeds.png" style="max-height:450px;"
-         alt="Two seeds begin their journey of floating away from a poofy dandelion."/> <figcaption>
-            <p>Image via magma collective</p>
-        </figcaption>
-</figure>
+         alt="Two seeds begin their journey of floating away from a poofy dandelion."/>
+	<figcaption><p>Image via magma collective</p></figcaption>
+  </figure>
 {{< /rawhtml >}}
 
 _Two dandelion seeds float on a gentle summer breeze. One settles in an open meadow, another is blown across a fence into a flower patch._
@@ -47,7 +47,7 @@ _The second seed began its germination but withered when one Wednesday afternoon
 
 The commons are cared for by the those that directly inhabit and gain from its wealth. But these are repeatedly fenced in, the soils stolen for monocultures, monocrops, monobytes, streamlined by singular metrics of value. Who cares about the wild lands and the living when you can sell tulips! {{< footnote "tulips" >}}
 
-{{< figure src="dandelion-commons.png" alt="A crows-eye view of a small village. One road leads to an arena with a towering dandelion in it. Other roads lead to a dense network graph." caption="Image via magma collective">}}
+{{< figure src="dandelion-commons.png" class="has-shadow" alt="A crows-eye view of a small village. One road leads to an arena with a towering dandelion in it. Other roads lead to a dense network graph." caption="Image via magma collective">}}
 
 ## Unwilding: from meadows to monocultures
 
@@ -94,7 +94,7 @@ Perhaps most significantly, cryptographic techniques allow us to verify the inte
 
 The infrastructure favours the client-server model. It may be called the "client-server" model, but most of us clients aren't really looking to connect to a "server." What we want is to connect to a website. More accurately, we want to connect to friends or content. This desire for connection however is currently owned by platform giants rolling out huge server farms that harvest the world for data, while we are held captive, force-fed through feeds.
 
-{{< figure src="seed-explosion.jpg" alt="An antenna explodes from the top of a tower like a dandelion ejecting all its seeds. Buildings and cars fly throuh the air, seemingly damaged by this explosion. A cloud-like mess of what is perhaps debris scatters the ground, with fish bones and empty bottles" caption="Image via magma collective">}}
+{{< figure src="seed-explosion.jpg" class="has-shadow" alt="An antenna explodes from the top of a tower like a dandelion ejecting all its seeds. Buildings and cars fly throuh the air, seemingly damaged by this explosion. A cloud-like mess of what is perhaps debris scatters the ground, with fish bones and empty bottles" caption="Image via magma collective">}}
 
 ## Rewilding the Network Commons
 
@@ -108,5 +108,5 @@ Biological terminology has also been appropriated in our current economic system
 
 We are living a rebirth of peer-to-peer in a more mature form, acknowledging that sustainability matters and economic ideas need to be rethought to once again serve rather than poison the wild. Private property necessitates monetisation, but a process of digital rewilding might help create diverse forests of digital wealth unmediated by property and money relations. Peer-to-peer applications cannot be monetised in the same way traditional client-server applications can. They require radically different business models and require us to change our habits and ways of thinking. Perhaps new alliances and inspirations can form between the biological and technological, towards flourishing diversity and difference.
 
-{{< figure src="tree-tower-block.jpg" alt="A tree grows, taking over a building. Branches push through windows and overtake stairs. This growth seems less like a violence and more like a birth." caption="Image via magma collective">}}
+{{< figure src="tree-tower-block.jpg" class="has-shadow" alt="A tree grows, taking over a building. Branches push through windows and overtake stairs. This growth seems less like a violence and more like a birth." caption="Image via magma collective">}}
 

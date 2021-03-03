@@ -59,6 +59,12 @@ big s/o to maggie oates for adding alt texts to all the images on this site and 
 
 benny lichtner you're incredibly talented and patient. we couldn't have done this without the long hours you put in!
 
+thanks rangermauve for your 12am hypercore + js tutorials.
+
+fauno from sutty, for trying out distributed press since pre-alpha and we look forward to more collaborations ;)
+
+high five to boris mann, our first monthly contributor on open collective! you're way ahead of the curve.
+
 ## ༓༝̩̩̥͙⊹ check these out ⊹༝̩̩̥͙༓
 
 ```
