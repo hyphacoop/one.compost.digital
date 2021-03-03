@@ -59,7 +59,7 @@ big s/o to maggie oates for adding alt texts to all the images on this site and 
 
 benny lichtner you're incredibly talented and patient. we couldn't have done this without the long hours you put in!
 
-## ༓༝̩̩̥͙⊹ if you like COMPOST check these out ⊹༝̩̩̥͙༓
+## ༓༝̩̩̥͙⊹ check these out ⊹༝̩̩̥͙༓
 
 ```
 https://disco.coop/
