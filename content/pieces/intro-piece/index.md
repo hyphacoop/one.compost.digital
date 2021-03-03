@@ -8,8 +8,6 @@ endingImageUrl: ./images/angelica-gifs/mushroom_net.gif
 endingImageAlt: A group of mushrooms connected in a network.
 ---
 
-![](../images/angelica-gifs/compost_goodbrown.gif)
-
 We’re thrilled to present to you the very first issue of COMPOST! 
 
 COMPOST is short for commons post, and it’s a magazine that publishes creative works reflecting on the web as a digital commons. This publication comes out of a year and a half of scheming, discussing, and organizing. It came out of our desire to create a piece of the web that embodied our dreams. We were tired of platforms making us bitter, angry, and afraid to connect online. We were also tired of being cynical. From the beginning, this was about building a space for us to be honest and creative. 
