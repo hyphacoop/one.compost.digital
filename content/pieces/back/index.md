@@ -9,7 +9,7 @@ endingImageAlt: A vintage Macintosh computer with leaves growing from it
 
 ---
 
-⋇⋆✦⋆⋇ _beg_ ⋇⋆✦⋆⋇
+⋇⋆✦⋆⋇ _begin_ ⋇⋆✦⋆⋇
 
 ![](../images/angelica-gifs/tinyworm-3.gif)![](../images/angelica-gifs/compost_goodbrown.gif)![](../images/angelica-gifs/tinyworm-3.gif)
 
@@ -59,7 +59,7 @@ what would we do without you, dawn walker? your support + wisdom has been invalu
 big s/o to maggie oates for adding alt texts to all the images on this site and making it more accessible <3
 
 
-## ༓༝̩̩̥͙⊹ if u like COMPOST check these out ⊹༝̩̩̥͙༓
+## ༓༝̩̩̥͙⊹ if you like COMPOST check these out ⊹༝̩̩̥͙༓
 
 ```
 https://disco.coop/
@@ -82,6 +82,6 @@ https://alt-text-as-poetry.net/
 <a href="https://gitcoin.co" target="_blank"><img src="logo-gitcoin.png" style="vertical-align:top; padding-right:5%; padding-bottom:5%; max-width:20%; max-height:100px;"></a>
 {{< /rawhtml >}}
 
-⋇⋆✦⋆⋇ _fin_ ⋇⋆✦⋆⋇
+⋇⋆✦⋆⋇ _end_ ⋇⋆✦⋆⋇
 
 ---
