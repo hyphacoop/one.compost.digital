@@ -1,3 +1,10 @@
+{{ define "og" }}
+  <meta property="og:title" content="COMPOST Issue 01: {{ .Params.title }} by {{ .Params.author }}" />
+  <meta property="og:url" content="https://one.compost.digital{{ .Page.RelPermalink }}" />
+  <meta property="og:image" content="https://one.compost.digital{{ .Params.tableOfContentsImageUrl | relURL }}" />
+  <meta property="og:description" content="{{ .Params.description }}" />
+{{ end }}
+
 {{ define "title" }}
 COMPOST Issue 01: {{ .Params.title }} by {{ .Params.author }}
 {{ end }}
