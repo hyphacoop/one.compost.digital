@@ -77,31 +77,27 @@ async function init() {
       id="right-arrow-overlay"
       src="../micah/info-icon.svg"
       alt="Right arrow"
+      annotation-id="${annotation.id}"
       width="20">`
-
-    // This is how you register click events in openSeaDragon
-    new OpenSeadragon.MouseTracker({
-      element: markerElement,
-      clickHandler: function(event) {
-        console.log(marker)
-        renderInfo(annotation)
-        event.preventDefaultAction = true
-      }
-    })
 
     marker.element = markerElement
     viewer.addOverlay(marker)
   })
 
+  // Do not zoom in when clicking on the canvas to dismiss the popup
   viewer.addHandler('canvas-click', (event) => {
-    if (infoEl.children.length > 0) {
+    let el = event.originalEvent.target
+    if (el.classList.contains('mesh-marker')) {
+      let annotation = annotations.find(a => a.id === parseInt(el.getAttribute('annotation-id')))
+      renderInfo(annotation)
+      event.preventDefaultAction = true
+    } else if (infoEl.children.length > 0) {
       renderInfo(null)
       event.preventDefaultAction = true  
     }
   })
 
   document.addEventListener('click', (event) => {
-    console.log('document click', event.target)
     if (!event.target.classList.contains('mesh-marker')) {
       renderInfo(null)
     }
