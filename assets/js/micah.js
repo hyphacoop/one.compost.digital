@@ -87,8 +87,9 @@ async function init() {
   // Do not zoom in when clicking on the canvas to dismiss the popup
   viewer.addHandler('canvas-click', (event) => {
     let el = event.originalEvent.target
-    if (el.classList.contains('mesh-marker')) {
+    if (event.quick && el.classList.contains('mesh-marker')) {
       let annotation = annotations.find(a => a.id === parseInt(el.getAttribute('annotation-id')))
+      el.classList.add('visited')
       renderInfo(annotation)
       event.preventDefaultAction = true
     } else if (infoEl.children.length > 0) {

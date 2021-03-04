@@ -20,6 +20,10 @@
   cursor: pointer;
   width: 30px;
   opacity: 0.8;
+
+  &.visited {
+    opacity: 0.4;
+  }
 }
 
 #mesh-map-info-container {
