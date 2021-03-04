@@ -170,6 +170,5 @@ In the not-so-distant future I will have new, inarticulate feelings — moments 
 
 {{< figure src="sacred-servers_original.png" alt="A tall image; a rainbow in the background created by overlapping colored circles. The foreground contains, from top to bottom, a sleek router, several chrysanthemum, crystals, a white rose, and an old desktop computer with a mouse and keyboard." class="has-shadow" caption="Image by Angelica Blevins">}}
 
----
 
-Art by Angelica Blevins
+
