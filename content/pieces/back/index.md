@@ -77,6 +77,7 @@ https://logicmag.io/
 https://www.are.na/
 https://newart.city/
 https://alt-text-as-poetry.net/
+http://www.memory-work.com/
 ```
 
 
