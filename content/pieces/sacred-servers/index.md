@@ -168,6 +168,8 @@ In my family's place, we have a couple servers. One is up by the bay window and 
 
 In the not-so-distant future I will have new, inarticulate feelings — moments that feel obvious in the chest, but foolish to say. Like how there's something in the air here that feels different from anywhere else, a radiance in the radio waves that feels like home.
 
+{{< figure src="sacred-servers_original.png" alt="A tall image; a rainbow in the background created by overlapping colored circles. The foreground contains, from top to bottom, a sleek router, several chrysanthemum, crystals, a white rose, and an old desktop computer with a mouse and keyboard." class="has-shadow" caption="Image by Angelica Blevins">}}
+
 ---
 
-Cover art by Angelica Blevins
+Art by Angelica Blevins
