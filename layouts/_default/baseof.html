@@ -6,11 +6,12 @@
     <meta name="monetization" content="{{ .Site.Params.webmonPaymentPointer }}">
 
     <!-- In the future, we may want to override this with piece-specific info -->
+    <meta property="og:type" content="website" />
     {{ block "og" . }}
-      <meta property="og:title" content="COMPOST" />
-      <meta property="og:type" content="website" />
+      <meta property="og:title" content="COMPOST Issue 01: Fertile Grounds" />
       <meta property="og:url" content="https://one.compost.digital" />
       <meta property="og:image" content="https://one.compost.digital/images/COMPOST_Assets_OpenGraph-logo1080.png" />
+      <meta property="og:description" content="A magazine about the digital commons providing fertile ground for creative and collective experimentation." />
     {{ end }}
 
     <link rel="icon" href="{{ "./favicon-32.png" | relURL }}" sizes="32x32">
