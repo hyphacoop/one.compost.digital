@@ -2,7 +2,7 @@
 title: Until the Cows Come Home
 subtitle: Aamne Saamne Pi
 author: Shafali Jain
-description: Young women look beyond the obvious. Small communities sustain vernacular narratives through mesh networks.
+description: In this interactive piece, young women look beyond the obvious. Small communities sustain vernacular narratives through mesh networks and community owned devices. 
 tableOfContentsImageUrl: ./images/title-images/shafali-cover.png
 tableOfContentsImageAlt: The collage "Roots" by mripp, includes a cow, a humanoid, and flower.
 titleImageUrl: ./images/title-images/shafali-cover.png
@@ -25,6 +25,8 @@ Our primary objective was to encourage rural women, students, young women in tra
 With ASPi as the core artefact, we advocated for the reuse of peripherals, interconnected small communities to help sustain the vernacular narratives, and exposed them to varying alternate perspectives. ASPi empowers the marginalised communities to negotiate their traditional roles in the society, while putting their own narratives forward and participating in community knowledge building practices.
 
 Free from the burden of addiction, abuse, opacity, and existing connotations of smartphones or laptops, ASPi is built on values of play, tinkering, openness, and access. It is designed to be affordable, easily repairable, and networked to each other as well as to the internet. This network would be useful to foster the entrepreneurial aspirations of communities by supporting them to build small businesses. It increases their access to opportunities in numerous ways: bringing local skills together, creating and sharing hypermedia content, disseminating educational materials, exploring cyber physical systems, creating jobs around the network, regulating markets in a more decentralised way, and gathering voices and responses to various policies.
+
+{{< anigif name="tinyworm-3" >}}
 
 In a world driven by stereotypes and discrimination, can technology challenge the biases of our physical world instead of deepening them? Can we imagine a space that reflects and produces the richness of our world’s multiple forms of knowledge? This project is an attempt to subvert the bias of the text heavy internet, break away from western notions of digital technologies impacting society, and come up with alternate vernacular narratives with community-owned devices and mesh networks at its heart.
 
