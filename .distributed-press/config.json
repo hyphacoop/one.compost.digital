@@ -1,3 +1,11 @@
 {
-  "domain": "one.compost.digital"
+  "domain": "one.compost.digital",
+  "publication": {
+    "protocol": {
+      "hypercore": {
+          "enabled": false,
+          "purgeIfDisabled": false
+      }
+    }
+  }
 }
