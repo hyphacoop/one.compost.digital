@@ -4,10 +4,10 @@ let x=2, count=0;
 function setup() {
   createCanvas(1024, 1024);
   
-  img = loadImage('Asset 1.png');
+  img = loadImage('Asset1.png');
   img1 = loadImage('BallF.png');
    img2 = loadImage('cowF.png');
-  // img3 = loadImage('Asset 1.png');
+  // img3 = loadImage('Asset1.png');
   // Load the image
 }
 

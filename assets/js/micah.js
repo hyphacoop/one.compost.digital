@@ -6,7 +6,7 @@ async function init() {
     prefixUrl: `../js/vendor/openseadragon-bin-2.4.2/images/`,
     tileSources: {
       type: "image",
-      url: '../micah/nb v24.jpg'
+      url: '../micah/nb-v24.jpg'
     },
     useCanvas: false
   })
