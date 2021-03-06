@@ -61,11 +61,11 @@ benny lichtner you're incredibly talented and patient. we couldn't have done thi
 
 hanami sutton, you made this site look so good. you got what we were going for and executed it so beautifully. you are what we call a pro.
 
-jasmine ou, thank you for the amazing cover image!! once we had that, the design was smooth sailing from there.
+jasmine ou, thank you for the amazing cover image! once we had that, the design was smooth sailing from there.
 
 thanks rangermauve for your 12am hypercore + js tutorials.
 
-fauno from sutty, for trying out distributed press since pre-alpha and we look forward to more collaborations ;)
+shout out to fauno from sutty, for trying out distributed press since pre-alpha. we look forward to more collaborations ;)
 
 high five to boris mann, our first monthly contributor on open collective! you're way ahead of the curve.
 
@@ -73,6 +73,7 @@ high five to boris mann, our first monthly contributor on open collective! you'r
 
 ```
 https://disco.coop/
+https://magmacollective.org/
 https://logicmag.io/
 https://www.are.na/
 https://newart.city/
