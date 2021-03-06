@@ -54,4 +54,4 @@ These gifs are licensed [Creative Commons Attribution-ShareAlike 4.0 Internation
 **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
 --- 
-This text was adapted from the [creativecommons.org website](https://creativecommons.org/). Visit the site to learn more about CC licensing and how you can use it for your own materials!
+This text was adapted from the [creativecommons.org](https://creativecommons.org/) website. Visit the site to learn more about CC licensing and how you can use it for your own materials!
