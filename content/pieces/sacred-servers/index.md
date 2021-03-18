@@ -71,7 +71,7 @@ We network, we argue, we interview, we connect. We share carefully edited opinio
 
 (Maybe we find the one, and we twine our paths and posts and soon are sharing apartment photos, wedding invites, and baby photos. We start family group chats.)
 
-We rage, we breakdown, we organize, we plead, we act, we protest, and we scream about inustice into what feels like a void. We call out others' silence, and shamefully sit in our own. We think too intensely about a picture of a burger — it's situated in our feed between two videos of murder, and worry that to click ‘like’ is to send the message that witnessing the cruelty of the world is less important than our friend's lunch.
+We rage, we breakdown, we organize, we plead, we act, we protest, and we scream about injustice into what feels like a void. We call out others' silence, and shamefully sit in our own. We think too intensely about a picture of a burger — it's situated in our feed between two videos of murder, and worry that to click ‘like’ is to send the message that witnessing the cruelty of the world is less important than our friend's lunch.
 
 We ask for help, ask it to our friends and to a vast, networked beyond: help with a surgery, a web series, and a place to stay. We share a GoFundMe and hope to be saved from a life-rending tragedy and weep at the full green progress bar of our goal reached, an HTML rendition of an answered prayer.
 
@@ -145,7 +145,7 @@ We've felt the tremendous weight of power that profane tech companies hold. The 
 
 ## Dreaming Another Future
 
-In the spring of a not so distant year, I will return to my hometown to visit the Server Farm. It's a cheeky title , as the "farm" is just a shed in the center of a garden. In between the rows of community allotments — beans growing up the strings of homemade trellises and tomatoes ripening beneath protective mesh — sits a stark, wooden hut. Its eastern wall displays a calendar against a soft paper-like screen. Its roof is covered in solarpanels reflecting back the sky.
+In the spring of a not so distant year, I will return to my hometown to visit the Server Farm. It's a cheeky title, as the "farm" is just a shed in the center of a garden. In between the rows of community allotments — beans growing up the strings of homemade trellises and tomatoes ripening beneath protective mesh — sits a stark, wooden hut. Its eastern wall displays a calendar against a soft paper-like screen. Its roof is covered in solarpanels reflecting back the sky.
 
 Inside is an eclectic set of computer towers and old laptops. There are bright, plastic bins holding wires and parts, a pegboard of handtools and pamphlets, and a bundle of wires snaking neatly through the machines to a ceiling junction.
 
