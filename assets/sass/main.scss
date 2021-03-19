@@ -54,6 +54,8 @@ html, body {
 
   .animated-gif {
     margin: 80px 0px;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated;
 
     &.inline {
       display: inline-block;
@@ -527,6 +529,8 @@ main {
     .gif-ending {
       text-align: center;
       margin: 40px 0px;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: pixelated;
 
       @include desktop {
         margin: 120px 0px;
