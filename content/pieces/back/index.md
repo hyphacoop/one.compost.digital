@@ -69,6 +69,8 @@ shout out to fauno from sutty, for trying out distributed press since pre-alpha.
 
 high five to boris mann, our first monthly contributor on open collective! you're way ahead of the curve.
 
+to harsha: you weren't mentioned in the piece about Just Constellations, but it wouldn't have happened without you. thanks for being such a good friend and collaborator <3
+
 ## ༓༝̩̩̥͙⊹ check these out ⊹༝̩̩̥͙༓
 
 ```
