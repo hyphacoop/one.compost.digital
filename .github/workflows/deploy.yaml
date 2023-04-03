@@ -32,4 +32,4 @@ jobs:
         publish_dir: ./public
         dp_url: https://srv2.distributed.press
         refresh_token: ${{ secrets.DISTRIBUTED_PRESS_TOKEN }}
-        site_url: one.comost.digital
+        site_url: one.compost.digital
