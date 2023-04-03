@@ -1,0 +1,35 @@
+name: "Deploy to Distributed press"
+on:
+  push:
+    branches:
+      - main
+  # Allow manually triggering
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.80.0'
+        extended: true
+
+    - name: Build
+      run: hugo
+
+    - name: Use Node.js 18
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+
+    - name: Publish to Distributed Press
+      uses: hyphacoop/actions-distributed-press@v1.1.0
+      with:
+        publish_dir: ./public
+        dp_url: https://srv2.distributed.press
+        refresh_token: ${{ secrets.DISTRIBUTED_PRESS_TOKEN }}
+        site_url: one.comost.digital
