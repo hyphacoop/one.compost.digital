@@ -28,7 +28,7 @@ jobs:
         node-version: 18
 
     - name: ls
-      run: ls
+      run: ls -al ./public
 
     # - name: Publish to Distributed Press
     #   uses: hyphacoop/actions-distributed-press@v1.1.0
