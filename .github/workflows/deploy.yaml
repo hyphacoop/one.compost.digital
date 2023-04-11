@@ -2,7 +2,7 @@ name: "Deploy to Distributed press"
 on:
   push:
     branches:
-      - main
+      - master
   # Allow manually triggering
   workflow_dispatch:
 
