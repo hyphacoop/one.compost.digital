@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main
-      - v1-prod
   # Allow manually triggering
   workflow_dispatch:
 
