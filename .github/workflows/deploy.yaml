@@ -30,6 +30,6 @@ jobs:
       uses: hyphacoop/actions-distributed-press@v1.1.0
       with:
         publish_dir: ./public
-        dp_url: https://srv2.distributed.press
+        dp_url: https://api.distributed.press
         refresh_token: ${{ secrets.DISTRIBUTED_PRESS_TOKEN }}
         site_url: one.compost.digital
