@@ -12,7 +12,7 @@ endingImageAlt: A four-leaf clover typing on laptop
 layout: micah
 ---
 
-This piece is a group reflection of a project run in Bidar, India, to set up a community mesh network facilitated by Living Labs Network and Forum, and Janastu/Servelots. 
+This piece is a group reflection of a project run in Bidar, India, to set up a community mesh network facilitated by [Living Labs Network and Forum](https://linktr.ee/llnaf), Team YUVAA and [Janastu/Servelots](https://open.janastu.org/). 
 
 This local mesh network was to act as an intranet of local informal archives that would collectively function as a knowledge network. These archives come from various communities in Bidar and their knowledge practices. During the course of the project, we came to see both the limitations of technology but also the potential of it to catalyse and nurture many more spaces of cultural collaboration. 
 
